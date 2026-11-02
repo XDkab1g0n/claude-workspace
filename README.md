@@ -7,3 +7,5 @@
 - `automations/`：18 項排程原文；5 項 active 另附 portable_prompt。
 - `SOURCE_MANIFEST.*`：342 份原檔的名稱、大小與 SHA-256；`90_ORIGINAL_FILES/` 收 341 份（2026-11-02 依 manifest 逐份 SHA-256 核對一致）。
 - 大型媒體不放 repo，清單見 `EXCLUDED_LARGE_FILES.md`。
+
+_最後驗證：2026-11-02 由 Claude 測試就地修改並推送。_
