@@ -1,0 +1,13 @@
+{
+  "task_id": "exam_pm",
+  "run_id": "exam_pm-20261102-1900",
+  "scheduled_for": "2026-11-02T19:00:00+08:00",
+  "started_at": "2026-11-02T19:04:58+08:00",
+  "completed_at": "2026-11-02T19:05:21+08:00",
+  "trigger_source": "schedule_unverified",
+  "result_path": "reports/exam_pm/20261102-1900.md",
+  "delivery_verified": null,
+  "content_complete": true,
+  "source_cutoff": "2026-11-02T19:05:21+08:00",
+  "state_version": "state/exam_pm/20261102-1900.json"
+}

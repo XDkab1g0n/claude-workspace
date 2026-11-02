@@ -1,0 +1,15 @@
+{
+  "task": "exam_pm",
+  "date": "2026-11-02",
+  "scheduled_for": "2026-11-02T19:00:00+08:00",
+  "NEW": [],
+  "CHANGED": [],
+  "INVALIDATED": [],
+  "events": [
+    {"id": "peds22_firstpass", "status": "待回報", "note": "小兒 22 題閉卷＋訂正＋補觀念；19:00 尚無回報、作答或匯出檔"}
+  ],
+  "reported_progress": null,
+  "reviews_scheduled": {"peds22": ["2026-11-03", "2026-11-05", "2026-11-09", "2026-11-23"], "basis": "預排，依實際訂正完成日調整"},
+  "next_checkpoint": "2026-11-03 08:00 晨間課表：醫學（三）80 題診斷卷（113-2）＋小兒回收 15 分",
+  "fallback_if_partial": "只完成閉卷時，訂正移到 11/3 早上先做，診斷卷照排"
+}
