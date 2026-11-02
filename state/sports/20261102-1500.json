@@ -1,0 +1,50 @@
+{
+  "task_id": "sports",
+  "report_date": "2026-11-02",
+  "scheduled_for": "2026-11-02T15:00:00+08:00",
+  "source_cutoff": "2026-11-02T15:20:00+08:00",
+  "baseline": true,
+  "diff_basis": "automations/active/03_體育雷達 v3/latest_result.md (ChatGPT 2026-11-01, truncated)",
+  "events": [
+    {"type": "NEW", "domain": "F1", "id": "f1_2026_mexico_race", "status": "完賽（成績經兩次改判）", "summary": "Verstappen 奪冠、Hamilton +0.799、Antonelli 第3並以380分封王（史上最年輕）；Piastri +10s 由7退15，Colapinto +10s、Gasly +30s 失分，平川亮首戰得1分", "key_numbers": {"antonelli_pts": 380, "verstappen_pts": 261, "hamilton_pts": 259, "russell_pts": 252}, "next_check": "FIA 正式成績與積分；巴西站 11/06-08"},
+    {"type": "CHANGED", "domain": "NBA", "id": "okc_injuries", "status": "持續", "summary": "Holmgren 確診右膝髕腱小撕裂 8-10 週；J. Williams 腓骨骨折+踝脫臼、Wallace 肩唇撕裂手術；Caruso、Topic、Sorber 對騎士缺陣", "next_check": "11/03 08:00 @CLE 傷兵名單；Agbaji 簽約與否"},
+    {"type": "NEW", "domain": "台灣羽球", "id": "hylo_2026_wd_final", "status": "完賽", "summary": "許尹鏸/林芝昀 18:21、19:21 不敵印尼組合，連兩年亞軍，第4次 Super 500 亞軍", "next_check": "熊本大師賽 11/10 起"},
+    {"type": "NEW", "domain": "台灣高球", "id": "wistron_ladies_2026", "status": "完賽", "summary": "Casandra Alexander -21 奪冠；蔡佩穎 -17 並列第3（台將最佳），黃靖 -15 第5", "next_check": null},
+    {"type": "NEW", "domain": "MLB旅外", "id": "teng_kaiwei_presser", "status": "11/02 記者會", "summary": "鄧愷威（太空人）2026: 30G/10GS、5勝、73.2IP；今年延後返美", "next_check": "休賽季異動"},
+    {"type": "NEW", "domain": "其他", "id": "nyc_marathon_2026", "status": "完賽", "summary": "Almgren 2:06:01（首馬）、Chepkirui 2:24:36", "next_check": null},
+    {"type": "NEW", "domain": "其他", "id": "bc_classic_2026", "status": "完賽", "summary": "Sovereignty 奪冠，The Puma 第2，Forever Young 未進前三", "next_check": null},
+    {"type": "CHANGED", "domain": "中職", "id": "cpbl_wei_remarks", "status": "延燒", "summary": "魏應交慶功宴「給兄弟機會／精心策劃」言論，球團致歉；蔡其昌回應原話待核", "next_check": "聯盟是否有正式動作"},
+    {"type": "CHANGED", "domain": "NPB", "id": "japan_series_2026", "status": "已結束", "summary": "軟銀 4-0 DeNA，10/28 封王，MVP 正木智也；徐若熙 G1-G3 未登板，G4 查不到", "next_check": null},
+    {"type": "INVALIDATED", "domain": "NBA", "id": "okc_hou_q2", "summary": "搜尋摘要稱雷霆贏第二節，錯誤；分節 26-25-24-23 對 35-27-30-27，火箭四節全勝（前報正確）"}
+  ],
+  "okc": {
+    "record": "4-2",
+    "analyzed_games": [
+      {"date_us": "2026-10-31", "opp": "@HOU", "result": "L 98-119", "eight_units": "complete (baseline archive; first analyzed in ChatGPT 11/01 report)", "pending_advanced": ["官方 ORtg/DRtg/Pace", "USG%", "Lineup/On-Off 共同分鐘"]}
+    ],
+    "unverified_games": [{"date_us": "2026-10-26/27", "opp": "PHX", "result": "W 125-114 (CBS only)"}],
+    "games_not_individually_archived": ["10/20 @SAS W116-104", "10/22 DEN W96-84", "10/25 LAC W108-101", "10/28 @DAL L96-120"],
+    "injuries": {"Holmgren": "右膝髕腱小撕裂 8-10週", "Jalen Williams": "左腓骨骨折+踝脫臼，手術，可能整季", "Cason Wallace": "左肩唇撕裂，已手術", "Caruso": "右踝扭傷", "Topic": "背", "Sorber": "膝"},
+    "next_game": {"tpe": "2026-11-03T08:00:00+08:00", "opp": "@CLE"}
+  },
+  "taiwan_overseas_roster": [
+    {"name": "鄧愷威", "team": "MLB 太空人", "2026": "30G/10GS 5-7 4.76 ERA 73.2IP 73K", "status": "休賽季；11/02 返台記者會", "source": "udn 9851662 / 前報"},
+    {"name": "李灝宇", "team": "MLB 老虎", "2026": ".264 10HR 46RBI OPS .746", "status": "休賽季", "source": "前報"},
+    {"name": "鄭宗哲", "team": "傳交易至老虎（未證實）", "status": "待查"},
+    {"name": "林昱珉", "team": "小聯盟", "2026": "26G/25GS 117IP 5.54 ERA 85K", "status": "休賽季", "source": "前報"},
+    {"name": "林安可", "team": "NPB 西武", "2026": "76G .220 8HR OPS .675", "status": "休賽季", "source": "前報"},
+    {"name": "古林睿煬", "team": "NPB 火腿", "2026": "7G 12IP 7.50 ERA", "status": "休賽季", "source": "前報"},
+    {"name": "孫易磊", "team": "NPB 火腿", "2026": "22G 30.2IP 2.64 ERA 28K", "status": "休賽季", "source": "前報"},
+    {"name": "徐若熙", "team": "NPB 軟銀", "2026": "8G/6GS 2-3 4.81 ERA 33.2IP", "status": "日本一隊伍；日本大賽 G1-G3 未登板", "source": "自由 5620683"},
+    {"name": "宋家豪", "team": "NPB 樂天", "2026": "18G 14.2IP 3.07 ERA", "status": "休賽季", "source": "前報"},
+    {"name": "陽柏翔", "team": "NPB 樂天", "2026": "7G .222", "status": "休賽季", "source": "前報"}
+  ],
+  "next_72h": [
+    {"tpe": "2026-11-02~11-08", "event": "ATP 巴黎大師賽"},
+    {"tpe": "2026-11-03T08:00+08:00", "event": "NBA 雷霆 @ 騎士", "verified": true},
+    {"tpe": "2026-11-04T01:45/04:00+08:00", "event": "歐冠 MD4 第一天", "verified": "partial"},
+    {"tpe": "2026-11-05T01:45/04:00+08:00", "event": "歐冠 MD4 第二天", "verified": "partial"},
+    {"tpe": "2026-11-05 約09:00+08:00", "event": "NBA 騎士 @ 雷霆", "verified": false}
+  ],
+  "next_verification": ["雷霆 @CLE 完整八單元", "F1 FIA 正式成績/積分", "NBA 11/01 其餘6場", "徐若熙 G4", "鄭宗哲交易"]
+}

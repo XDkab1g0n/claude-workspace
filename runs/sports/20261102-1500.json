@@ -1,0 +1,14 @@
+{
+  "task_id": "sports",
+  "run_id": "trig_01CVJJLpCJ3rnPh7pBKSobx3-20261102-1500",
+  "scheduled_for": "2026-11-02T15:00:00+08:00",
+  "started_at": "2026-11-02T15:05:52+08:00",
+  "completed_at": "2026-11-02T15:12:57+08:00",
+  "trigger_source": "schedule_unverified",
+  "result_path": "reports/sports/20261102-1500.md",
+  "delivery_verified": null,
+  "content_complete": false,
+  "content_gaps": "外部網站直連被網路政策擋下（ESPN/NBA.com/BBRef/MLB API/F1/CPBL），全靠網路搜尋索引；官方進階數據、部分賽果待補",
+  "source_cutoff": "2026-11-02T15:20:00+08:00",
+  "state_version": "state/sports/20261102-1500.json"
+}
