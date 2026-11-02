@@ -1,0 +1,257 @@
+[
+  {
+    "project_file": "projects/01_exam/study_plan.md",
+    "source_archive": "90_ORIGINAL_FILES/醫師二階_回收索引與11週複習計畫_2026-11-01.md",
+    "sha256": "d42e6ee64b0196b02cddabb26b4800150439ec0b7b707301180cc8b3542e65f3"
+  },
+  {
+    "project_file": "projects/01_exam/answer_baseline.md",
+    "source_archive": "90_ORIGINAL_FILES/醫師二階錯題複習_固定基準.md",
+    "sha256": "a47e67cdfd09061ea70c8184582a7fbe51b62b7d2f4a62de00f0ddb47f318e78"
+  },
+  {
+    "project_file": "projects/01_exam/explanations_136.html",
+    "source_archive": "90_ORIGINAL_FILES/醫學錯題詳解原文彙編.html",
+    "sha256": "9312aa972a85ce6811fb51b07fc608035279bef480911e15139a96d2b8be2120"
+  },
+  {
+    "project_file": "projects/01_exam/explanations_136_ipad.pdf",
+    "source_archive": "90_ORIGINAL_FILES/醫師二階136題詳解_iPad閱讀版_校正版.pdf",
+    "sha256": "4ac83c0b4549feedc733141cfb075ec5bcc6fda99e4f4142dbe7bd69d9d9f86e"
+  },
+  {
+    "project_file": "projects/01_exam/pediatrics_22_closed_book.pdf",
+    "source_archive": "90_ORIGINAL_FILES/醫師二階_小兒22題_閉卷重做版.pdf",
+    "sha256": "bd9dd836f1d0a1df9862e831c481a60cc366fe827ee01c8140b392af28236845"
+  },
+  {
+    "project_file": "projects/01_exam/pediatrics_22_interactive.html",
+    "source_archive": "90_ORIGINAL_FILES/醫師二階_小兒22題_重做與詳解.html",
+    "sha256": "024745323f5d02b02b9b71c396dbc36f089f74c47f3a680c729e166597f8a211"
+  },
+  {
+    "project_file": "projects/01_exam/acls_reference.pdf",
+    "source_archive": "90_ORIGINAL_FILES/ACLS_2026_題庫三層分類整理.pdf",
+    "sha256": "6dcaf4e8128f9a61268e7cf77073c171bd9f57967f379a4c208c932def3953a8"
+  },
+  {
+    "project_file": "projects/02_yukina/current_canon.md",
+    "source_archive": "90_ORIGINAL_FILES/AI小說創作/雪奈/雪奈_現行主設定.md",
+    "sha256": "91e1b81901d2c7d5861f6bda5af14b3bcdac04455e64dca9d3290c1cf81128d3"
+  },
+  {
+    "project_file": "projects/02_yukina/writing_method_2026-10-26.md",
+    "source_archive": "90_ORIGINAL_FILES/雪奈_新版寫作方法學(2).md",
+    "sha256": "e1bddf2d661a8eeb4b1a91aaab9eb6d649338b3371ff59270917c3024d33e32f"
+  },
+  {
+    "project_file": "projects/02_yukina/source_guide_2026-10-30.md",
+    "source_archive": "90_ORIGINAL_FILES/寫作/README_資料導覽_提案_2026-10-30.md",
+    "sha256": "28c207ed8534e7b87c4b9c81b3e585fb21a7fb758ffcde9e1aa2d89959c9734f"
+  },
+  {
+    "project_file": "projects/02_yukina/original_access_index_historical.md",
+    "source_archive": "90_ORIGINAL_FILES/AI小說創作/README_取用索引.md",
+    "sha256": "b70aac9404b6d34fc61bd669269bf62670b82330dbbb0b51185a17e595e3a666"
+  },
+  {
+    "project_file": "projects/02_yukina/selected_examples.md",
+    "source_archive": "90_ORIGINAL_FILES/寫作/雪奈_模範文選_十二組精選片段.md",
+    "sha256": "b2adaea802c58cfa1a8653d07a10031135c381397ee7094eaaa0132919067190"
+  },
+  {
+    "project_file": "projects/02_yukina/examples_editorial_analysis.md",
+    "source_archive": "90_ORIGINAL_FILES/寫作/雪奈_範文精讀與失敗稿對照_編輯報告_v1.md",
+    "sha256": "f44f451fdb4a27ef2eb4a02c6d20a04a5a3bd5044e727aa178c396c1dc14123e"
+  },
+  {
+    "project_file": "projects/02_yukina/full_examples_archive.md",
+    "source_archive": "90_ORIGINAL_FILES/寫作/雪奈_小說範文集_原文回收版.md",
+    "sha256": "c2c02163d499d9e48f63057e30f745f5d68d8dd260642a8709c069e19008f3df"
+  },
+  {
+    "project_file": "projects/03_other_fiction/black_bullet_yukina_v1.1.md",
+    "source_archive": "90_ORIGINAL_FILES/朔夜雪奈_黑色子彈世界線_獨立主設定_v1.1.md",
+    "sha256": "da4d6e5ea6b737b34bf21b7a2dbf94549875e78750e85e172ccb06cebcf98863"
+  },
+  {
+    "project_file": "projects/03_other_fiction/mio_v1.1.md",
+    "source_archive": "90_ORIGINAL_FILES/風見澪_Model_Peregrine_Falcon_Initiator_v1.1.md",
+    "sha256": "6f5c1185aca243c7b9e6bfcd2489511112ac5451d69e11c761ab91272f72908f"
+  },
+  {
+    "project_file": "projects/03_other_fiction/black_bullet_method.md",
+    "source_archive": "90_ORIGINAL_FILES/雪奈_AI協同小說創作方法學_BlackBullet_HITL完整指引_v1.0.md",
+    "sha256": "e57f7d0beb73f7b5f3366d49257f24ec50b86e0c2048dd29b6f29a86662b30fa"
+  },
+  {
+    "project_file": "projects/05_music_audio/amazon_library_1041.csv",
+    "source_archive": "90_ORIGINAL_FILES/Music/amazon-music-library.csv",
+    "sha256": "2e54067fc920c7b485f017444898e36f446b67eb6cdd2f6e228b5f796b109273"
+  },
+  {
+    "project_file": "projects/05_music_audio/music_ratings_187.md",
+    "source_archive": "90_ORIGINAL_FILES/music-ratings.md",
+    "sha256": "aa19a454ea8e821236b1ed4ff59f7a48ed492a60a614a41b36637f317f5e3f35"
+  },
+  {
+    "project_file": "projects/05_music_audio/ratings_ledger_2026-09-18.md",
+    "source_archive": "90_ORIGINAL_FILES/music_rating_ledger_2026-09-18.md",
+    "sha256": "202c617cb05310b3d71d3794af573f69ff459385b7336571a8bbc1f448f23a83"
+  },
+  {
+    "project_file": "projects/06_politics_research/debate_transcript.txt",
+    "source_archive": "90_ORIGINAL_FILES/2026台北市長候選人電視辯論會.txt",
+    "sha256": "168e4cfde134b0ffb62b936bffd82b233959982bd13787c2244a59f9631dcf66"
+  },
+  {
+    "project_file": "projects/06_politics_research/debate_corrected.html",
+    "source_archive": "90_ORIGINAL_FILES/2026台北市長候選人電視辯論會_校訂版.html",
+    "sha256": "940a8cf79532c8cddbb05d72578993c023f99a12625cc203c3c81f4c637cb4ac"
+  },
+  {
+    "project_file": "projects/02_yukina/world/地點/地點_夢菓.md",
+    "source_archive": "90_ORIGINAL_FILES/AI小說創作/地點/地點_夢菓.md",
+    "sha256": "285aa015b018c37b2cfa00b6bd7ba356e5920e451b115ffa9f6b2fff5ee809b5"
+  },
+  {
+    "project_file": "projects/02_yukina/world/地點/地點_朔夜宅邸.md",
+    "source_archive": "90_ORIGINAL_FILES/AI小說創作/地點/地點_朔夜宅邸.md",
+    "sha256": "def9299831f6f287c36c89d3730c5eecfec1648a149e16664909e0d8ff1cdf26"
+  },
+  {
+    "project_file": "projects/02_yukina/world/地點/地點_神諭.md",
+    "source_archive": "90_ORIGINAL_FILES/AI小說創作/地點/地點_神諭.md",
+    "sha256": "eacdbec014d225215fe3fe566c91adf6640d4c91d11a2a93147611b00b4aa54f"
+  },
+  {
+    "project_file": "projects/02_yukina/world/地點/地點_私立神山高中.md",
+    "source_archive": "90_ORIGINAL_FILES/AI小說創作/地點/地點_私立神山高中.md",
+    "sha256": "7233d3e1e890831430b2c2836ecb60706ce7ab0d8fb4da0faf0b227cbbf3688d"
+  },
+  {
+    "project_file": "projects/02_yukina/world/地點/地點_鴉巢.md",
+    "source_archive": "90_ORIGINAL_FILES/AI小說創作/地點/地點_鴉巢.md",
+    "sha256": "c8042a56104eccb2ee840f4ad324d9c942bd94248c1d64f57b7137a65fb388df"
+  },
+  {
+    "project_file": "projects/02_yukina/world/組織/組織_八咫烏_v2_0.md",
+    "source_archive": "90_ORIGINAL_FILES/AI小說創作/組織/組織_八咫烏_v2_0.md",
+    "sha256": "ef85086e0eb673c7a4b3e57d960b4af41d4d09bfe0dcc74288e12c73b23a657d"
+  },
+  {
+    "project_file": "projects/02_yukina/world/組織/組織_銜尾蛇_v2_0.md",
+    "source_archive": "90_ORIGINAL_FILES/AI小說創作/組織/組織_銜尾蛇_v2_0.md",
+    "sha256": "a4bc5859b4e3c1bc19f86f55b60d8634fd4dc284064a75add03c4fdb4b929060"
+  },
+  {
+    "project_file": "projects/02_yukina/world/角色/角色_夏音_v3.md",
+    "source_archive": "90_ORIGINAL_FILES/AI小說創作/角色/角色_夏音_v3.md",
+    "sha256": "8050cfd7e457f89d9a84ecbb57f7261f69fad718b97f9419060f56c481c53d28"
+  },
+  {
+    "project_file": "projects/02_yukina/world/角色/角色_奏_v4.md",
+    "source_archive": "90_ORIGINAL_FILES/AI小說創作/角色/角色_奏_v4.md",
+    "sha256": "4dcd0a5ead901677436e7adb90d743736e41cb25da54bd0001a3711200d9ed65"
+  },
+  {
+    "project_file": "projects/02_yukina/world/角色/角色_小夜_v3.md",
+    "source_archive": "90_ORIGINAL_FILES/AI小說創作/角色/角色_小夜_v3.md",
+    "sha256": "9dc079c535e3b73058d3018803c96a318b4b3052e3bd057ce378629753d02dfe"
+  },
+  {
+    "project_file": "projects/02_yukina/world/角色/角色_巖本.md",
+    "source_archive": "90_ORIGINAL_FILES/AI小說創作/角色/角色_巖本.md",
+    "sha256": "a0ee986127a72fe765355dc24344391819ee3b9e7f0488e29ee744c8f2915899"
+  },
+  {
+    "project_file": "projects/02_yukina/world/角色/角色_朔夜雪人_v3.md",
+    "source_archive": "90_ORIGINAL_FILES/AI小說創作/角色/角色_朔夜雪人_v3.md",
+    "sha256": "571027b6d5ad04dd5dfff5bb5f644228af5f974c19d52c95e67e4a09eb6b2f46"
+  },
+  {
+    "project_file": "projects/02_yukina/world/角色/角色_桔梗靜流.md",
+    "source_archive": "90_ORIGINAL_FILES/AI小說創作/角色/角色_桔梗靜流.md",
+    "sha256": "fdbcb315f477f37211e2f9148be649d3d535f41a42b78545ed7cabb40e326e56"
+  },
+  {
+    "project_file": "projects/02_yukina/world/角色/角色_潔西卡_v3.md",
+    "source_archive": "90_ORIGINAL_FILES/AI小說創作/角色/角色_潔西卡_v3.md",
+    "sha256": "ebb55cabd92043ff7fa13d73d2a546efb6145ce63d7fd07d2e5a50142e243af7"
+  },
+  {
+    "project_file": "projects/02_yukina/world/角色/角色_琉璃_v3.md",
+    "source_archive": "90_ORIGINAL_FILES/AI小說創作/角色/角色_琉璃_v3.md",
+    "sha256": "9f1335a4829a659188d51337f7ad16e19978b3937d54f8e259c293bd42fcd34e"
+  },
+  {
+    "project_file": "projects/02_yukina/world/角色/角色_神代椿.md",
+    "source_archive": "90_ORIGINAL_FILES/AI小說創作/角色/角色_神代椿.md",
+    "sha256": "8d39a2ec769c186d72402ed3680c28a974eb570d975c557d30f3503b9d9a2c11"
+  },
+  {
+    "project_file": "projects/02_yukina/world/角色/角色_黑岩真希.md",
+    "source_archive": "90_ORIGINAL_FILES/AI小說創作/角色/角色_黑岩真希.md",
+    "sha256": "27eda52b8d54f9de2872909a18835894234f3c2e7ea74a4e034395da149c21f7"
+  },
+  {
+    "project_file": "projects/02_yukina/world/道具/道具_夜巡者.md",
+    "source_archive": "90_ORIGINAL_FILES/AI小說創作/道具/道具_夜巡者.md",
+    "sha256": "47509356ceabd7f5eea215c2c385c046e4030d2be19d40de096b51ac51ae07ef"
+  },
+  {
+    "project_file": "projects/02_yukina/world/雪奈/朔夜雪人_二十一歲_雪奈十二歲正式出道期_角色設定_v0.1.md",
+    "source_archive": "90_ORIGINAL_FILES/AI小說創作/雪奈/朔夜雪人_二十一歲_雪奈十二歲正式出道期_角色設定_v0.1.md",
+    "sha256": "a22d7c5e6a01771580d9857187e69be0fa5bf24163e162c97d54b9c3a83a239b"
+  },
+  {
+    "project_file": "projects/02_yukina/world/雪奈/朔夜雪奈_十二歲正式出道期_角色設定_v0.3.md",
+    "source_archive": "90_ORIGINAL_FILES/AI小說創作/雪奈/朔夜雪奈_十二歲正式出道期_角色設定_v0.3.md",
+    "sha256": "90e28ee872ad3de54db5f8c89ec70409862ade08f982359c7c9010d3d4be2b65"
+  },
+  {
+    "project_file": "projects/02_yukina/world/雪奈/雪奈_十五歲第一次黃金期.md",
+    "source_archive": "90_ORIGINAL_FILES/AI小說創作/雪奈/雪奈_十五歲第一次黃金期.md",
+    "sha256": "d200c663400ce4800cc512ffa3ee95745d852522726c895ee2cecef88c38c09f"
+  },
+  {
+    "project_file": "projects/02_yukina/world/雪奈/雪奈_喪鐘時期.md",
+    "source_archive": "90_ORIGINAL_FILES/AI小說創作/雪奈/雪奈_喪鐘時期.md",
+    "sha256": "9aa66de09b84c39d7d2f8e117ca59aae9818bf3a7fdf481e3d738c0d607b0776"
+  },
+  {
+    "project_file": "projects/02_yukina/world/雪奈/雪奈_歷史事件索引.md",
+    "source_archive": "90_ORIGINAL_FILES/AI小說創作/雪奈/雪奈_歷史事件索引.md",
+    "sha256": "46c24b4b4ebd6f3ee767e03bbbf5b2ce808e0a9b763eadd0a339001efb8d7963"
+  },
+  {
+    "project_file": "projects/02_yukina/world/雪奈/雪奈_請帶路_分幕寫作腳本.md",
+    "source_archive": "90_ORIGINAL_FILES/AI小說創作/雪奈/雪奈_請帶路_分幕寫作腳本.md",
+    "sha256": "83aa5232a1805eb4b0fba93aee09ad3281d7f39dcc5a1ed48f2b9f89e8201e70"
+  },
+  {
+    "project_file": "projects/07_clinical/00_專案固定指令.md",
+    "source_archive": "90_ORIGINAL_FILES/住院臨床助手/00_專案固定指令.md",
+    "sha256": "6ab0f2a26aa4754652327ae75585c624e5d1cdc125475d378bb9ef1f3b5fbdd7"
+  },
+  {
+    "project_file": "projects/07_clinical/01_INITIAL_病例啟動模板.md",
+    "source_archive": "90_ORIGINAL_FILES/住院臨床助手/01_INITIAL_病例啟動模板.md",
+    "sha256": "6eb0f3d0f1e5f0d512616c3737ed114772c0f85ab757b55b6a5f54b3c3b0dc92"
+  },
+  {
+    "project_file": "projects/07_clinical/02_FOLLOW-UP_問診後更新模板.md",
+    "source_archive": "90_ORIGINAL_FILES/住院臨床助手/02_FOLLOW-UP_問診後更新模板.md",
+    "sha256": "8e2b0b261730a064d3e0f1de2d97019fe4e08b08c7d2d2f57b672de47db3b25a"
+  },
+  {
+    "project_file": "projects/07_clinical/03_FACT_LOCK_DRAFT_AUDIT模板.md",
+    "source_archive": "90_ORIGINAL_FILES/住院臨床助手/03_FACT_LOCK_DRAFT_AUDIT模板.md",
+    "sha256": "5ad4ea024813be9cc4144474509a9f8c66fe4ecdbf46d9441aca8672a900f0a9"
+  },
+  {
+    "project_file": "projects/07_clinical/04_快速操作指令.md",
+    "source_archive": "90_ORIGINAL_FILES/住院臨床助手/04_快速操作指令.md",
+    "sha256": "e314f1f85f8f7a15f44ccfa6cbf5a6bfb53015f453339c992387c5334793d7e2"
+  }
+]

@@ -1,0 +1,1 @@
+task_id,run_id,scheduled_for,started_at,completed_at,trigger_source,result_path,delivery_verified,content_complete,source_cutoff,state_version

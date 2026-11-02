@@ -1,0 +1,128 @@
+[
+  {
+    "folder": "automations/active/01_國考晨間主課表",
+    "id": "6ae6a2ac23608191b6bd94d10a8d3eba",
+    "title": "國考晨間主課表",
+    "enabled": true,
+    "timing_mode": "flexible_schedule"
+  },
+  {
+    "folder": "automations/active/02_國考傍晚完成確認",
+    "id": "6ae6a2cb33988191b88214a1b772ef1f",
+    "title": "國考傍晚完成確認",
+    "enabled": true,
+    "timing_mode": "flexible_schedule"
+  },
+  {
+    "folder": "automations/active/03_體育雷達 v3",
+    "id": "6ac75eaa9c708191b2f290b532abdd6a",
+    "title": "體育雷達 v3",
+    "enabled": true,
+    "timing_mode": "exact_schedule"
+  },
+  {
+    "folder": "automations/active/04_工作新聞早午晚報",
+    "id": "6ac721a4e6a88191b99af10153f64ef5",
+    "title": "工作新聞早午晚報",
+    "enabled": true,
+    "timing_mode": "exact_schedule"
+  },
+  {
+    "folder": "automations/active/05_遊戲與消費電子雷達",
+    "id": "6a6c020f74c881918fba6949e6d70aa7",
+    "title": "遊戲與消費電子雷達",
+    "enabled": true,
+    "timing_mode": "flexible_schedule"
+  },
+  {
+    "folder": "automations/paused/06_雪奈小說",
+    "id": "6adac06368648191ad4608d0f74e7ef4",
+    "title": "雪奈小說",
+    "enabled": false,
+    "timing_mode": "exact_schedule"
+  },
+  {
+    "folder": "automations/paused/07_建立體育雷達每日報告",
+    "id": "6adb486972608190a32d604ca67f9e66",
+    "title": "建立體育雷達每日報告",
+    "enabled": false,
+    "timing_mode": "exact_schedule"
+  },
+  {
+    "folder": "automations/paused/08_工作新聞早午晚報",
+    "id": "6a957912a9448191b9b42b98d22207ae",
+    "title": "工作新聞早午晚報",
+    "enabled": false,
+    "timing_mode": "exact_schedule"
+  },
+  {
+    "folder": "automations/paused/09_建立工作新聞早午晚報",
+    "id": "6adb47c5eb58819082508424b78fbfc8",
+    "title": "建立工作新聞早午晚報",
+    "enabled": false,
+    "timing_mode": "exact_schedule"
+  },
+  {
+    "folder": "automations/paused/10_音樂探索雷達",
+    "id": "6a6c0019db2881919dbf809abbb6ccc9",
+    "title": "音樂探索雷達",
+    "enabled": false,
+    "timing_mode": "flexible_schedule"
+  },
+  {
+    "folder": "automations/paused/11_晨晚工作簡報｜Work",
+    "id": "6a689fac5b348191a984b8963ef5bbef",
+    "title": "晨晚工作簡報｜Work",
+    "enabled": false,
+    "timing_mode": "exact_schedule"
+  },
+  {
+    "folder": "automations/paused/12_晚間新聞簡報｜Work",
+    "id": "6a689fba440481918adfb7b5cb3523f0",
+    "title": "晚間新聞簡報｜Work",
+    "enabled": false,
+    "timing_mode": "exact_schedule"
+  },
+  {
+    "folder": "automations/paused/13_工作新聞早午晚報",
+    "id": "6ac6fa9a0ef88191ae157bd7f8b18a54",
+    "title": "工作新聞早午晚報",
+    "enabled": false,
+    "timing_mode": "exact_schedule"
+  },
+  {
+    "folder": "automations/paused/14_體育雷達",
+    "id": "6a9c03c365748191bd7bbe5f11a5a924",
+    "title": "體育雷達",
+    "enabled": false,
+    "timing_mode": "flexible_schedule"
+  },
+  {
+    "folder": "automations/paused/15_體育雷達",
+    "id": "6ab62c3cbb308191afd22c695a5fbd8e",
+    "title": "體育雷達",
+    "enabled": false,
+    "timing_mode": "exact_schedule"
+  },
+  {
+    "folder": "automations/paused/16_醫師二階錯題複習",
+    "id": "6a6bfae86cf081919686ad1b9b3e776c",
+    "title": "醫師二階錯題複習",
+    "enabled": false,
+    "timing_mode": "exact_schedule"
+  },
+  {
+    "folder": "automations/paused/17_醫師二階報名公告",
+    "id": "6a69a0636d248191a08eb47c7a8a1c13",
+    "title": "醫師二階報名公告",
+    "enabled": false,
+    "timing_mode": "condition_watch"
+  },
+  {
+    "folder": "automations/paused/18_國考錯題複習",
+    "id": "6a69f3a29bb48191bd27e450fb803be4",
+    "title": "國考錯題複習",
+    "enabled": false,
+    "timing_mode": "exact_schedule"
+  }
+]
