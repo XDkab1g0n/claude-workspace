@@ -1,0 +1,13 @@
+{
+  "task_id": "exam_am",
+  "run_id": "exam_am-20261102-0800",
+  "scheduled_for": "2026-11-02T08:00:00+08:00",
+  "started_at": "2026-11-02T14:32:00+08:00",
+  "completed_at": "2026-11-02T14:40:00+08:00",
+  "trigger_source": "schedule_unverified",
+  "result_path": "reports/exam_am/20261102-0800.md",
+  "delivery_verified": null,
+  "content_complete": true,
+  "source_cutoff": "repo main @ c5394f4",
+  "state_version": 1
+}

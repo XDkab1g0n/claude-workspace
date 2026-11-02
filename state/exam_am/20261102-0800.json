@@ -1,0 +1,15 @@
+{
+  "task": "exam_am",
+  "date": "2026-11-02",
+  "week": 1,
+  "days_to_exam": 75,
+  "NEW": ["首課日課表：小兒 22 題（四 Q2–Q32）閉卷＋訂正＋補觀念"],
+  "CHANGED": [],
+  "INVALIDATED": [],
+  "events": [{"id": "peds22_firstpass", "status": "待回報", "note": "11/2 首課；Q8 需官方原卷第 2 頁附圖，未取得則標圖像未評"}],
+  "reviews_due": [],
+  "reviews_scheduled": {"peds22": ["2026-11-03", "2026-11-05", "2026-11-09", "2026-11-23"], "basis": "預排，依實際訂正日調整"},
+  "next_checkpoint": "2026-11-03 醫學（三）80 題診斷卷（113-2）",
+  "reported_progress": null,
+  "note": "排程實際於台灣 14:32 啟動，晚於 08:00"
+}
