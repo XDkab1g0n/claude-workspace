@@ -1,0 +1,60 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>台北2026｜得票情境實驗室 v2</title>
+<style>
+:root{font-family:system-ui,-apple-system,"Noto Sans TC",sans-serif;color:#19283d;background:#f5f7fb}*{box-sizing:border-box}body{margin:0}main{max-width:1110px;margin:auto;padding:26px 18px 55px}h1{font-size:28px;margin:0 0 6px}h2{font-size:21px;margin:0 0 13px}h3{font-size:16px;margin:8px 0}.small,small{font-size:13px;color:#607085}.panel{background:#fff;border:1px solid #e5e9ef;padding:23px;margin:18px 0;border-radius:14px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.pill{display:inline-block;border-radius:100px;background:#e9edf4;color:#42546a;padding:4px 11px;font-size:12px}.control{margin:0 0 17px}.control label{font-weight:600;display:block;margin-bottom:8px}.track{display:flex;align-items:center;gap:12px}.track input{flex:1;min-width:70px}.track output{font-size:15px;font-variant-numeric:tabular-nums;min-width:56px;text-align:right;color:#1e4e80}.hint{font-size:12px;line-height:1.5;color:#778396}.control select{font:inherit;padding:9px;width:100%;border:1px solid #cbd4e2;border-radius:9px;background:white}.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:16px 0}.fact{background:#f3f6f9;border-radius:12px;padding:14px}.fact .big{font-size:26px;font-weight:750}.bar{display:flex;height:17px;border-radius:8px;overflow:hidden;background:#c5cbd4}.c{background:#557fae}.s{background:#368b81}.o{background:#b0a278}.legend{display:flex;flex-wrap:wrap;gap:13px;color:#53647d;font-size:13px;margin-top:5px}.dot{width:9px;height:9px;display:inline-block;border-radius:3px;margin-right:4px}table{width:100%;border-collapse:collapse;font-size:14px}td,th{border-bottom:1px solid #e6eaf0;padding:9px 5px;text-align:right}td:first-child,th:first-child{text-align:left}.warn{padding:12px 16px;background:#f6f7fb;border-left:3px solid #8c99ac;font-size:14px;line-height:1.6}button{cursor:pointer;border:1px solid #9caabe;padding:9px 14px;border-radius:9px;background:white;color:#334b65;font:inherit}button:hover{background:#eef2f7}.toolbar{display:flex;gap:10px;flex-wrap:wrap}.links{font-size:13px;line-height:1.9;word-break:break-all}a{color:#295c91}@media(max-width:740px){.grid,.facts{grid-template-columns:1fr}main{padding:16px 12px}h1{font-size:24px}.panel{padding:15px}}</style></head>
+<body><main><span class="pill">2026-10-09 資料截止・條件推演・離線可用</span><h1>台北市長選舉：非民調係數實驗室 v2</h1><p class="small">納入歷史得票、2025年五區罷免、2022議會席次、施政淨滿意、2022黃珊珊舊選民自述及相對投票參與。這些轉換係數是明確標記的情境假設，不代表已估計出選票因果關係，亦不輸出勝選機率。</p>
+<section class="panel"><h2>01｜基準民調</h2><div class="grid"><div class="control"><label for="poll">民調基準與不同分母</label><select id="poll"><option>TVBS 10月</option><option>信民 9月</option></select><p class="hint" id="pollinfo"></p></div><div class="control"><label for="history">歷史票源對照</label><select id="history"><option>2024 總統藍綠</option><option>2022 市長兩人</option></select><p class="hint">歷史資料只用於對照與可調融合作用，並非2026票數。</p></div></div><div class="control"><label for="undecided">未表態者流向沈的比例</label><div class="track"><input type="range" id="undecided" min="0" max="100" step="1" value="50"><output id="undecidedOut"></output></div></div></section>
+<section class="panel"><h2>02｜非民調轉換係數</h2><div class="toolbar"><button type="button" id="reset">重設：非民調增量為零</button><button type="button" id="stress">載入示範組合（非校準值）</button><button type="button" id="export">匯出本次設定 JSON</button></div><p class="small">預設不把原本已包含在10月民調的歷史選票、當期滿意度與交叉表再次加權；每個係數的方向均可雙向檢驗。</p><div class="grid" id="controls"></div></section>
+<section class="panel"><h2>03｜條件得票結果</h2><div class="facts"><div class="fact"><span class="small">蔣萬安</span><div class="big" id="chiang">—</div></div><div class="fact"><span class="small">沈伯洋</span><div class="big" id="shen">—</div></div><div class="fact"><span class="small">其他參選人（僅六人題）</span><div class="big" id="minor">—</div></div></div><div class="bar"><div class="c" id="cbar"></div><div class="s" id="sbar"></div><div class="o" id="obar"></div></div><div class="legend"><span><i class="dot c"></i>蔣</span><span><i class="dot s"></i>沈</span><span><i class="dot o"></i>其他</span></div><h3>對數勝算偏移的分解</h3><table><thead><tr><th>因子</th><th>log-odds 偏移</th></tr></thead><tbody id="terms"></tbody></table><p class="small">百分比因四捨五入相加可能相差0.01。TVBS兩人問法不能估計其他四名參選人的得票。</p></section>
+<section class="panel"><h2>04｜兩份民調 × 相同假設</h2><div class="grid"><div><h3>TVBS 10月</h3><div class="fact"><span class="big" id="compareTVBS"></span></div></div><div><h3>信民 9月</h3><div class="fact"><span class="big" id="compareXinmin"></span></div></div></div><p class="small">TVBS問法和信民六人題目不能直接互換；這裡讓你比較相同係數假設下，基準差異產生的算術結果。</p></section>
+<section class="panel"><h2>05｜來源與使用界限</h2><div class="warn">「議員席次→市長支持」「罷免不同意票→市長支持」「施政滿意→市長支持」均沒有從當前資料識別的轉換率，所以預設係數是零。若手動設為非零，其輸出是反事實敏感度，而不是實際選票預測。投票當日的票率與候選人的勝選機率不在本模型可識別範圍內。</div><p class="links"><a target="_blank" rel="noopener" href="https://news.tvbs.com.tw/politics/4033527">TVBS 2026年10月民調</a> · <a target="_blank" rel="noopener" href="https://news.tvbs.com.tw/politics/4025675">信民 2026年9月民調報導</a> · <a target="_blank" rel="noopener" href="https://www.cna.com.tw/news/aipl/202211260299.aspx">2022台北市長開票</a> · <a target="_blank" rel="noopener" href="https://www.cna.com.tw/news/aipl/202507260215.aspx">2025五區罷免</a> · <a target="_blank" rel="noopener" href="https://news.tvbs.com.tw/politics/4033530">施政滿意及黃珊珊交叉表</a></p></section>
+</main><script>
+const DATA={"polls": {"TVBS 10月": {"chiang": 49.0, "shen": 41.0, "undecided": 11.0, "minor": 0.0, "excluded": 0.0, "kind": "兩人對比／沒有其他參選者的分母"}, "信民 9月": {"chiang": 41.7, "shen": 40.5, "undecided": 10.6, "minor": 2.1, "excluded": 5.2, "kind": "六人題目／不投票及廢票自有效票排除"}}, "history": {"2022 市長兩人": [575590.0, 434558.0], "2024 總統藍綠": [587258.0, 587899.0]}, "context": {"council_log_ratio": 0.3566749439387324, "recall_log_ratio": 0.2603923231918298, "approval_net_reference": 17.0, "self_report_huang_share_pct": 15.0, "self_report_huang_chiang_pct": 39.0, "self_report_huang_shen_pct": 53.0}, "defaults": {"undecided_to_shen": 50.0, "historical_blend": 0.0, "history_base": "2024 總統藍綠", "council_log_weight": 0.0, "recall_log_weight": 0.0, "approval_delta_net": 0.0, "approval_log_weight": 0.0, "cohort_shift": 0.0, "cohort_share": 15.0, "turnout_ratio_c": 1.0, "turnout_ratio_s": 1.0, "minor_ratio": 1.0}, "bounds": {"undecided_to_shen": [0, 100], "historical_blend": [0, 0.35], "council_log_weight": [-0.25, 0.25], "recall_log_weight": [-0.25, 0.25], "approval_delta_net": [-20, 20], "approval_log_weight": [-0.2, 0.2], "cohort_shift": [-20, 20], "cohort_share": [0, 25], "turnout_ratio_c": [0.8, 1.2], "turnout_ratio_s": [0.8, 1.2], "minor_ratio": [0.8, 1.2]}};
+const defs=[
+ ['historical_blend','歷史票源融合比例',0,.35,.01,'×','以歷史雙方得票對數勝算作加權對照；係數未經校準。'],
+ ['council_log_weight','2022議席組織：對數比率係數',-.25,.25,.01,'','輸入係數 × ln(30 / 21)；不表示議員席次就是選票。'],
+ ['recall_log_weight','2025五區罷免：對數比率係數',-.25,.25,.01,'','輸入係數 × ln(428596 / 330340)；五區非全市，方向不確定。'],
+ ['approval_delta_net','相對2026/10淨滿意17點的變化',-20,20,1,'點','僅輸入未來相對於10月調查的變化，避免重複計入。'],
+ ['approval_log_weight','淨滿意變動的傳導係數',-.2,.2,.01,'','係數 × (淨滿意改變 / 10)。影響方向和幅度未識別。'],
+ ['cohort_shift','自述黃珊珊舊選民：相對轉向蔣',-20,20,1,'點','群體內由沈轉蔣的變化；不把2022實際黃票直接乘上交叉表。'],
+ ['cohort_share','自述黃舊選民：占當期樣本比率',0,25,1,'%','TVBS當期自述約15%，不是2022真實得票率。'],
+ ['turnout_ratio_c','蔣方相對投票參與係數',.8,1.2,.01,'×','1.00 = 不調整；此係數未從歷年總投票率識別。'],
+ ['turnout_ratio_s','沈方相對投票參與係數',.8,1.2,.01,'×','1.00 = 不調整。'],
+ ['minor_ratio','其他人選相對參與係數',.8,1.2,.01,'×','僅信民六人題目中有觀測其他人選。']
+];
+let state={...DATA.defaults};
+function logistic(z){return z>=0?1/(1+Math.exp(-z)):Math.exp(z)/(1+Math.exp(z));}
+function logit(p){return Math.log(p/(1-p));}
+function compute(poll){
+ const b=DATA.polls[poll],a=state;
+ let c=b.chiang+b.undecided*(1-a.undecided_to_shen/100),s=b.shen+b.undecided*a.undecided_to_shen/100;
+ const cohort=(a.cohort_share/100)*a.cohort_shift;c+=cohort;s-=cohort;
+ let p=c/(c+s); const h=DATA.history[a.history_base],hp=h[0]/(h[0]+h[1]);
+ const terms={"歷史融合":a.historical_blend*(logit(hp)-logit(p)),"議員席次":a.council_log_weight*DATA.context.council_log_ratio,"罷免動員":a.recall_log_weight*DATA.context.recall_log_ratio,"施政淨滿意變化":a.approval_log_weight*a.approval_delta_net/10};
+ const odds=logit(p)+Object.values(terms).reduce((q,z)=>q+z,0);p=logistic(odds);
+ const pair=c+s; // cohort transfer preserves the two-major-candidate total
+ c=pair*p*a.turnout_ratio_c;
+ s=pair*(1-p)*a.turnout_ratio_s;
+ const other=b.minor*a.minor_ratio, den=c+s+other;
+ return {c:100*c/den,s:100*s/den,other:100*other/den,terms};
+}
+function buildControls(){document.getElementById('controls').innerHTML=defs.map(([k,title,min,max,step,unit,note])=>`<div class="control"><label for="${k}">${title}</label><div class="track"><input id="${k}" type="range" min="${min}" max="${max}" step="${step}" value="${state[k]}"><output id="${k}Out"></output></div><div class="hint">${note}</div></div>`).join('');
+ for(const [k,title,min,max,step,unit] of defs){const el=document.getElementById(k);el.oninput=()=>{state[k]=Number(el.value);draw()}}
+}
+function fmt(v){return v.toFixed(2)+'%';}
+function draw(){document.getElementById('poll').value=state.poll||'TVBS 10月';document.getElementById('history').value=state.history_base;document.getElementById('undecided').value=state.undecided_to_shen;document.getElementById('undecidedOut').textContent=state.undecided_to_shen+'%';
+ for(const [k,title,min,max,step,unit] of defs){document.getElementById(k).value=state[k];document.getElementById(k+'Out').textContent=Number(state[k]).toFixed(step===.01?2:0)+unit;}
+ const poll=state.poll||'TVBS 10月',r=compute(poll);
+ document.getElementById('pollinfo').textContent=DATA.polls[poll].kind;
+ for(const [id,value] of [['chiang',r.c],['shen',r.s],['minor',r.other]])document.getElementById(id).textContent=fmt(value);
+ for(const [id,v] of [['cbar',r.c],['sbar',r.s],['obar',r.other]])document.getElementById(id).style.width=v+'%';
+ document.getElementById('terms').innerHTML=Object.entries(r.terms).map(([name,n])=>`<tr><td>${name}</td><td>${n.toFixed(5)}</td></tr>`).join('');
+ let a=compute('TVBS 10月'),b=compute('信民 9月');document.getElementById('compareTVBS').textContent=fmt(a.c)+' / '+fmt(a.s);document.getElementById('compareXinmin').textContent=fmt(b.c)+' / '+fmt(b.s)+' / 其他 '+fmt(b.other);
+}
+document.getElementById('poll').onchange=e=>{state.poll=e.target.value;draw()};
+document.getElementById('history').onchange=e=>{state.history_base=e.target.value;draw()};
+document.getElementById('undecided').oninput=e=>{state.undecided_to_shen=Number(e.target.value);draw()};
+document.getElementById('reset').onclick=()=>{state={...DATA.defaults,poll:state.poll||'TVBS 10月'};draw()};
+document.getElementById('stress').onclick=()=>{state={...DATA.defaults,poll:state.poll||'TVBS 10月',history_base:'2022 市長兩人',historical_blend:.15,council_log_weight:.15,recall_log_weight:.1,approval_delta_net:5,approval_log_weight:.08,cohort_shift:5,turnout_ratio_c:1.02};draw()};
+document.getElementById('export').onclick=()=>{const blob=new Blob([JSON.stringify({source_date:'2026-10-09',poll:state.poll||'TVBS 10月',parameters:state,result:compute(state.poll||'TVBS 10月')},null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='taipei_2026_scenario_parameters.json';a.click();URL.revokeObjectURL(a.href)};
+buildControls();draw();
+</script></body></html>

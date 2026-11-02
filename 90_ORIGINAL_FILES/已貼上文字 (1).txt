@@ -1,0 +1,95 @@
+Now I have the full picture. The user wants me to write a battle scene where Silver Ghost (銀色幽靈) beats an arrogant enhanced human (強化人) into humiliation/anger (打成惱羞).
+
+Key elements to follow:
+
+Story first; use only relevant abilities and gear
+Silver Ghost persona: dramatic, sweet, vicious, playful; high bun twin-tails, neon purple nodes
+Battle principle: make enemy realize they've lost control; 欺騙、羞辱、主導權
+High attack/low defense; mobility, deception
+昇月 (後空翻上踢), possibly 彗星, but not necessarily show everything
+Gear: 白夜/極夜 dual guns, 夜影 dual blades, 極光 line system, 夢魘舞者 shoes, 紫電 headphones, 幽靈斗篷, 惡作劇百寶袋
+Narration: third person limited, following Yukina, or possibly the enemy? Keep stable viewpoint. The scene is Silver Ghost's battle. Best to use third-person limited following Silver Ghost. But "打到他惱羞" — the enemy's psychological state matters. We can render the enemy's humiliation through what Yukina observes (his face, actions, words) — since viewpoint is stable, keep to Yukina. Actually stable limited viewpoint doesn't strictly forbid showing enemy inner states if the scene is from enemy's POV, but convention in this setting — the setting says "穩定有限視角，只寫視角人物能感知、知道或合理推斷之事". So I should choose a viewpoint.
+Option: Third-person limited from Yukina's POV, showing the enemy's rage through her observation (facial twitches, crushed grip, shaking, escalating insults) — she reads people's bodies as data, which fits her skill (前置動作讀取). That's a great way to show his 惱羞 without breaking viewpoint: she perceives his escalating trauma through micro-signs.
+
+The battle should:
+
+Have 目標、阻礙、選擇、局勢變化與代價 (per scene requirement)
+End with changed information/risk/resource/relationship/object-meaning
+Not end with authorial summary
+Let me design the scene:
+
+Setting: Some underground venue — maybe a sanctioned underground fighting/duel environment. The enemy is an arrogant enhanced human (強化人) who brags about his strength, synthetic muscle, combat implant, etc. Silver Ghost is contracted, or he's challenging her legend. Let's make it a private duel — he wants to take down the "銀色幽靈" to prove himself. Or a bounty context.
+
+Ideas to humiliate him:
+
+She lets him land a hit with his best attack, only to reveal it was her plan — she uses his own momentum.
+She sabotages his gear early (through her bag of tricks / hacking), so his "invincible" armaments prove unreliable — humiliating the source of his pride.
+She fakes weakness, makes him think he's winning, then turns it around — psychological.
+Silly touches: leaving stickers/塗鴉 on his armor, 倒讚 projection, calling the fight to embarrass.
+She never even needs her final techniques, maybe teases 昇月 for spectacle.
+The setting should be a real physical space, track position, injuries, time, ammo, energy.
+
+Let me think of narrative detail:
+
+Venue: an abandoned factory / or a rooftop / or an underground arena with spectator drones. A semi-ruined warehouse with girders, catwalks, chain hoists, scattered crates. Gives her 3D environment.
+Enemy: a corporate-security enhanced human, modified with heavy combat implant (強化骨骼/肌肉), maybe a "Titan" class. Given Yukina's 38kg mass vs a heavy enhanced human — she needs mobility, gear, structure destruction. The enhanced human is heavy/strong but slow-ish and proud.
+Plot beat structure:
+
+Opening: he's baiting her reputation, sees her as a little girl. She's bored, maybe eating candy / listening to music via 紫電.
+He charges / heavy attacks; she avoids with 幽靈舞步 — minimal movement. He becomes frustrated because he can't touch her.
+She starts "playing": using 惡作劇百寶袋 (e.g., 滑倒珠 on the floor, sticky gel on his weapon), 紫電 聲源錯位 to confuse him, 極光 line to trip/control his limbs.
+She breaks his gear: 極夜 electronic pulse to kill his combat implant's UI / HUD, or 夜影 to cut power cables on his back — his "superiority" is his augmentations, and she dismantles them.
+Emotional beat: he screams, tries desperate heavy attack; she uses 昇月 — sends his huge body off the ground into the air, a pure humiliation moment (silver arc, small girl lifting big man off his feet). Then lands, maybe leaves a sticker/塗鴉, projects "WEAK" from her shoe.
+Ends: he's on the ground / his pride broken. 局勢變化: terms of the confrontation changed — maybe she spares him / takes something (his flagship arm? his controller?), revealing a bigger info (e.g., this was a test by whoever hired him, or she realized he's a decoy).
+The user asks only for "一場銀色幽靈的戰鬥場景 讓她把一個自傲的強化人打到惱羞" — a single battle scene. Keep it focused. Not necessarily a larger plot. I can give a self-contained scene with a satisfying beat structure.
+
+Let me make it good. Voice: Silver Ghost = 戲劇化、甜美、惡劣、帶輕笑. Her dialogue should taunt in that playful way. Use 繁體中文. Deep and precise verbs.
+
+Let me draft.
+
+Structure the fight scene with clear space. Let me set the arena: an abandoned warehouse interior used as an underground duel venue (地下擂台). Lighting: rooftop gaps, floodlights. Her silver hair, purple neon.
+
+Enemy: name him something. Perhaps "G型的強化人間" with corporate designation. Let's give a name: 「庫羅加」(Kuroga)? Or a corporate enhanced "Titan-9" タイタン. Let me make him an ex-military corporate enhanced: 名字「真壁剛」(Makabe Gou)? Or keep as "強化人" with a call sign. Maybe an underground mercenary who bought top-tier enhancement "泰坦級重裝強化人" with boast that he's never lost, "鋼腕" etc.
+
+Let me give him a name: 薩德/「G-7」? Let me use a Japanese-style: 東雲丈 (Shinonome Jou)? Hmm. Let's use a mercenary named 真壁剛 with designation 泰坦(TAITAN/巨人). Actually to create the "proud enhanced human who feels superior because he invested in his body" — his pride comes from 花大錢買的肉身/義體, he looks down on 純天然/皮肉.
+
+Counterpoint: She's 純粹自然人 38kg — the irony: he spent a fortune welding steel into his bones; she's just blood and bone and still wins. That's a great thematic for humiliating him — his identity is "強化", and she dismantles exactly that.
+
+Let me make it an official-ish fight: He issued a public challenge to the "銀色幽靈" to prove 強化人 > 傳說. She took it as a job (銜尾蛇 contract) — or she just showed up bored. Give context briefly. Actually the user just wants the battle scene; minimal framing is fine. I'll add a one-to-two line grounding (he challenged her, betting his flagship/equipment). Keep battle as the main body.
+
+Emotional/psychological of his 惱羞: escalating — from arrogance, to confusion, to anger, to losing decorum (screaming, swearing, drunk-like swinging, disregarding his own safety, including trying to cheat / the enhanced systems failing), ending in pathetic. I'll render through Yukina's observation of body signals and her taunts.
+
+She should have small 代價 — per setting, high攻 low防; injuries should be real if she takes them. To keep it satisfying and not gratuitous, she can take a small hit (a graze, shaved skin, or he catches a bit of her cloak) that she acknowledges — keeps it honest. Or energy budget: 極光/樞紐 energy spent. Good to include a genuine moment where he finally lands something (a shockwave from a heavy stomp / a near-grab that tears her cloak), and she concedes "不錯嘛" before ending it — that's the beat of 局勢變化 before the finale.
+
+Also per protocol: no over-explaining her abilities; show through action. Dialogue advances power dynamics.
+
+Let me consider including 昇月 as the signature humiliating move — small girl lifts the huge enhanced man off his feet — perfect for his pride. And maybe a cheeky finishing touch: shoe projecting 倒讚 / WEAK, or writing on his armor with 夜影 (carving a 倒讚 / making a smiley on his faceplate), or tying him up with 極光 like a package, or leaving a sticker.
+
+Ending: Per protocol — 結尾需改變資訊、風險、資源、關係或物件意義，不以作者總結收尾. So the final beat should be a changed state. Ideas: she doesn't kill him; instead she breaks both the physical and the psychological weapon — and reveals something: e.g., his implant HUD loops a recording of her taunt; or the契約/贓物 (the reason) — she takes the "prize" (a chip, a key) and tells him the whole duel was part of a 銜尾蛇 job that included capturing his data. Could keep simpler: phrase finale as a meaningful exchange, changing the relation (his legend dies, her myth grows, he now fears her), and the last line with an object/action meaning.
+
+Let me write it now. Length: a full scene, substantial. Maybe ~1500-2500 Chinese characters. Should have distinctive voice, clear space, causal chain, injuries/resources tracked, dialogue with character difference.
+
+Let me set the arena in concrete detail:
+
+場所：灣區廢棄倉庫，半小時前被地下賭場包下當擂台。八盞燈柱，鋼梁，吊鏈滑軌，工業貨架，地面有油漬與碎石。觀眾透過無人機直播看——不，更貼合設定：地下賽事，幾十個買票的，隔著鐵網看。保持專注，別太鋪陳。
+
+Actually keep crowds minimal; focus on duel. Maybe spectators behind electrified fence; he's performing for them (his pride needs audience), she's bored. Good.
+
+Enemy:
+
+真壁剛 / designation 泰坦級. Big: 190+ cm, bulk synthetic muscle sheathing a retractable combat frame (輕量動力甲強化外骨架). His pride: 花七十億日元把全身換成商用軍規強化——肌肉植入、骨骼碳纖、脊椎動力脊椎、戰術處理器. He calls natural bodies "破布袋" (torn cloth bags). He dismisses her 38kg as worthless.
+Gear: heavy gauntlets (可拆換的離心爆震拳), shoulder drones? Too much. Keep one focused weapon identity: 雙臂反應裝甲拳／爆震拳 and 地底脊椎穩定器 giving him heavy stomps/shockwaves.
+Her approach: She pre-scouted his specs (情報). He doesn't know that. She's already planned the whole sequence — earlier she planted/sabotaged something? Could be nice: she hacked his 戰術處理器 earlier so feed gets jammed/lag/fake images. She uses 紫電 to play BGM taunt? Or in-arena: step by step degrade his systems mid-fight with 極夜電磁脈衝, cutting his HUD. But 極夜 uses energy; fine.
+
+Let me structure the beats:
+
+Exposition/opening: The pit. He declares. She's eating candy (糖果紙), ears on 紫電 (music). He insults her size and that she's "純天然, 無改造" — actually she is; his joke is she's a "普通小女生". She replies sweetly, calls him 笨重的玩具 / "強化得再好也只是包了鋼皮的豬". He charges.
+First exchange — her minimal dodge + 幽靈舞步: He throws heavy 右直拳 into empty air, she's already elsewhere. He stomps producing shockwave; she rides it / uses 衣物 displacement. He's surprised at her speed. She analyses his fighting: 前置動作大, 仰賴系統計算, brute force. She notes where her plan will target.
+Degrade his pride via physics: She climbs his arm (like 攀附) — dirty trick, uses his own body as terrain. He can't shake her; she 極光-line lashes his elbow joint, causing a stumble. She taunts him in Chinese/Japanese — keep Silver Ghost voice: 甜美戲謔.
+"Let him land" beat: He gets a plan — feigned retreat, he catches her by the cloak with 反應裝甲抓取, presses her to a stack of crates, delivering a shockwave punch. She takes it partially with 受身 + redirects, cloak tail torn, she's launched but recovers, lip bleeding slightly — acknowledging "啊啦，比較有趣了呢". This raises the genuine risk (her 38kg mass, one real hit can be bad), sustaining tension; and sets 局勢變化: his arrogance recovers, crowds cheer.
+But wait — she should be even: he never actually catches her unless it advances her plan. Let me make it: she deliberately let him seize 極光's line thinking it's her cloak (she baits with the torn cloak / a decoy line), and uses the pull to slingshot. Actually simpler: he crashes into the crates himself after she 極光-trips him. Let me refine.
+
+Better the "scare" beat: He feints heavy right, twists into backhand nova — she misreads slightly, takes a shockwave graze across 小腿 (過膝襪 singed、擦傷), blood sheen. It hurts; she looks at the burn and her 呆毛 trembles — she's mildly annoyed now. This gives her 損傷 and motivates precision end. Good.
+
+The systematic dismantling — his systems die one by one:
+She uses 極夜 電磁脈衝 to knock out 脊椎穩定器的平衡補償 → his movements get clumsy but he becomes heavier/steadier (減速).

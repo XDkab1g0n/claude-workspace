@@ -1,0 +1,23 @@
+﻿year,type,metric,value,unit,basis,use,source
+2022,市長選舉,蔣萬安得票,575590.0,票,台北市,歷史背景，不當成2026票數,https://www.cna.com.tw/news/aipl/202211260299.aspx
+2022,市長選舉,陳時中得票,434558.0,票,台北市,歷史背景，不當成2026票數,https://www.cna.com.tw/news/aipl/202211260299.aspx
+2022,市長選舉,黃珊珊得票,342141.0,票,台北市,不同於2026自述投黃者,https://www.cna.com.tw/news/aipl/202211260299.aspx
+2022,市長選舉,有效票,1360951.0,票,台北市,票數正規化,https://election.ltn.com.tw/2022/realtime
+2022,市長選舉,投票率,67.7,%,台北市,歷史參考,https://www.cna.com.tw/news/aipl/202211260299.aspx
+2024,總統選舉,侯友宜得票,587258.0,票,台北市,不同選舉，不直接轉成市長票,https://govtw.org/election/2024-P
+2024,總統選舉,賴清德得票,587899.0,票,台北市,不同選舉，不直接轉成市長票,https://govtw.org/election/2024-P
+2024,總統選舉,柯文哲得票,366854.0,票,台北市,不同選舉，不直接轉成市長票,https://govtw.org/election/2024-P
+2024,總統選舉,投票率,74.28,%,台北市,歷史參考,https://govtw.org/election/2024-P
+2022,議員選舉,國民黨席次,30.0,席,台北市61席,議會代表性，不能換算成市長票,https://www.cna.com.tw/news/aipl/202211260304.aspx
+2022,議員選舉,民進黨席次,21.0,席,台北市61席,議會代表性，不能換算成市長票,https://www.cna.com.tw/news/aipl/202211260304.aspx
+2022,議員選舉,民眾黨席次,4.0,席,台北市61席,議會代表性，不能換算成市長票,https://www.cna.com.tw/news/aipl/202211260304.aspx
+2022,議員選舉,其他席次,6.0,席,台北市61席,議會代表性，不能換算成市長票,https://www.cna.com.tw/news/aipl/202211260304.aspx
+2025,五席立委罷免,同意罷免合計,330340.0,票,五選區，非全市,只作動員背景，不轉換支持票,https://www.cna.com.tw/news/aipl/202507260215.aspx
+2025,五席立委罷免,不同意罷免合計,428596.0,票,五選區，非全市,只作動員背景，不轉換支持票,https://www.cna.com.tw/news/aipl/202507260215.aspx
+2025,五席立委罷免,投票率,59.03,%,五選區合計,不能解讀成全市投票率,https://www.cna.com.tw/news/aipl/202507260215.aspx
+2026,施政評價,10月現任市長滿意,52.0,%,TVBS 10月調查,獨立測量指標，未建立選票轉換率,https://news.tvbs.com.tw/politics/4033530
+2026,施政評價,10月現任市長不滿意,35.0,%,TVBS 10月調查,獨立測量指標，未建立選票轉換率,https://news.tvbs.com.tw/politics/4033530
+2026,歷史選票自述交叉表,10月自述2022投黃珊珊者轉支持沈,53.0,%,TVBS 10月，2022自述投黃者,不可直接乘2022全部實際黃珊珊票,https://news.tvbs.com.tw/politics/4033530
+2026,歷史選票自述交叉表,10月自述2022投黃珊珊者轉支持蔣,39.0,%,TVBS 10月，2022自述投黃者,不可直接乘2022全部實際黃珊珊票,https://news.tvbs.com.tw/politics/4033530
+2026,問卷投票意願,10月表示會投票,92.0,%,TVBS 10月，表示一定或可能投票,自述意願非實際投票率,https://news.tvbs.com.tw/politics/4033527
+2026,機構推估,TVBS 預估投票率,71.0,%,TVBS推估，不是觀測結果,僅作情境參數候選,https://news.tvbs.com.tw/politics/4033527
