@@ -1,0 +1,41 @@
+{
+  "task_id": "news",
+  "edition": "evening",
+  "report_date": "2026-11-02",
+  "scheduled_for": "2026-11-02T19:00:00+08:00",
+  "source_cutoff": "2026-11-02T19:40:00+08:00",
+  "diff_baseline": "automations/active/04_工作新聞早午晚報/latest_result.md (ChatGPT 11/2 08:00 晨報，截斷版)；repo 無 news 前報",
+  "events": [
+    {"id":"tw_market_1102","type":"CHANGED","summary":"加權收44,920.14（-291.69,-0.65%），盤中一度跌812點；成交7,588.75億；漲526跌456；台積電2,330（-40）","next_check":"11/3 09:00 開盤與台積電"},
+    {"id":"tw_institutional_1102","type":"CHANGED","summary":"外資-735.21億（連3賣）、投信+361.17億（連15買）、自營-152.88億，合計-526.91億","next_check":"11/3 盤後法人"},
+    {"id":"tw_fut_foreign_oi","type":"CHANGED","summary":"外資台指期淨空-89,379口（前-92,241，減2,862口）；台指期11月日盤45,256（-44）","next_check":"11/3 期交所三大法人期貨部位"},
+    {"id":"twd_1102","type":"NEW","summary":"新台幣收32.592貶1.14角，盤中32.714；據彭博央行暫不限制出口商每日賣匯額度","next_check":"32.7/32.8關卡、央行動作"},
+    {"id":"kao_chin_spy_case","type":"NEW","summary":"高金素梅以被告身分約談，複訊後無保請回、限制出境出海（張俊傑共諜案）","next_check":"高檢署說明、黨團反應"},
+    {"id":"apec_invite","type":"NEW","summary":"外長證實中方以電郵寄APEC深圳峰會邀請，我方抗議；未用Chinese Taipei屬媒體說法","next_check":"領袖代表人選、中方回應；峰會11/18-19"},
+    {"id":"ccg_kinmen_east","type":"CHANGED","summary":"11/2下午4艘中國海警闖金門限制水域，17時許離開；國防部11/1-11/2：共艦7、公務船6、共機19架次","next_check":"11/3 國防部通報"},
+    {"id":"tw_pmi_oct","type":"NEW","summary":"10月PMI 62.5%（-0.9）、NMI 55.4%（-1.5），放緩源於AI零組件缺料","next_check":"10月出口、CPI"},
+    {"id":"tw_chip_export_ai_tax","type":"NEW","summary":"晶片輸中管制修法公聽會；財政部預告AI算力設施納重大公建免營所稅（草案）","next_check":"草案定案、行政院版本"},
+    {"id":"us_iran_hormuz","type":"CHANGED","summary":"伊朗提2天重開荷姆茲方案待美方回應；11/2多艘船遇襲含卡達LNG船Al Mayeda","next_check":"美方回應、11/3選後48小時"},
+    {"id":"oil_opec","type":"CHANGED","summary":"Brent約109.7-110（-3%）、WTI約100.7；OPEC+七國12月不變，下次11/29","next_check":"選後地緣、11/29"},
+    {"id":"us_midterms","type":"CHANGED","summary":"11/3投票；民主黨看好拿眾院、參院五五波；提前投票AFP 5,400萬 vs Election Lab 4,956萬(10/30)","next_check":"開票 台灣11/4 08:00起"},
+    {"id":"ai_semis_selloff","type":"CHANGED","summary":"10/30費半-7.2%（Intel暴跌）；11/2美期反彈NQ約+0.8-0.9%，Kospi+2.24%","next_check":"Apple、Palantir（11/3約05:00）、AMD（11/4）"},
+    {"id":"pboc_overnight_rate","type":"CHANGED","summary":"人行主要政策利率改為隔夜逆回購1.25%，首日5,410億；三部門研議回購再貸款（業界消息）","next_check":"官方會後公告"},
+    {"id":"anthropic_ipo_japan","type":"NEW","summary":"Anthropic擬在日本出售最多5,529億日圓股票作為美國IPO一部分","next_check":"定價與掛牌日"},
+    {"id":"ukraine_kherson_truce","type":"INVALIDATED","summary":"Oleshky局部停火11/1期滿，俄方11/2恢復攻擊；推翻停火延伸期待","next_check":"美斡旋談判日期"},
+    {"id":"central_banks_week","type":"NEW","summary":"RBA 11/3預期升至4.85%；BoE 11/5預期升至4.0%；USDJPY約157.85","next_check":"11/3 11:30 RBA"},
+    {"id":"quake_date_fix","type":"INVALIDATED","summary":"M5.6地震為11/1 16:20，非11/2","next_check":null}
+  ],
+  "market_snapshot": {
+    "taiex_close": 44920.14, "taiex_chg": -291.69, "turnover_twd_100m": 7588.75,
+    "adv_dec_unch": [526, 456, 128], "otc_index": 369.24,
+    "tsmc_close": 2330, "txf_nov_day_close": 45256, "txf_basis_media_mixed_time": 335.86,
+    "foreign_net_txf_oi": -89379,
+    "inst_net_twd_100m": {"foreign": -735.21, "trust": 361.17, "dealer": -152.88, "total": -526.91},
+    "usdtwd_close": 32.592,
+    "nikkei": 63081.86, "kospi": 5859.08, "hsi_approx": 23411, "shcomp_approx": 3640,
+    "brent_approx": 110, "wti_approx": 100.7, "ust10y_approx": 4.93, "sox_1030": 10688.80
+  },
+  "not_obtained": ["台指期夜盤", "台積電期貨", "台指期全市場OI", "美債2/30年", "美元指數", "證交所/期交所原表"],
+  "next_verification_nodes": ["2026-11-02T23:00+08:00 ISM製造業", "2026-11-03T05:00+08:00 Apple/Palantir財報", "2026-11-03T11:30+08:00 RBA", "2026-11-04T08:00+08:00 美國開票", "2026-11-18 台指期結算/APEC"],
+  "access_issues": "WebFetch/curl 無法連線 twse、taifex、cna、udn、cnyes、reuters、apnews 等（網路白名單），全部以搜尋結果交叉比對"
+}

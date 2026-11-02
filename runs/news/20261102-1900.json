@@ -1,0 +1,14 @@
+{
+  "task_id": "news",
+  "run_id": "news-20261102-1900-session_01K6fAccgNAznhEt8BrKEhyy",
+  "scheduled_for": "2026-11-02T19:00:00+08:00",
+  "started_at": "2026-11-02T19:22:03+08:00",
+  "completed_at": "2026-11-02T19:30:12+08:00",
+  "trigger_source": "schedule_unverified",
+  "result_path": "reports/news/20261102-1900.md",
+  "delivery_verified": null,
+  "content_complete": false,
+  "source_cutoff": "2026-11-02T19:40:00+08:00",
+  "state_version": "state/news/20261102-1900.json",
+  "notes": "主要內容完整；直接來源（證交所/期交所/新聞原文）因網路白名單無法開啟，夜盤、台積電期貨、美債2/30年、美元指數未取得"
+}
