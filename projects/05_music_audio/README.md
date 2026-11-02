@@ -1,13 +1,9 @@
 # 音樂與音訊
 
-歌單CSV實數1,041筆，非即時服務端同步；音樂評分187筆屬歷史原評與有效修正，不等於使用者評分或The Bias List。
-
-| 檔案 | 來源 |
+| 檔案 | 內容 |
 |---|---|
-| `amazon_library_1041.csv` | `Music/amazon-music-library.csv` |
-| `music_ratings_187.md` | `music-ratings.md` |
-| `ratings_ledger_2026-09-18.md` | `music_rating_ledger_2026-09-18.md` |
+| `amazon_library_1041.csv` | Amazon Music 歌單快照，1,041 首 |
+| `music_ratings_187.md` | 187 筆歷史評分（過去助理寫的分析，不是 Charles 本人或 The Bias List 的分數） |
+| `ratings_ledger_2026-09-18.md` | 舊版評分帳 |
 
-推薦先去重，作品版本、長短版、錄音與現場分開。magic-transcript.md等底層逐字稿本次未定位，評分文件的來源錨點只作歷史追溯。EQ參考PDF及其他CSV見原檔索引。
-
-全域偏好與接手狀態另見根目錄01、02、03、04文件；原檔精確身分與SHA-256見SOURCE_MANIFEST。
+推薦前先用「歌名＋演出者＋版本」去重。評分時版本、錄音、現場、長短版分開。EQ 參考 PDF 與其他歌單 CSV 在 `archive/handoff_2026-11-02/90_ORIGINAL_FILES/`。音樂雷達排程目前停用。

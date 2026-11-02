@@ -1,17 +1,15 @@
-# 醫師二階：先讀這裡
+# 醫師二階國考
 
-先上傳study_plan.md、answer_baseline.md與本README；要開始小兒重做再加入closed_book PDF與互動HTML，作答前不讀答案。完整136題HTML／PDF供訂正。現行136題，固定基準正文保留舊135歷史段落，以10/10校正節為準。
-
-| 檔案 | 來源 |
+| 檔案 | 用途 |
 |---|---|
-| `study_plan.md` | `醫師二階_回收索引與11週複習計畫_2026-11-01.md` |
-| `answer_baseline.md` | `醫師二階錯題複習_固定基準.md` |
-| `explanations_136.html` | `醫學錯題詳解原文彙編.html` |
-| `explanations_136_ipad.pdf` | `醫師二階136題詳解_iPad閱讀版_校正版.pdf` |
-| `pediatrics_22_closed_book.pdf` | `醫師二階_小兒22題_閉卷重做版.pdf` |
-| `pediatrics_22_interactive.html` | `醫師二階_小兒22題_重做與詳解.html` |
-| `acls_reference.pdf` | `ACLS_2026_題庫三層分類整理.pdf` |
+| `study_plan.md` | 11 週計畫與第 12 節每日紀錄表（每天都更新這張表） |
+| `answer_baseline.md` | 136 題的作答與官方答案基準；以 2026-10-10 校正節為準 |
+| `explanations_136.html`／`explanations_136_ipad.pdf` | 136 題逐選項詳解（訂正用） |
+| `pediatrics_22_closed_book.pdf` | 小兒 22 題閉卷版，答案表在最後幾頁 |
+| `pediatrics_22_interactive.html` | 小兒 22 題作答後展開詳解 |
+| `acls_reference.pdf` | ACLS 2026 題庫分類參考 |
 
-HTML可在本機瀏覽器使用。包內保留原檔，四Q26/Q30的個人B殘字不改寫；以個人C及官方A/D為準。Q8原圖仍依原計畫官方URL取得。progress_snapshot.json只記待回報，不能猜完成。
-
-全域偏好與接手狀態另見根目錄01、02、03、04文件；原檔精確身分與SHA-256見SOURCE_MANIFEST。
+- 作答校正（個人／官方）：三 Q6 B／C、三 Q7 C／A、四 Q26 C／A、四 Q30 C／D。詳解 HTML 裡殘留的「個人 B」不用。
+- 小兒 Q8 需要官方原卷第 2 頁的附圖，計畫檔裡有官方試卷連結。
+- 新的診斷卷與模考卷從考選部官方原卷與最終更正答案取得。
+- `progress_snapshot.json` 是 11/2 交接時的快照；之後的進度看 `study_plan.md` 第 12 節。

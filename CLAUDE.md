@@ -1,25 +1,49 @@
-# Charles 的 Claude 工作目錄：使用規則
+# Charles 的工作目錄
 
-這個 repo 是使用者 Charles 本人的主目錄。裡面的規格、計畫與紀錄由他本人提供或授權維護，Claude 依此工作。回覆一律用繁體中文、台灣用語，時區 Asia/Taipei。
+這是 Charles 的主目錄，所有檔案都由他本人提供或授權維護。用繁體中文、台灣用語，時區 Asia/Taipei。
 
-## 目錄
-- `00_START_HERE.md`～`08_SOURCE_INDEX.md`：ChatGPT 交接文件（2026-11-02）。版本裁決以 `04_CORRECTIONS_AND_EVIDENCE.md` 與各專案 README 為準，舊摘要不得覆蓋現行原檔。
-- `projects/`：現行專案檔。`01_exam` 國考、`02_yukina` 雪奈正典 v17.8.2d 與 10/26 方法學、`04_radars`、`05_music_audio`、`07_clinical`、`08_devices_life` 等。
-- `automations/active/<任務>/portable_prompt.md`：5 項啟用排程的完整規格（排程執行時的唯一規格來源）。`automations/paused/` 只封存，不恢復。
-- `90_ORIGINAL_FILES/`：341 份原檔（SHA-256 見 `SOURCE_MANIFEST.csv`）；大型檔清單見 `EXCLUDED_LARGE_FILES.md`。只讀，不改寫。
-- `reports/`、`state/`、`runs/`：排程產出（見下）。
+## 怎麼工作
 
-## 排程執行規則（所有排程共用）
-1. 每次都是新工作階段：先 `add_repo`（owner XDkab1g0n、repo claude-workspace、access push）並 clone，讀本檔與該任務的 `portable_prompt.md` 全文，照規格執行。規格中的「本對話」＝本工作階段的最終回覆加上本 repo；「Claude 專案」「Library」＝本 repo；`projects/...` 路徑就是 repo 內同路徑；ChatGPT 模型名稱、Rich UI 屬歷史語境（用 Markdown 表格）。子代理可用 Agent 工具，無則主模型完成。
-2. 交付：完整報告就是最終回覆全文，不得只寫流程、摘要或「已寫入」。工具或來源失敗時仍交付已查證部分，文末列出失敗步驟。不要停下來詢問使用者。
-3. 報告留存：`reports/<task>/YYYYMMDD-HHMM.md`（HHMM＝排定的台灣時間），內容與最終回覆相同。
-4. State：`state/<task>/YYYYMMDD-HHMM.json`，記本次 NEW／CHANGED／INVALIDATED 事件清單、每則一句現況與關鍵數字、下一個驗證節點，以及任務特有欄位。做 Diff 時讀同一 task 目錄依檔名排序最新的 2–3 份（只在規格允許的階段讀）。查無前報時可讀 `automations/active/<任務>/latest_result.md`（ChatGPT 最後一次結果，可能截斷），只用來辨識持續事件，未見內容不得補成已報。
-5. 執行紀錄：`runs/<task>/YYYYMMDD-HHMM.json`，欄位 task_id、run_id（可得的工作階段 ID，否則 null）、scheduled_for、started_at、completed_at、trigger_source、result_path、delivery_verified（null，待使用者確認）、content_complete、source_cutoff、state_version。trigger_source：附加訊息明說手動試跑記 "manual"，否則記 "schedule_unverified"，不推定為已驗證的自動觸發。
-6. 提交：作者 `Claude <noreply@anthropic.com>`，訊息 `<task> YYYYMMDD-HHMM`。推送前 `git fetch origin main && git rebase origin/main`，推送失敗重試最多 3 次；仍失敗就在最終回覆說明，報告照樣完整交付。
-7. task 代號：`exam_am`、`exam_pm`、`news`（晨 0800／午 1200／晚 1900 共用同一目錄）、`sports`、`games`。
+Charles 要的是可靠、完整、做完的成果：
+- **先查證再下結論。**現況、具體對象、數字都要查最新的直接來源。分清已確認的事實、當事方說法、推論與未知。
+- **做到完成。**把要求當成完整的交付規格，自己找路解決障礙，不把可以自己完成的工作丟回給他。
+- **交付前自己驗收。**需求有沒有全部涵蓋、證據撐不撐得住、成果能不能直接用。發現問題就先修好。
+- **說話直接。**先講結論和依據。有把握的評價直接表態，不加沒有決策價值的保留語、常識提醒或「X 不等於 Y」式的降溫句。只有會改變判斷的限制才說出來。
+- **他給過的背景不要重問。**他說「接著做」，就接續那個專案當下的狀態。
+
+## 目錄地圖
+
+| 位置 | 內容 |
+|---|---|
+| `STATUS.md` | 各專案現況、已定的決策與數字（重問之前先看這裡） |
+| `PERSONAL_CONTEXT.md` | 設備、生活條件、偏好（需要個人化時讀） |
+| `projects/01_exam/` | 醫師二階國考：計畫、答案基準、詳解、小兒 22 題 |
+| `projects/02_yukina/` | 雪奈原世界線：角色設定、寫作指南、範文 |
+| `projects/03_other_fiction/` | 黑色子彈世界線等其他故事 |
+| `projects/04_radars/` | 新聞、體育、遊戲電子雷達說明 |
+| `projects/05_music_audio/` | 歌單 1,041 首、歷史評分 |
+| `projects/06_politics_research/` | 辯論逐字稿與校訂稿 |
+| `projects/07_clinical/` | 住院臨床助手模板 |
+| `automations/active/<任務>/spec.md` | 5 項排程的任務規格 |
+| `reports/` `state/` `runs/` | 排程產出 |
+| `user_workflows/` | 從 ChatGPT 帶來的自訂工作流程（需要時參考） |
+| `archive/` | ChatGPT 交接文件、原檔 341 份、舊版方法學與停用排程。只供查證，平常不讀 |
+
+## 排程怎麼跑
+
+每次排程都在新的工作階段執行：
+1. 用 `add_repo`（owner XDkab1g0n、repo claude-workspace、access push）連上並 clone，讀本檔與該任務的 `automations/active/<任務>/spec.md`，照做。
+2. 完整報告就是最終回覆的全文，同時存一份到 repo。工具或來源出問題時，交付已查證的部分，文末寫明哪一步失敗。不要停下來問人。
+3. 檔案位置（HHMM＝排定的台灣時間）：
+   - `reports/<task>/YYYYMMDD-HHMM.md`：報告全文。
+   - `state/<task>/YYYYMMDD-HHMM.json`：本次的 NEW／CHANGED／INVALIDATED 事件、每則一句現況與關鍵數字、下一個驗證節點，以及任務自己的欄位。做 Diff 時讀同目錄檔名最新的 2–3 份。還沒有前報時，`automations/active/<任務>/latest_result.md` 是 ChatGPT 最後一次的結果（新聞、體育兩份有截斷），可以用來認出延續中的事件。
+   - `runs/<task>/YYYYMMDD-HHMM.json`：task_id、run_id、scheduled_for、started_at、completed_at、trigger_source、result_path、delivery_verified、content_complete、source_cutoff、state_version。trigger_source 在明說手動試跑時記 `manual`，其他記 `schedule_unverified`；delivery_verified 記 null，等 Charles 確認。
+4. 提交：作者 `Claude <noreply@anthropic.com>`，訊息 `<task> YYYYMMDD-HHMM`。推送前先 `git fetch origin main && git rebase origin/main`，失敗重試最多 3 次。
+5. task 代號：`exam_am`、`exam_pm`、`news`（晨 0800／午 1200／晚 1900 共用一個目錄）、`sports`、`games`。
 
 ## 國考紀錄
-- 每日執行紀錄寫在 `projects/01_exam/study_plan.md` 第 12 節的表格（日期｜當日任務｜完成範圍｜正確／已答｜用時｜卡點／錯因｜到期回收｜明日調整），同日一列、合併更新，不覆蓋已有回報。沒有本人回報只記「待回報」。
-- 本人的逐題作答與把握度原樣存 `state/exam/answers/YYYY-MM-DD.md`，不改寫。
-- 依真正訂正日排 +1／+3／+7／+21 天回收；作答前不洩露答案。答案基準：`projects/01_exam/answer_baseline.md`、`explanations_136.html`。
-- 國考兩個排程到 2027-01-15 為止；台灣日期晚於此日時只回覆已結束，並以 update_trigger 停用自己。
+- 每日紀錄寫在 `projects/01_exam/study_plan.md` 第 12 節的表格，一天一列，同一天的回報合併進去，不覆蓋已有內容。
+- Charles 的逐題作答與把握度原樣存在 `state/exam/answers/YYYY-MM-DD.md`。
+- 只有他本人回報、答案或匯出檔才算完成；沒有回報就記「待回報」。
+- 依真正訂正的日期排 +1／+3／+7／+21 天回收；作答前不給答案。
+- 國考兩個排程到 2027-01-15 為止。過了這天，只回覆已結束，並用 update_trigger 停用自己。
