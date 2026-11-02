@@ -32,7 +32,7 @@ Charles 要的是可靠、完整、做完的成果：
 ## 排程怎麼跑
 
 每次排程都在新的工作階段執行：
-1. 用 `add_repo`（owner XDkab1g0n、repo claude-workspace、access push）連上並 clone，讀本檔與該任務的 `automations/active/<任務>/spec.md`，照做。
+1. 排程已把本 repo 掛為來源，執行時已 clone 好並帶推送授權。先用 `pwd`、`git remote -v` 確認 repo 位置（不在工作目錄就找名為 claude-workspace 的資料夾）；真的找不到才用 `add_repo`（owner XDkab1g0n、repo claude-workspace、access push）或 `git clone`。讀本檔與該任務的 `automations/active/<任務>/spec.md`，照做。
 2. 完整報告就是最終回覆的全文，同時存一份到 repo。工具或來源出問題時，交付已查證的部分，文末寫明哪一步失敗。不要停下來問人。
 3. 檔案位置（HHMM＝排定的台灣時間）：
    - `reports/<task>/YYYYMMDD-HHMM.md`：報告全文。
