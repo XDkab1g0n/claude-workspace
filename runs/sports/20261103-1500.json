@@ -1,0 +1,14 @@
+{
+ "task_id": "sports",
+ "run_id": "sports-20261103-1500",
+ "scheduled_for": "2026-11-03T15:00:00+08:00",
+ "started_at": "2026-11-03T15:14:22+08:00",
+ "completed_at": "2026-11-03T15:21:27+08:00",
+ "trigger_source": "schedule_unverified",
+ "result_path": "reports/sports/20261103-1500.md",
+ "delivery_verified": null,
+ "content_complete": false,
+ "content_complete_note": "雷霆逐人數據與部分進階指標缺；直接連線被網路政策擋掉",
+ "source_cutoff": "2026-11-03T15:30:00+08:00",
+ "state_version": "state/sports/20261103-1500.json"
+}
