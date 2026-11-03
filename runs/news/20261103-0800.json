@@ -1,0 +1,14 @@
+{
+  "task_id": "news",
+  "run_id": "news-20261103-0800",
+  "scheduled_for": "2026-11-03T08:00:00+08:00",
+  "started_at": "2026-11-03T08:02:41+08:00",
+  "completed_at": "2026-11-03T08:06:47+08:00",
+  "trigger_source": "schedule_unverified",
+  "result_path": "reports/news/20261103-0800.md",
+  "delivery_verified": null,
+  "content_complete": false,
+  "content_gaps": "交易所原始頁面被網路政策擋下；台指期 OI、台積電期貨、天然氣、美債 H.15 正式值未取得",
+  "source_cutoff": "2026-11-03T08:05:00+08:00",
+  "state_version": 1
+}

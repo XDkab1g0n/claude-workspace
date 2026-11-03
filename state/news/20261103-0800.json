@@ -1,0 +1,41 @@
+{
+  "task": "news",
+  "edition": "morning",
+  "report_date": "2026-11-03",
+  "source_cutoff": "2026-11-03T08:05:00+08:00",
+  "events": [
+    {"id": "tw-equity-foreign-selling", "status": "NEW", "summary": "加權 11/2 收 44,920.14（-291.69），外資賣超 735.21 億連 3 賣，投信買超 361.17 億；台積電 2,330，外資持股比 68.45% 為 2005 年底以來最低", "next_check": "11/3 09:00 開盤、外資買賣超"},
+    {"id": "twd-weakness", "status": "NEW", "summary": "新台幣 11/2 收 32.592 貶 1.14 角，盤中破 32.7 創逾 18 個月新低，央行調節；傳放寬出口商拋匯限額（未見正式公告）", "next_check": "11/3 16:00 收盤"},
+    {"id": "tw-pmi-oct", "status": "NEW", "summary": "中經院 10 月 PMI 62.5（-0.9）連 13 月擴張，電子光學 60.0，缺料從記憶體擴散至載板；NMI 55.4", "next_check": "華邦電法說、10 月出口（財政部）"},
+    {"id": "taifex-foreign-net-short", "status": "CHANGED", "summary": "外資台指期淨空 89,379 口（前報 92,241）；夜盤 44,310（-917）", "next_check": "11/3 盤後期交所三大法人"},
+    {"id": "us-iran-qatar-hormuz", "status": "CHANGED", "summary": "伊朗稱卡達方案縮為兩天重開荷姆茲，條件為恢復石油豁免與解凍資金；美方未回應，川普稱不急恢復攻擊", "next_check": "美方公開回應、選後軍事決策"},
+    {"id": "oil", "status": "CHANGED", "summary": "Brent 約 111（-2.1%）、WTI 約 96（跌逾 5%），11/2 盤中報價", "next_check": "11/3 結算"},
+    {"id": "us-midterms", "status": "NEW", "summary": "美東 11/3 投票；參院 53-47 toss-up，眾院偏民主黨；最後投票所台灣時間 11/4 14:00 關閉", "next_check": "台灣時間 11/4 上午起開票"},
+    {"id": "ai-capex-doubts", "status": "NEW", "summary": "Marvell 全股票約 1,150 億美元收購 Lumentum，兩股重挫；Oracle 據報募資 200 億美元 -9%；費半 -3.37% 至 10,328.33", "next_check": "AI 股能否止穩、後續大型科技財報"},
+    {"id": "pltr-aapl-earnings", "status": "NEW", "summary": "Palantir Q3 營收 23.1 億美元上修財測；Apple FQ4 營收 1,144.8 億美元，毛利率 47.9% 受記憶體成本壓力", "next_check": "11/3 美股盤中反應"},
+    {"id": "us-ism-oct", "status": "NEW", "summary": "ISM 製造業 55.5（預期 54.6），物價 75.2", "next_check": "ISM 服務業"},
+    {"id": "china-market-support", "status": "CHANGED", "summary": "人行、金融監管總局、證監會 11/2 與銀行券商會商回購增持再貸款等工具；滬深 300 10 月 -8.5%；正式措施未公告", "next_check": "主管機關公告"},
+    {"id": "pla-activity", "status": "UNCHANGED", "summary": "11/2 公告共機 19 架次、共艦 7、公務船 6；11/3 公告未取得", "next_check": "11/3 國防部公告"}
+  ],
+  "markets": {
+    "taiex": {"value": 44920.14, "change": -291.69, "as_of": "2026-11-02T13:30+08:00"},
+    "turnover_twd_100m": 7588.75,
+    "txf_day": {"value": 45256, "change": -44, "basis": 335.86, "as_of": "2026-11-02T13:45+08:00"},
+    "txf_night": {"value": 44310, "change": -917, "as_of": "2026-11-03T05:00+08:00"},
+    "foreign_txf_net_oi": -89379,
+    "tsmc": 2330,
+    "tsm_adr": {"value": 398.63, "pct": -1.85},
+    "sox": {"value": 10328.33, "pct": -3.37},
+    "nasdaq": {"value": 25164.32, "pct": -1.07},
+    "spx": {"value": 7541.40, "pct": -0.51},
+    "dow": {"value": 51983.98, "pct": 0.41},
+    "ust2y": 4.60, "ust10y_intraday": 4.91, "ust30y_intraday": 5.28,
+    "dxy_approx": 101.7,
+    "usdtwd": 32.592,
+    "brent_intraday": 111, "wti_intraday": 96,
+    "not_obtained": ["txf_oi", "tsmc_futures", "natgas", "h15_official_yields"]
+  },
+  "next_nodes": ["11/3 09:00 臺股開盤", "國防部 11/3 公告", "新台幣 16:00 收盤", "華邦電、環球晶法說", "中國支撐股市措施公告", "美方回應卡達方案", "美國期中選舉開票（台灣時間 11/4 上午）"],
+  "diff_basis": "automations/active/04_工作新聞早午晚報/latest_result.md（11/2 晨報，截斷）",
+  "state_version": 1
+}
