@@ -1,0 +1,34 @@
+{
+  "task": "news",
+  "edition": "evening",
+  "taiwan_date": "2026-11-03",
+  "scheduled_for": "2026-11-03T19:00:00+08:00",
+  "source_cutoff": "2026-11-03T19:40:00+08:00",
+  "baseline_used": "automations/active/04_工作新聞早午晚報/latest_result.md (2026-11-02 晨報, truncated); no prior reports/news files",
+  "events": [
+    {"id": "tw-market-crash-20261103", "type": "NEW", "summary": "加權收43,307.54跌1,612.60(-3.59%)史上第7大跌點，成交9,280.58億；櫃買-6.42%", "key_numbers": {"taiex": 43307.54, "chg": -1612.60, "turnover_bn_twd": 9280.58, "otc": 345.52}, "next_check": "11/4 09:00 開盤"},
+    {"id": "tw-institutional-20261103", "type": "NEW", "summary": "外資賣超1,073.07億(連4賣、史上第8大)，投信+199.05億，自營-590.55億，合計-1,464.56億", "key_numbers": {"foreign": -1073.07, "trust": 199.05, "dealer": -590.55, "total": -1464.56}, "next_check": "11/4 盤後法人"},
+    {"id": "tw-foreign-futures-oi", "type": "CHANGED", "summary": "外資台指期淨空91,812口，較前日加碼2,433口；10/30為92,241", "key_numbers": {"net_oi": -91812, "chg": -2433}, "next_check": "11/4 期交所盤後"},
+    {"id": "twd-depreciation", "type": "NEW", "summary": "新台幣收32.76貶1.68角，盤中32.86一年半低；匯銀看測33元", "key_numbers": {"usdtwd": 32.76, "chg": -0.168}, "next_check": "11/4 收盤是否破33"},
+    {"id": "winbond-q3", "type": "NEW", "summary": "華邦電Q3 EPS 7.58、毛利率70.6%，Q4續成長但放緩；股價跌停146", "key_numbers": {"eps": 7.58, "gm": 70.6, "close": 146}, "next_check": "11/4 股價反應"},
+    {"id": "apec-shenzhen-invite", "type": "NEW", "summary": "中方以電郵邀台出席11/18-19深圳APEC，卓揆稱爭取平等尊嚴出席、未決定", "next_check": "政府宣布出席與否及人選"},
+    {"id": "us-midterms", "type": "NEW", "summary": "11/3投票；預測民主黨眾院84-99%、參院65-85%", "next_check": "台灣11/4 08:00起開票"},
+    {"id": "us-iran-qeshm", "type": "CHANGED", "summary": "美軍11/2晚對格什姆島有限防禦性打擊；談判持續；Brent 11/2結算104.77、11/3約106", "key_numbers": {"brent_settle_1102": 104.77, "wti_settle_1102": 96.46}, "next_check": "卡達調停進度、荷姆茲事件"},
+    {"id": "marvell-lumentum", "type": "NEW", "summary": "Marvell全換股收購Lumentum EV 1,150億美元，兩股重挫；台光通訊跌停", "next_check": "S-4申報、台鏈訂單影響"},
+    {"id": "apple-fq4-margin", "type": "NEW", "summary": "Apple營收1,145億美元，12月季毛利率指引45-46%主因記憶體成本", "next_check": "記憶體合約價"},
+    {"id": "kioxia-guide", "type": "NEW", "summary": "Kioxia 12月季營益指引約2兆日圓持平、低於共識2.35兆，股價-15.8%", "next_check": "美光/三星價格評論"},
+    {"id": "rba-hike", "type": "NEW", "summary": "澳洲央行升息至4.85%（今年第5次、2008年來最高），分裂投票", "next_check": "12月會議"},
+    {"id": "amd-q3", "type": "NEW", "summary": "AMD今晚盤後財報，共識EPS約1.94-1.97、營收約130億美元", "next_check": "台灣11/4 05:00後"},
+    {"id": "tw-flu-h1n1", "type": "NEW", "summary": "媒體標題稱流感重症一週+151例、46死均H1N1（待查證）", "next_check": "疾管署週報"}
+  ],
+  "invalidated": [],
+  "market_snapshot": {
+    "taifex_nov_day_close": 43376, "taifex_nov_chg": -1851, "basis_pts": 68.46, "taifex_dec": 43450,
+    "prior_night_session": 44310,
+    "kospi": 5648.79, "kospi_pct": -3.59, "shanghai": 3608.10, "hsi": 23525.97, "nikkei": "holiday",
+    "spx_1102": 7541.40, "ndx_comp_1102": 25164.32, "dow_1102": 51983.98,
+    "unavailable": ["taifex night session 11/3", "SOX close", "UST 2/10/30y", "DXY"]
+  },
+  "next_verification_nodes": ["11/3 23:00 JOLTS", "11/4 05:00 AMD", "11/4 08:00 midterm results", "11/4 09:00 台股開盤", "11/4 美財政部refunding", "11/6 非農"],
+  "tool_failures": ["WebFetch/curl blocked for twse.com.tw, taifex.com.tw, chinatimes.com, abmedia.io (ENOTFOUND / CONNECT 403)"]
+}
