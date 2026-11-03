@@ -1,0 +1,13 @@
+{
+  "task_id": "games",
+  "run_id": "games-20261103-2150",
+  "scheduled_for": "2026-11-03T21:50:00+08:00",
+  "started_at": "2026-11-03T21:51:19+08:00",
+  "completed_at": "2026-11-03T21:58:51+08:00",
+  "trigger_source": "schedule_unverified",
+  "result_path": "reports/games/20261103-2150.md",
+  "delivery_verified": null,
+  "content_complete": true,
+  "source_cutoff": "2026-11-03T21:50:00+08:00 (web search; official pages partly unreachable)",
+  "state_version": 1
+}

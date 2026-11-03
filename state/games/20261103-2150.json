@@ -1,0 +1,31 @@
+{
+  "task": "games",
+  "run_id": "games-20261103-2150",
+  "window": {"from": "2026-11-02T21:50:00+08:00", "to": "2026-11-03T21:50:00+08:00", "lookback_to": "2026-10-31"},
+  "rotation_topic": "週二：手機、平板、Windows 筆電、掌機、PC 硬體（深掃 PC 硬體價格與供貨）",
+  "prior_reference": "automations/active/05_遊戲與消費電子雷達/latest_result.md (ChatGPT 2026-11-01)",
+  "events": [
+    {"id": "android-2026-11-bulletin", "status": "NEW", "summary": "Android 11 月公告：CVE-2026-58868 Framework 零互動 RCE、CVE-2026-58882 SMS of Death（Critical DoS）；修補層級 2026-11-01／11-05", "key_numbers": "200+ 漏洞（說法不一）", "confirmed": "媒體三方一致；官方頁未能開啟", "next_check": "Samsung 11 月 SMR 推送 Fold 8、小米 HyperOS 11 月修補"},
+    {"id": "tw-gpu-price-2026-11", "status": "NEW", "summary": "台灣顯卡 11-02 起全面調漲，高階需搭售", "key_numbers": "平均 +11.4%；RTX 5090 +28.7%（171,215→220,340）；5080 +14%；5070 Ti +10.3%；RX 9060 XT +23.4%；RX 9070 XT +17.3%", "next_check": "下次通路調查；中國跌價是否傳導"},
+    {"id": "amd-gddr6-hike-2026-11", "status": "NEW", "summary": "傳 AMD 11 月再漲 Radeon GPU 與 GDDR6 套件價", "key_numbers": "至少 +10%（未證實）", "confirmed": false, "next_check": "AMD／AIC 正式通知"},
+    {"id": "dram-teamgroup-2026-11-02", "status": "NEW", "summary": "十銓法說：現貨高於合約 30–50%，缺貨可能到 2028", "key_numbers": "TrendForce Q4 DRAM 合約 +10–15%、NAND +15–20%"},
+    {"id": "phantom-blade-zero-4m", "status": "NEW", "summary": "影之刃零 72 小時 400 萬套", "key_numbers": "Steam 峰值 833,921", "next_check": "PC 穩定性修補"},
+    {"id": "nagoshi-studio-dissolved", "status": "NEW", "summary": "名越工作室解散（10-31 決議、11-02 官報），Gang of Dragon 擱置", "next_check": "NetEase／名越正式聲明、IP 歸屬"},
+    {"id": "warzone-s1-mw4", "status": "NEW", "summary": "Warzone S1 11-06 13:00 整合 MW4、登上 Switch 2、PS4/XB1 停止運作", "key_numbers": "33 把武器"},
+    {"id": "zelda-oot-remake", "status": "CHANGED", "summary": "首批評測（NPR 11-03）已出，評測解禁推測 11-04，11-05 發售", "next_check": "Metacritic 11-04"},
+    {"id": "pikmin4-s2-demo", "status": "UNCHANGED", "summary": "11-02 Demo、11-12 正式版"},
+    {"id": "kb5127936", "status": "UNCHANGED", "summary": "HVCI、右鍵選單；11-11 Patch Tuesday 正式推送；USB Audio 1.0 已知問題未修"},
+    {"id": "nvidia-win10-driver-eol", "status": "UNCHANGED"}
+  ],
+  "lookahead_pool": [
+    {"item": "顯卡／記憶體價格", "trigger": "台灣通路連兩次回落"},
+    {"item": "Motorola Signature 27", "trigger": "11-05 官方價格＋獨立實測＋台灣上市"},
+    {"item": "Acer Predator Atlas 7", "trigger": "官方 MSRP 與獨立實測"},
+    {"item": "Intel Nova Lake-S", "trigger": "CES 2027 官方發表與實測"},
+    {"item": "Gang of Dragon", "trigger": "正式聲明或 IP 轉手"},
+    {"item": "Arkane Lyon / Marvel's Blade", "trigger": "12-13 期限"},
+    {"item": "RTX 4070 Tensor unlock", "trigger": "多卡重複驗證與實際 AI 工作負載增益"}
+  ],
+  "next_checkpoints": ["2026-11-04 OoT 評測解禁（推測）", "2026-11-05 OoT 發售／Signature 27 發表／WoW Forever", "2026-11-06 iPad mini・MacBook Pro M6 台灣上市／Warzone S1", "2026-11-11 Patch Tuesday", "2026-11-12 Pikmin 4 S2", "2026-11-15 Game Pass 下架 14 款", "2026-11-19 GTA VI"],
+  "verification_limits": "source.android.com、ettoday.net 等網域被網路政策擋下，核心事實以 WebSearch 多來源交叉比對"
+}
