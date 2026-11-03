@@ -1,0 +1,14 @@
+{
+  "task_id": "news",
+  "run_id": "news-20261103-1200",
+  "scheduled_for": "2026-11-03T12:00:00+08:00",
+  "started_at": "2026-11-03T12:07:25+08:00",
+  "completed_at": "2026-11-03T12:12:18+08:00",
+  "trigger_source": "schedule_unverified",
+  "result_path": "reports/news/20261103-1200.md",
+  "delivery_verified": null,
+  "content_complete": false,
+  "content_complete_note": "直接來源被網路政策封鎖，僅用搜尋摘要；午盤數據多項拿不到",
+  "source_cutoff": "2026-11-03T12:10:00+08:00",
+  "state_version": "state/news/20261103-1200.json"
+}

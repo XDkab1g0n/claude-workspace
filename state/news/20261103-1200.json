@@ -1,0 +1,40 @@
+{
+  "task": "news",
+  "edition": "midday",
+  "scheduled_for": "2026-11-03T12:00:00+08:00",
+  "source_cutoff": "2026-11-03T12:10:00+08:00",
+  "baseline": "automations/active/04_工作新聞早午晚報/latest_result.md (ChatGPT 2026-11-02 晨報)",
+  "events": [
+    {"id": "tw_equity_selloff", "type": "CHANGED", "status": "加權盤中失守44000，11:40報43,689.22（-1,230.92，-2.74%），盤中低43,675.78；11:18成交約4,527億；櫃買約-5.15%", "key_numbers": {"taiex_1140": 43689.22, "taiex_low": 43675.78, "prev_close_1102": 44920.14, "turnover_1118_ntd_bn": 4527, "otc_1132": 350.22}, "next_check": "11/3 13:30收盤、三大法人"},
+    {"id": "foreign_selling", "type": "CHANGED", "status": "外資11/2賣超735.2億、連3賣；三大法人合計賣超526.91億；台積電外資賣超約349.7億", "next_check": "11/3 盤後法人"},
+    {"id": "twd_weakness", "type": "CHANGED", "status": "USD/TWD 11/2收32.592；11/3早盤最弱32.746；央行放寬出口商拋匯屬傳聞", "key_numbers": {"close_1102": 32.592, "low_1103_am": 32.746}, "next_check": "11/3 16:00收盤，32.7關卡"},
+    {"id": "us_ai_capex_doubts", "type": "CHANGED", "status": "11/2費半-3.37%、Nasdaq-1.07%、Nasdaq-100進入修正；Marvell全股票約1,150億美元收購Lumentum、Oracle籌資200億、Intel財測弱", "next_check": "11/3美股收盤"},
+    {"id": "apple_fq4", "type": "NEW", "status": "營收1,145億美元+12%，EPS 2.10，毛利率47.9%（含約1pt關稅退款）；盤後約-1%至持平", "next_check": "12月季財測細節"},
+    {"id": "optical_cpo_limit_down", "type": "NEW", "status": "穩懋跌停530（10:42）、南電跌停1070（11:27）、CPO類股-5.96%、華星光-9.74%", "next_check": "收盤"},
+    {"id": "korea_selloff", "type": "NEW", "status": "KOSPI 10:17報5,715.39（-2.45%），開盤一度-3.6%；三星-4.6%、SK hynix約-5%；日本休市", "next_check": "首爾15:30收盤"},
+    {"id": "us_midterms", "type": "NEW", "status": "今日投票；參院R 53-47；Kalshi民主黨拿參院約75%、眾院約94%", "next_check": "臺灣11/4 07:00起開票"},
+    {"id": "oil_us_iran_talks", "type": "CHANGED", "status": "Brent 11/2結算104.77（-7.6%），因伊朗–卡達杜哈會談、美伊可能恢復談判", "next_check": "談判是否正式啟動、荷姆茲通航"},
+    {"id": "pla_activity", "type": "NEW", "status": "國防部11/3：共艦6、公務船6、共機31架次；金防部太武實彈操演", "next_check": "每日國防部通報"},
+    {"id": "army_206_case", "type": "NEW", "status": "顧立雄：法紀調查10/26完成，公開需家屬同意；藍要求一週內提行政調查報告", "next_check": "約11/9前國防部報告"},
+    {"id": "legislature_budget_cash", "type": "UNCHANGED", "status": "普發2萬特別條例逕付二讀協商中；總預算與追加預算審議中；毒駕修法副署爭議", "next_check": "11/28九合一前是否三讀"}
+  ],
+  "invalidated": [
+    {"item": "費半-7.2%／台指期夜盤-867屬10/30那一輪，不是11/2", "reason": "時點錯置"}
+  ],
+  "market_snapshot": {
+    "taiex": {"value": 43689.22, "chg": -1230.92, "pct": -2.74, "time": "11:40 intraday"},
+    "txf_nov_open": {"value": 44400, "chg": -827, "time": "08:45"},
+    "txf_night_1102": {"value": 44310, "chg": -917},
+    "tsmc_fut_night_1102": {"value": 2291, "chg": -51},
+    "tsmc_spot": {"open": 2300, "low": 2295, "prev_close": 2330},
+    "usdtwd": {"low_am": 32.746, "prev_close": 32.592},
+    "kospi": {"value": 5715.39, "pct": -2.45, "time": "10:17 KST"},
+    "nikkei": "closed (Culture Day)",
+    "es_fut": {"value": 7578, "chg": 3.5, "time": "early Asia 11/3"},
+    "nq_fut": {"value": 28251, "pct": 0.44},
+    "brent_settle_1102": 104.77
+  },
+  "unavailable": ["午盤加權與成交", "漲跌家數", "台指期與台積電期盤中", "期現價差盤中", "USD/TWD午盤", "恒生與上證盤中", "美債殖利率", "美元指數"],
+  "next_verification_nodes": ["11/3 13:30臺股收盤", "11/3盤後三大法人與外資期貨淨空", "11/3 16:00新台幣收盤", "11/4 07:00起美國期中選舉開票", "11/6美國非農"],
+  "data_quality": "direct_sources_blocked_search_snippets_only"
+}
