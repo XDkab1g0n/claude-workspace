@@ -1,0 +1,28 @@
+{
+  "task": "news",
+  "edition": "evening",
+  "taiwan_date": "2026-11-04",
+  "scheduled_for": "2026-11-04T19:00:00+08:00",
+  "source_cutoff": "2026-11-04T19:40:00+08:00",
+  "diff_base": "automations/active/04_工作新聞早午晚報/latest_result.md (2026-11-02 晨報, truncated)",
+  "events": [
+    {"id": "us_midterms_2026", "type": "NEW", "status": "民主黨經 AP/CBS/CNN 推估取得參眾兩院；參院最終席次待確認", "key_numbers": {"senate_seats_gop_before": 53}, "next_check": "AP 參院最終席次；11/4 美股開盤"},
+    {"id": "tw_equity_selloff_nov", "type": "CHANGED", "status": "加權 42,948.91（-358.63, -0.83%），盤中低 41,855.82；11/3 已跌 1,612.6", "key_numbers": {"taiex_close": 42948.91, "taiex_prev_close": 43307.54, "turnover_bn_twd": 11161.4, "intraday_low": 41855.82, "tsmc_close": 2260}, "next_check": "11/5 外資是否連 6 賣、融資餘額"},
+    {"id": "foreign_flows_tw", "type": "CHANGED", "status": "外資賣 1,498.99 億（史上第 5 大、連 5 賣），投信買 276.31 億（連 17 買），合計賣 1,597.87 億", "key_numbers": {"foreign_net_bn": -1498.99, "trust_net_bn": 276.31, "dealer_net_bn": -375.19, "dealer_prop_bn": -7.53, "dealer_hedge_bn": -367.66, "total_bn": -1597.87}, "next_check": "11/5 15:00"},
+    {"id": "txf_foreign_net_short", "type": "CHANGED", "status": "外資台指期淨空約 93,647 口，歷史新高（單一來源）", "key_numbers": {"net_short_contracts": 93647, "prev_20261103": 91812, "prev_20261030": 92241, "txf_nov_day_close": 43204, "txf_change": -149, "basis_pts": 255.09}, "next_check": "期交所原始表格；夜盤 05:00"},
+    {"id": "usd_twd", "type": "CHANGED", "status": "32.821，貶 6.1 分，連 3 貶；成交 23.22 億美元", "key_numbers": {"close": 32.821, "prev_close": 32.76, "turnover_bn_usd": 23.22}, "next_check": "11/5 外資匯出"},
+    {"id": "us_iran_qeshm", "type": "NEW", "status": "美軍 11/2 對格什姆島有限度打擊；談判持續，伊朗稱提案不足", "key_numbers": {"brent_usd": 103.2, "wti_usd": 95.6, "brent_20261102": 111.92}, "next_check": "荷姆茲通航條件"},
+    {"id": "amd_q3_2026", "type": "NEW", "status": "Q3 營收 133.8 億美元、EPS 2.09、資料中心 +97%；Q4 指引約 170 億", "key_numbers": {"revenue_bn": 13.38, "eps": 2.09, "dc_rev_bn": 8.5, "q4_guide_bn": 17}, "next_check": "11/4 美股正式交易"},
+    {"id": "fed_hike_odds", "type": "NEW", "status": "第三方報導 12 月升息機率約 77–79%，未以 CME 原頁核對", "key_numbers": {"fed_funds": "3.75-4.00", "dec_hike_prob": 0.78}, "next_check": "ADP/ISM 今晚、11/6 非農"},
+    {"id": "tw_supplementary_budget", "type": "NEW", "status": "6,076 億追加預算 11/4 起聯席審查，朝野共識 11/20 前三讀", "key_numbers": {"amount_bn_twd": 6076}, "next_check": "11/20"}
+  ],
+  "markets": {
+    "nikkei": {"close": 62188.63, "pct": -1.42},
+    "kospi": {"close": 5683.80, "pct": 0.62},
+    "spx_20261103": 7568.92, "ndx_comp_20261103": 25372.01,
+    "us10y": 4.91,
+    "missing": ["TPEX index", "advance/decline counts", "HSI close", "SSE close", "US2Y", "US30Y", "SOX", "margin balance 11/4", "TXF night session"]
+  },
+  "next_nodes": ["2026-11-04T21:15+08:00 ADP", "2026-11-04T21:30+08:00 Treasury refunding", "2026-11-04T23:00+08:00 ISM services", "2026-11-05T05:00+08:00 TXF night close", "2026-11-06 NFP", "2026-11-10/11 Abu Dhabi talks", "2026-11-20 budget third reading"],
+  "data_limitations": "twse/cnyes/ctee/udn/chinatimes/newtalk blocked in sandbox; Taiwan figures from cross-checked search extracts"
+}

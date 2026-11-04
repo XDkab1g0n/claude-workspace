@@ -1,0 +1,13 @@
+{
+  "task_id": "news",
+  "run_id": "trig_01RKo85qnwJWEPm3KT2EDNxJ-20261104-1900",
+  "scheduled_for": "2026-11-04T19:00:00+08:00",
+  "started_at": "2026-11-04T19:12:03+08:00",
+  "completed_at": "2026-11-04T19:15:51+08:00",
+  "trigger_source": "schedule_unverified",
+  "result_path": "reports/news/20261104-1900.md",
+  "delivery_verified": null,
+  "content_complete": false,
+  "source_cutoff": "2026-11-04T19:40:00+08:00",
+  "state_version": "state/news/20261104-1900.json"
+}
