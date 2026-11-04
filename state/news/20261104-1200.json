@@ -1,0 +1,18 @@
+{
+  "task": "news",
+  "edition": "midday",
+  "scheduled_for": "2026-11-04T12:00:00+08:00",
+  "source_cutoff": "2026-11-04T12:10:00+08:00",
+  "events": [
+    {"id": "us-midterms-2026", "status": "NEW", "summary": "民主黨經三大電視網推估奪眾院；參院未定，Maine/Michigan/Alaska未開完", "key_numbers": {"maine_collins_pct": 50.1, "maine_jackson_pct": 49.8, "mi_elsayed_pct": 51.2, "mi_rogers_pct": 47.0}, "next_check": "AP 參院判定"},
+    {"id": "asia-ai-selloff-blue-wave", "status": "NEW", "summary": "藍色浪潮→AI資料中心監管預期，亞洲AI硬體鏈重挫", "key_numbers": {"nikkei_midday": 60835, "nikkei_pct": -3.6, "kospi_intraday": 5478.89, "msci_apac_max_pct": -2.3}, "next_check": "日韓收盤"},
+    {"id": "taiex-selloff", "status": "CHANGED", "summary": "11/3 -1612.60收43307.54後，11/4開高走低盤中跌逾1400", "key_numbers": {"taiex_1149": 41931.55, "chg_1149": -1375.99, "intraday_low": 41872.77, "intraday_high": 43741.54, "turnover_1108_100m_twd": 5573.19, "otc_1147_pct": -5.39, "foreign_net_sell_1103_100m_twd": -1073}, "next_check": "13:30收盤與三大法人"},
+    {"id": "usdtwd", "status": "CHANGED", "summary": "新台幣午盤32.885貶1.25角，觸32.9", "key_numbers": {"midday": 32.885, "open": 32.79, "high": 32.9}, "next_check": "16:00收盤"},
+    {"id": "us-iran-oil", "status": "CHANGED", "summary": "美方據報打擊Qeshm，但和談預期壓油價；Brent近4週低", "key_numbers": {"brent_1103_settle": 103.60, "brent_1104_asia": 103.34, "wti_1104_asia": 95.56, "brent_1102_ref": 111.92}, "next_check": "EIA週報、伊朗回應"},
+    {"id": "amd-q3-2026", "status": "NEW", "summary": "AMD Q3營收134億美元、資料中心+97%，盤後+7.5%", "key_numbers": {"revenue_bn": 13.4, "dc_bn": 8.5, "dc_yoy_pct": 97, "gm_pct": 54, "ah_price": 520.4}, "next_check": "11/4美股正常盤"},
+    {"id": "tw-politics-1104", "status": "NEW", "summary": "藍營物價記者會；自稱前央視主講人求人道保護", "key_numbers": {}, "next_check": "陸委會/移民署表態、主計總處CPI"}
+  ],
+  "invalidated": [],
+  "unavailable": ["12:00整點加權與成交", "漲跌家數", "台積電期貨報價", "同時點期現價差"],
+  "fetch_failure": "WebFetch/curl 對 cnyes/CNA/TWSE/TAIFEX/Reuters/AP/CBS DNS 被網路政策封鎖，僅能用搜尋"
+}
