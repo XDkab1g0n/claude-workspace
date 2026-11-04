@@ -1,0 +1,490 @@
+{
+ "task": "sports",
+ "run": "20261104-1500",
+ "state_version": 1,
+ "source_cutoff": "2026-11-04T15:15:00+08:00",
+ "window": {
+  "from": "2026-11-01T15:00:00+08:00",
+  "to": "2026-11-04T15:00:00+08:00"
+ },
+ "diff_baseline": "automations/active/03_體育雷達 v3/latest_result.md (ChatGPT 2026-11-01 15:00, truncated)",
+ "events": [
+  {
+   "id": "f1-2026-champion",
+   "type": "CHANGED",
+   "status": "final",
+   "summary": "Antonelli 墨西哥站第3封王，史上最年輕（20歲68天）；Verstappen 分站冠軍",
+   "key": {
+    "drivers": {
+     "Antonelli": 380,
+     "Verstappen": 261,
+     "Hamilton": 259,
+     "Russell": 250,
+     "Leclerc": 245,
+     "Norris": 221
+    },
+    "constructors": {
+     "Mercedes": 630,
+     "Ferrari": 504
+    }
+   },
+   "next_check": "聖保羅站 Mercedes 能否封車隊冠軍（正賽 2026-11-09 01:00 TW）"
+  },
+  {
+   "id": "f1-mexico-penalties",
+   "type": "NEW",
+   "status": "final",
+   "summary": "賽後罰則：Piastri +10s P7→P13；Colapinto +10s P8→P15；Gasly +30s P10→P17；Leclerc 賽中 5s 仍 P4"
+  },
+  {
+   "id": "f1-cadillac-sale",
+   "type": "NEW",
+   "status": "report_unconfirmed",
+   "summary": "Sportico：TWG 以≥30億美元估值兜售 Cadillac 車隊/股份",
+   "next_check": "官方聲明"
+  },
+  {
+   "id": "okc-20261102-cle",
+   "type": "NEW",
+   "status": "final",
+   "summary": "雷霆 117-112 @騎士，SGA 43分（14/35）末段超前三分，戰績5-2",
+   "key": {
+    "quarters_okc": [
+     26,
+     33,
+     31,
+     27
+    ],
+    "quarters_cle": [
+     30,
+     18,
+     36,
+     28
+    ]
+   }
+  },
+  {
+   "id": "okc-injuries",
+   "type": "CHANGED",
+   "status": "ongoing",
+   "summary": "Caruso 移出傷病名單；Jaylin Williams 下背痙攣 questionable；Holmgren 8–10週、J.Williams/Wallace 術後長期",
+   "next_check": "11/5 09:00 vs CLE 出賽名單"
+  },
+  {
+   "id": "okc-dalen-terry",
+   "type": "NEW",
+   "status": "final",
+   "summary": "11/3 簽 Dalen Terry 兩年標準約"
+  },
+  {
+   "id": "nba-unbeaten-ends",
+   "type": "NEW",
+   "status": "final",
+   "summary": "灰熊延長賽負鵜鶘，聯盟無不敗；國王首勝，無零勝"
+  },
+  {
+   "id": "nba-doncic-45-15-5-5-5",
+   "type": "NEW",
+   "status": "final",
+   "summary": "Dončić 11/1 史上首個 45/15/5/5/5；11/2 再 42分"
+  },
+  {
+   "id": "nba-draymond-ejection",
+   "type": "NEW",
+   "status": "pending_official",
+   "summary": "Green 11/2 被驅逐，報導稱不追加處分"
+  },
+  {
+   "id": "mlb-offseason-qo",
+   "type": "NEW",
+   "status": "ongoing",
+   "summary": "8人獲QO（$23.15M），11/17 期限",
+   "next_check": "2026-11-17"
+  },
+  {
+   "id": "mlb-awards-finalists",
+   "type": "NEW",
+   "status": "scheduled",
+   "summary": "BBWAA 決選名單公布；新人王11/9、總教練11/10、賽揚11/11、MVP 11/12（美國）"
+  },
+  {
+   "id": "mlb-cba",
+   "type": "NEW",
+   "status": "ongoing",
+   "summary": "CBA 12/1 到期；MLB 提議工資帽延到2028，工會拒絕",
+   "next_check": "2026-12-01"
+  },
+  {
+   "id": "mlb-mariners-manager",
+   "type": "NEW",
+   "status": "final",
+   "summary": "水手聘 Jason Kanzler"
+  },
+  {
+   "id": "tw-sung-chia-hao",
+   "type": "NEW",
+   "status": "final",
+   "summary": "宋家豪 樂天不續約，成自由球員"
+  },
+  {
+   "id": "cpbl-awards",
+   "type": "NEW",
+   "status": "final",
+   "summary": "中職MVP 蔣銲；新人王 鍾允華（33救援）"
+  },
+  {
+   "id": "tw-badminton-hylo",
+   "type": "CHANGED",
+   "status": "final",
+   "summary": "許尹鏸/林芝昀 海洛公開賽女雙亞軍（18-21, 19-21）"
+  },
+  {
+   "id": "tw-golf-wistron",
+   "type": "CHANGED",
+   "status": "final",
+   "summary": "緯創女子公開賽：Alexander -21 奪冠；蔡佩穎 T3、黃靖 5"
+  },
+  {
+   "id": "tw-tt-lin-yun-ju",
+   "type": "NEW",
+   "status": "ongoing",
+   "summary": "林昀儒 WTT 法蘭克福逆轉 Jorgic，16強對周啟豪 11/5"
+  },
+  {
+   "id": "wnba-liberty-coach",
+   "type": "NEW",
+   "status": "final",
+   "summary": "自由人開除 DeMarco"
+  },
+  {
+   "id": "nyc-marathon",
+   "type": "NEW",
+   "status": "final",
+   "summary": "Almgren 2:06:01、Chepkirui 2:24:36"
+  },
+  {
+   "id": "wta-finals-move",
+   "type": "NEW",
+   "status": "scheduled",
+   "summary": "WTA 年終賽移至 Indian Wells 11/8–15"
+  }
+ ],
+ "invalidated": [],
+ "conflicts_pending": [
+  "林昱珉 2026 年成績（26G/117IP/5.54 vs 28G/129IP/5.16）",
+  "孫易磊一軍出賽數（22 vs 10）",
+  "PLG 台鋼 vs 洋基比分",
+  "Bottas 事故圈數 44/45/46",
+  "McCain 籃板 9 vs 8"
+ ],
+ "thunder": {
+  "record": "5-2",
+  "analyzed_games": [
+   {
+    "date_us": "2026-10-31",
+    "opp": "@HOU",
+    "result": "L 98-119",
+    "analyzed_in": "ChatGPT 2026-11-01 report"
+   },
+   {
+    "date_us": "2026-11-02",
+    "opp": "@CLE",
+    "result": "W 117-112",
+    "analyzed_in": "reports/sports/20261104-1500.md"
+   }
+  ],
+  "advanced_pending": {
+   "2026-11-02@CLE": [
+    "官方 ORtg/DRtg/Pace",
+    "CLE OREB（OREB% 正式值）",
+    "McCain、Kenrich 分鐘",
+    "替補 +/-",
+    "完整投籃拆分",
+    "lineup/on-off",
+    "PITP/fastbreak/bench/pts off TO",
+    "SGA TOV 與正式 USG%"
+   ],
+   "2026-10-31@HOU": [
+    "官方 lineup/on-off、USG%"
+   ]
+  },
+  "injuries": {
+   "Holmgren": "髕腱小撕裂 8–10週",
+   "Jalen Williams": "左腓骨骨折+腳踝脫臼術後，可能報銷",
+   "Cason Wallace": "左肩盂唇術後，例行賽末前再評估",
+   "Sorber": "右膝術後 OUT",
+   "Topic": "下背術後 OUT",
+   "Caruso": "11/3 移出傷病名單",
+   "Jaylin Williams": "下背痙攣 questionable（11/4）"
+  },
+  "transactions": [
+   "2026-11-03 簽 Dalen Terry 2年標準約"
+  ]
+ },
+ "taiwan_overseas_roster": [
+  {
+   "name": "鄧愷威",
+   "org": "MLB 太空人",
+   "level": "MLB/3A",
+   "2026": "MLB 30G(10GS) 5-7 4.76 ERA 73.2IP 73K",
+   "status": "休賽季，40人名單狀態未查到",
+   "src": "https://udn.com/news/story/6999/9792267"
+  },
+  {
+   "name": "李灝宇",
+   "org": "MLB 老虎",
+   "level": "MLB",
+   "2026": "114G .264 10HR 46RBI OPS .746",
+   "status": "休賽季",
+   "src": "https://www.chinatimes.com/realtimenews/20260928000719-260403"
+  },
+  {
+   "name": "鄭宗哲",
+   "org": "MLB 老虎（10/29 自紅襪現金交易）",
+   "level": "MLB/3A",
+   "2026": "MLB 14G 10H；3A 約 .241 8HR（另說 .207）",
+   "status": "無小聯盟選項",
+   "src": "https://sports.ltn.com.tw/news/breakingnews/5623531"
+  },
+  {
+   "name": "林昱珉",
+   "org": "MLB 響尾蛇",
+   "level": "3A",
+   "2026": "⚠ 26G 117IP 5.54 / 28G 129IP 5.16 兩說",
+   "status": "休賽季",
+   "src": "https://players.clutchgtime.com/"
+  },
+  {
+   "name": "林維恩",
+   "org": "MLB 運動家",
+   "level": "3A",
+   "2026": "2A 10GS 3-1 1.93；3A 2G",
+   "status": "6月 TJ 手術，賽季報銷",
+   "src": "https://tsna.com/article/129253"
+  },
+  {
+   "name": "莊陳仲敖",
+   "org": "MLB 運動家",
+   "level": "3A",
+   "2026": "2A/3A 4-6 6.42",
+   "status": "DFA 後無人認領，留 3A",
+   "src": "https://sports.ettoday.net/news/3209964"
+  },
+  {
+   "name": "沙子宸",
+   "org": "MLB 運動家",
+   "level": "High-A",
+   "2026": "25G 3-6 8.71",
+   "status": "",
+   "src": "https://players.clutchgtime.com/player/tzu-chen-sha/"
+  },
+  {
+   "name": "黃仲翔",
+   "org": "MLB 響尾蛇",
+   "level": "1A",
+   "2026": "未查到",
+   "status": "",
+   "src": "https://clutchgtime.com/taiwan-mlb-players/"
+  },
+  {
+   "name": "廖宥霖",
+   "org": "MLB 釀酒人",
+   "level": "新人聯盟",
+   "2026": "未查到",
+   "status": "將打亞洲冬季聯盟",
+   "src": "https://www.cna.com.tw/news/aspt/202611030326.aspx"
+  },
+  {
+   "name": "陳柏毓",
+   "org": "MLB 海盜",
+   "level": "2A",
+   "2026": "僅查到5月 ERA 7.52",
+   "status": "未查到",
+   "src": ""
+  },
+  {
+   "name": "賴建帆",
+   "org": "MLB 洋基",
+   "level": "新秀",
+   "2026": "6月簽約",
+   "status": "",
+   "src": "https://focustaiwan.tw/sports/202606280002"
+  },
+  {
+   "name": "曾峻岳",
+   "org": "中職富邦（行使旅外權）",
+   "level": "—",
+   "2026": "",
+   "status": "10/28 行使旅外權，傳小聯盟約未簽",
+   "src": "https://www.chinatimes.com/realtimenews/20261028003457-260403"
+  },
+  {
+   "name": "徐若熙",
+   "org": "NPB 軟銀",
+   "level": "一軍",
+   "2026": "8G 2-3 4.81；季中下背手術",
+   "status": "日本大賽名單未出賽，隨隊奪冠",
+   "src": "https://players.clutchgtime.com/player/jo-hsi-hsu/"
+  },
+  {
+   "name": "張峻瑋",
+   "org": "NPB 軟銀",
+   "level": "未查到",
+   "2026": "未查到",
+   "status": "",
+   "src": "https://www.cna.com.tw/news/aspt/202603240182.aspx"
+  },
+  {
+   "name": "古林睿煬",
+   "org": "NPB 日本火腿",
+   "level": "一/二軍",
+   "2026": "一軍 7G 12IP 7.50 15K",
+   "status": "左側腹拉傷，10月鳳凰聯盟",
+   "src": "https://sports.ltn.com.tw/news/breakingnews/5610622"
+  },
+  {
+   "name": "孫易磊",
+   "org": "NPB 日本火腿",
+   "level": "一軍",
+   "2026": "⚠ 前報 22G 30.2IP 2.64；本次來源稱一軍10場",
+   "status": "",
+   "src": "https://udn.com/news/story/122629/9696801"
+  },
+  {
+   "name": "林家正",
+   "org": "NPB 日本火腿",
+   "level": "二軍",
+   "2026": "一軍 0 場",
+   "status": "鳳凰聯盟",
+   "src": "https://udn.com/news/story/7001/9798174"
+  },
+  {
+   "name": "林安可",
+   "org": "NPB 西武",
+   "level": "一軍",
+   "2026": "76G .220 8HR 29RBI OPS .675",
+   "status": "鳳凰聯盟",
+   "src": "https://www.ftvnews.com.tw/news/detail/2026A11W0250"
+  },
+  {
+   "name": "林冠臣",
+   "org": "NPB 西武（戰力外）",
+   "level": "—",
+   "2026": "",
+   "status": "10/26 戰力外，去向未定",
+   "src": "https://sports.ltn.com.tw/news/breakingnews/5618925"
+  },
+  {
+   "name": "宋家豪",
+   "org": "NPB 樂天→自由球員",
+   "level": "一軍",
+   "2026": "18G 14.2IP 3.07",
+   "status": "11/3 不續約",
+   "src": "https://www.cna.com.tw/news/aspt/202611030060.aspx"
+  },
+  {
+   "name": "陽柏翔",
+   "org": "NPB 樂天",
+   "level": "一/二軍",
+   "2026": "一軍 7G .222",
+   "status": "入選亞冠賽",
+   "src": "https://www.cna.com.tw/news/aspt/202611010100.aspx"
+  },
+  {
+   "name": "蕭齊",
+   "org": "NPB 樂天",
+   "level": "未查到",
+   "2026": "未查到",
+   "status": "",
+   "src": "https://www.cna.com.tw/news/aspt/202603240182.aspx"
+  },
+  {
+   "name": "陳睦衡",
+   "org": "NPB 歐力士",
+   "level": "一/二軍",
+   "2026": "9月下旬一軍初登板",
+   "status": "入選亞冠賽",
+   "src": "https://www.cna.com.tw/news/aspt/202611010100.aspx"
+  },
+  {
+   "name": "徐翔聖",
+   "org": "NPB 養樂多",
+   "level": "未查到",
+   "2026": "未查到",
+   "status": "入選亞冠賽",
+   "src": "https://www.cna.com.tw/news/aspt/202611010100.aspx"
+  },
+  {
+   "name": "黃錦豪",
+   "org": "NPB 巨人",
+   "level": "未查到",
+   "2026": "未查到",
+   "status": "",
+   "src": "https://www.cna.com.tw/news/aspt/202603240182.aspx"
+  },
+  {
+   "name": "王彥程",
+   "org": "KBO 韓華",
+   "level": "一軍",
+   "2026": "26GS 11-6 3.97 100K",
+   "status": "10/13 續約 2027 年 30 萬美元",
+   "src": "https://www.cna.com.tw/news/aspt/202610130155.aspx"
+  }
+ ],
+ "next_72h_schedule": [
+  {
+   "tw": "2026-11-05T01:45+08:00",
+   "event": "UCL MD4 day2 first slot (推算)"
+  },
+  {
+   "tw": "2026-11-05T04:00+08:00",
+   "event": "UCL MD4 day2 (Leipzig-ManCity, Slavia-Arsenal, Fenerbahce-Liverpool, AEK-RealMadrid) (推算)"
+  },
+  {
+   "tw": "2026-11-05T08:00+08:00",
+   "event": "NBA PHI @ DET"
+  },
+  {
+   "tw": "2026-11-05T09:00+08:00",
+   "event": "NBA CLE @ OKC"
+  },
+  {
+   "tw": "2026-11-05T10:30+08:00",
+   "event": "NBA DAL @ SAS"
+  },
+  {
+   "tw": "2026-11-05",
+   "event": "WTT Frankfurt R16 林昀儒 vs 周啟豪；韓國羽球公開賽 R16"
+  },
+  {
+   "tw": "2026-11-06T11:00+08:00",
+   "event": "NBA MIA @ GSW"
+  },
+  {
+   "tw": "2026-11-06T23:30+08:00",
+   "event": "F1 São Paulo FP1"
+  },
+  {
+   "tw": "2026-11-07T03:00+08:00",
+   "event": "F1 São Paulo FP2"
+  },
+  {
+   "tw": "2026-11-07T09:00+08:00",
+   "event": "NBA Cup OKC @ MEM"
+  },
+  {
+   "tw": "2026-11-07",
+   "event": "中華隊 vs 味全 熱身（新莊）"
+  }
+ ],
+ "next_checkpoints": [
+  "2026-11-05 09:00 CLE@OKC",
+  "2026-11-07 09:00 OKC@MEM (NBA Cup)",
+  "2026-11-08 09:00 WAS@OKC",
+  "2026-11-09 01:00 F1 São Paulo race",
+  "2026-11-09~12 MLB awards",
+  "2026-11-12 亞冠賽 中華 vs 日本",
+  "2026-11-17 QO deadline",
+  "2026-12-01 MLB CBA expiry"
+ ]
+}
