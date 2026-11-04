@@ -1,0 +1,42 @@
+{
+  "task": "news",
+  "edition": "morning",
+  "scheduled_for": "2026-11-04T08:00:00+08:00",
+  "source_cutoff": "2026-11-04T08:25:00+08:00",
+  "prior_basis": "automations/active/04_工作新聞早午晚報/latest_result.md (ChatGPT 2026-11-02 晨報, truncated)",
+  "events": [
+    {"id": "tw_market_crash_1103", "type": "NEW", "summary": "加權11/3收43,307.54跌1,612.60(-3.59%)史上第7大跌點，成交9,280.58億，外資賣超1,073億連4賣，投信連16買", "key_numbers": {"taiex": 43307.54, "chg": -1612.60, "turnover_bn_twd": 9280.58, "foreign_net_bn": -1073.07}, "next_check": "11/4開盤與外資買賣超"},
+    {"id": "twd_depreciation", "type": "NEW", "summary": "新台幣11/3收32.76貶1.68角，逾1年半新低，史上第4大量52.755億美元，匯銀預期測33", "key_numbers": {"usdtwd": 32.76}, "next_check": "11/4是否破33"},
+    {"id": "fini_futures_short", "type": "CHANGED", "summary": "外資台指期淨空91,812口(+2,433)，口徑另記90,038", "key_numbers": {"net_short": 91812}, "next_check": "11/4期交所三大法人"},
+    {"id": "us_midterms_2026", "type": "CHANGED", "summary": "11/3投票開票中，選前參院R 53-47、眾院約219-214；查核時僅早期判定(Warner VA連任)", "next_check": "11/4臺北盤中開票、眾院可能延數日"},
+    {"id": "us_iran_hormuz", "type": "CHANGED", "summary": "美方有限打擊格什姆等地；伊朗提兩天內重開海峽換解除封鎖制裁；卡達預期36小時內回覆", "key_numbers": {"brent": 103.60, "wti": 96.09}, "next_check": "11/4-11/5美伊回覆"},
+    {"id": "amd_q3_2026", "type": "NEW", "summary": "AMD Q3營收133.8億(+45%)、資料中心85億(+97%)、Q4指引170億±3%，盤後約+8%", "next_check": "11/4美股正式盤與台積電/AI伺服器鏈反應"},
+    {"id": "apple_fq4_2026", "type": "NEW", "summary": "Apple營收1,145億、12月季毛利率指引45-46%低於預期，主因記憶體成本", "next_check": null},
+    {"id": "ukraine_talks_abudhabi", "type": "NEW", "summary": "Witkoff稱11/10-11阿布達比俄烏工作層級談判(單一來源)", "next_check": "2026-11-10"},
+    {"id": "apec_shenzhen", "type": "UNCHANGED", "summary": "深圳APEC 11/18-19，川習第三度會面、美中俄三方會磋商中", "next_check": "2026-11-17"},
+    {"id": "ly_supplementary_budget", "type": "UNCHANGED", "summary": "追加預算6,076.3億11/20前三讀；會期延至2027/1/31；11/23-27停會", "next_check": "2026-11-20"},
+    {"id": "zhang_junjie_fugitive", "type": "NEW", "summary": "傳張俊傑已從基隆偷渡出海，海巡查證中(未證實)", "next_check": "海巡/檢方說明"}
+  ],
+  "markets": {
+    "taiex_close_1103": 43307.54,
+    "txf_nov_day_close": 43376,
+    "txf_night_close": 43779,
+    "night_vs_spot": 471,
+    "tsmc_close": 2295,
+    "tsm_adr_close": 404.80,
+    "adr_premium_pct": 15.6,
+    "usdtwd": 32.76,
+    "sox": 10600.40,
+    "nasdaq": 25372.01,
+    "spx": 7568.92,
+    "dow": 51786.72,
+    "ust2y": 4.61,
+    "ust10y": "4.93-4.96",
+    "ust30y": 5.32,
+    "dxy": 101.86,
+    "brent": 103.60,
+    "wti": 96.09,
+    "unavailable": ["台積電期貨", "12月升息機率當日值", "美元指數官方收盤"]
+  },
+  "next_nodes": ["11/4 09:00 臺股開盤", "11/4 盤中 美國期中選舉判定", "11/4 15:00 三大法人與外資期貨", "美伊36小時回覆", "11/18 台指期結算", "11/18-19 APEC", "11/20 追加預算三讀", "11/28 九合一"]
+}
