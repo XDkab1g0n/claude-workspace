@@ -1,0 +1,38 @@
+{
+  "task": "games",
+  "scheduled_for": "2026-11-04T21:50:00+08:00",
+  "window": {"from": "2026-11-03T21:50:00+08:00", "to": "2026-11-04T21:50:00+08:00", "lookback_to": "2026-11-01"},
+  "rotation_topic": "週三：遊戲重大更新、PC 效能、DRM、營運制度",
+  "baseline": "automations/active/05_遊戲與消費電子雷達/latest_result.md (ChatGPT 2026-11-01)",
+  "events": [
+    {"id": "nikke-pc-launcher-supply-chain-2026-11", "status": "NEW", "domain": "games", "summary": "NIKKE PC 啟動器 CDN 上的 JS 被植入 k2f_chan RAT；官方 11/04 承認並於 KST 02:30 推修正，CEO 道歉；手機版不受影響", "key_numbers": {"infection_window_start": "最晚 10/24（另說 9/27）"}, "pending": ["感染期間", "受影響範圍", "同 CDN 其他遊戲"], "next_check": "官方後續調查公告"},
+    {"id": "phantom-blade-zero-pc-1102256-nvidia-621", "status": "NEW", "domain": "games", "summary": "11/04 Patch 1.0302256 改寫 shader 載入、修藍牙手把卡頓；S-GAME 10/28 建議 NVIDIA 退回 617.42 避開 621.01", "pending": ["官方修補說明原文", "NVIDIA 修正版驅動"], "next_check": "下一版 GeForce 驅動"},
+    {"id": "gta6-preload-2026-11-10", "status": "NEW", "domain": "games", "summary": "Rockstar 11/03：數位預載由 11/12 提前到 11/10，最多 212 GB；實體下載碼版 11/12；發售 11/19；PC 無日期", "key_numbers": {"preload": "2026-11-10", "size_gb_max": 212, "release": "2026-11-19"}, "next_check": "2026-11-10"},
+    {"id": "zelda-oot-remake-2026", "status": "CHANGED", "domain": "games", "summary": "評測解禁，Metacritic 96（約 81 篇），Fami 通 37/40；11/05 發售", "pending": ["DF 效能分析"], "next_check": "2026-11-05"},
+    {"id": "steam-review-process-2026-11", "status": "NEW", "domain": "games", "summary": "Steamworks 11/03 要求送審前透過 Steam 實際執行、檢查函式庫、成就與 Cloud；5 分鐘／12 工作天等細節僅媒體轉述", "pending": ["Steamworks 原文細節"]},
+    {"id": "mw4-pc-tpm-secureboot", "status": "NEW", "domain": "games", "summary": "MW4 PC 線上需 TPM 2.0+Secure Boot；11/02 更新為平衡調整（輪值段落）"},
+    {"id": "wow-forever-launch", "status": "NEW", "domain": "games", "summary": "台灣 11/05 07:00 上線；含月費，Skyborne 種族包 $59.99/$79.99", "next_check": "2026-11-05"},
+    {"id": "nagoshi-studio-dissolved", "status": "NEW", "domain": "games", "summary": "官報 11/02 刊登解散清算；GANG OF DRAGON 無接手消息"},
+    {"id": "gamepass-nov-2026-wave1", "status": "NEW", "domain": "games", "summary": "11/15 下架 13–14 款（GoldenEye 007、Wreckfest、Xenoverse 2）", "next_check": "2026-11-15"}
+  ],
+  "unchanged_carried": ["fm27-launch-2026-11-10", "pikmin4-s2-2026-11-12", "nvidia-win10-gameready-eol", "win11-usb-audio-1.0-known-issue", "rtx-tensor-unlock"],
+  "watch_pool": [
+    {"id": "nikke-pc-launcher-supply-chain-2026-11", "condition": "官方公布範圍與補救"},
+    {"id": "nvidia-621-driver", "condition": "NVIDIA 修正版或 S-GAME 撤回建議"},
+    {"id": "iphone-duo-inner-display-crack", "condition": "正式維修計畫或成因"},
+    {"id": "asus-router-cve-2026-84729-84730", "condition": "ASUS 正式公告與修正韌體"},
+    {"id": "macbook-pro-14-m6-tw", "condition": "11/06 開賣後獨立實測；台灣 NT$64,900 起"},
+    {"id": "motorola-signature-27 / redmagic-12-pro-global", "condition": "官方售價與 8 Elite Extreme Gen 6 實測"},
+    {"id": "rtx-tensor-unlock", "condition": "多張 4070 重複驗證與實際 AI 負載增益"}
+  ],
+  "next_verification_nodes": [
+    {"date": "2026-11-05", "item": "WoW Forever 上線、時之笛發售、Motorola Signature 27、任天堂財報（單一來源）"},
+    {"date": "2026-11-06", "item": "MacBook Pro M6 台灣開賣、劍星 Switch 2"},
+    {"date": "2026-11-10", "item": "GTA VI 預載、FM27 正式版、Windows Patch Tuesday"},
+    {"date": "2026-11-12", "item": "GTA VI 實體版、Pikmin 4 S2 Edition"},
+    {"date": "2026-11-15", "item": "Game Pass 下架"},
+    {"date": "2026-11-19", "item": "GTA VI 發售"}
+  ],
+  "personal_sweep": {"tp_link_be550": "無 11 月公告", "galaxy_z_fold_8": "最新 10 月安全更新", "rtx_4070": "僅 PBZ 玩家需考慮 617.42", "apex_zzz_nte": "本窗內無重大更新命中"},
+  "verification_limits": "WebFetch 被網路政策擋（rockstargames.com、gsmarena.com、cpsc.gov、gematsu.com 等），核心事實以多家媒體搜尋結果交叉確認"
+}
