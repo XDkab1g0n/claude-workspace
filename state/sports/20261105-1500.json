@@ -1,0 +1,90 @@
+{
+  "task_id": "sports",
+  "run_id": "sports-20261105-1500",
+  "state_version": 1,
+  "source_cutoff": "2026-11-05T15:20:00+08:00",
+  "baseline_note": "Claude 版第一份 sports state；Diff 比對 automations/active/03_體育雷達 v3/latest_result.md（ChatGPT 11/01 版）",
+  "events": [
+    {"id": "f1-2026-drivers-title", "status": "CHANGED", "summary": "Antonelli 墨西哥站第 3 名，以 380 分封王，20 歲 68 天成為史上最年輕冠軍；正賽冠軍 Verstappen，第 2 Hamilton", "key_numbers": {"Antonelli": 380, "Verstappen": 261, "Hamilton": 259, "Russell": 250, "Leclerc": 245, "Norris": 221}, "next_check": "巴西站 11/09 01:00 TPE 正賽"},
+    {"id": "f1-2026-constructors", "status": "NEW", "summary": "Mercedes 630、Ferrari 504；巴西站 Mercedes 比 Ferrari 多拿 ≥3 分即封王", "next_check": "2026-11-09 巴西正賽"},
+    {"id": "f1-haas-ocon", "status": "NEW", "summary": "Haas 撤換 Ocon，平川亮墨西哥站第 10，Câmara 巴西站首戰", "next_check": "Câmara 是否續跑拉斯維加斯"},
+    {"id": "okc-2026-27", "status": "CHANGED", "summary": "主客場雙殺騎士 117-112、124-116，戰績 6-2；SGA 43、42", "next_check": "11/07 09:00 TPE @MEM"},
+    {"id": "okc-injuries", "status": "UNCHANGED_CORE", "summary": "Holmgren 8-10 週（10/30 起算）；Jalen Williams 腓骨／踝手術，例行賽末再評估；Wallace 肩盂唇手術；Caruso 11/04 復出；Jaylin Williams 背痙攣", "next_check": "每場傷兵報告"},
+    {"id": "okc-dalen-terry", "status": "NEW", "summary": "11/04 簽 Dalen Terry 補第 15 個名額，放棄簽 Agbaji"},
+    {"id": "nba-wemby-52-24-8", "status": "NEW", "summary": "Wembanyama 52 分 24 籃板 8 阻攻，馬刺 112-111 獨行俠"},
+    {"id": "nba-injuries", "status": "NEW", "summary": "Jarrett Allen 右膝（MRI 待公布）；Vit Krejci 左小腿骨折", "next_check": "Allen MRI"},
+    {"id": "mlb-offseason", "status": "NEW", "summary": "8 人收到 QO（2,315 萬美元，11/17 前答覆）；BBWAA 決選名單公布；水手聘 Kanzler；CBA 12/1 到期，延後工資帽提案被拒", "next_check": "11/09-12 獎項公布；11/17 QO 答覆"},
+    {"id": "tw-cheng-tsung-che", "status": "NEW", "summary": "紅襪以現金交易到老虎，已無選項，有被 DFA 風險", "next_check": "11/17 40 人名單"},
+    {"id": "tw-sung-chia-hao", "status": "NEW", "summary": "11/03 樂天不續約，成為自由球員"},
+    {"id": "tw-apbc", "status": "NEW", "summary": "亞冠賽 11/12-15 東京巨蛋；熱身賽 11/07 17:05 對味全、11/08 13:05 對中信", "next_check": "28 人名單"},
+    {"id": "cpbl-2026-champion", "status": "UNCHANGED", "summary": "味全 4-2 中信；平野惠一去留未定"},
+    {"id": "npb-japan-series", "status": "NEW", "summary": "軟銀 4-0 DeNA，MVP 正木智也"},
+    {"id": "bwf-korea-open", "status": "NEW", "summary": "周天成首輪輸給王渝凱；王子維、王柏崴、林湘緹、陳子睿/林煜傑晉級", "next_check": "16 強到決賽（11/08）"},
+    {"id": "bwf-hylo-wd", "status": "CHANGED", "summary": "許尹鏸／林芝昀女雙銀牌"},
+    {"id": "wtt-frankfurt", "status": "NEW", "summary": "林昀儒 3-2 Jorgic，16 強對周啟豪；鄭怡靜首輪出局"},
+    {"id": "yog-dakar", "status": "NEW", "summary": "台灣 2 銀 2 銅（Baseball5、武術銀；李瀚 100 自、桌球混雙銅）", "next_check": "閉幕 11/13"},
+    {"id": "tennis-paris", "status": "NEW", "summary": "Djokovic、Zverev、Medvedev、De Minaur、Tiafoe R2 出局；Djokovic 賽季結束"},
+    {"id": "motogp-qatar", "status": "NEW", "summary": "Márquez 399 分、領先 Martín 44 分，卡達站首個賽點；Yamaha 原廠車隊退賽"},
+    {"id": "ucl-md4", "status": "NEW", "summary": "費內巴切 3-2 利物浦；巴黎 4 戰全勝；科莫 9-1 朗斯"},
+    {"id": "f1-lawson-grid-note", "status": "INVALIDATED", "summary": "前報只寫 Lawson 列第 22 位起跑；最後他以第 7 名完賽"}
+  ],
+  "thunder": {
+    "record": "6-2",
+    "analyzed_games": [
+      {"date_us": "2026-10-31", "opp": "@HOU", "result": "L 98-119", "analyzed_by": "ChatGPT 11/01 前報"},
+      {"date_us": "2026-11-02", "opp": "@CLE", "result": "W 117-112", "analyzed_by": "本報 20261105-1500"},
+      {"date_us": "2026-11-04", "opp": "CLE", "result": "W 124-116", "analyzed_by": "本報 20261105-1500"}
+    ],
+    "pending_advanced_data": [
+      "11/04 OKC 團隊 FGA/FTA/REB/OREB/AST/TOV/STL/BLK → 估 ORtg/DRtg/Pace/TOV%/OREB%",
+      "兩場 Stirtz、McCain、Mara、Caruso 完整數據線；11/04 Hartenstein、K. Williams 全場數據",
+      "兩場官方 ORtg/DRtg/USG%、Lineup/On-Off（NBA.com）",
+      "11/02 Jaylin Williams 數據線；SGA 開季 8 場平均",
+      "Jarrett Allen MRI（對手情報）"
+    ],
+    "next_games_tpe": [
+      {"tpe": "2026-11-07T09:00+08:00", "game": "OKC @ MEM（NBA 盃西區 B 組）"},
+      {"tpe": "2026-11-08T09:00+08:00", "game": "WAS @ OKC"},
+      {"tpe": "2026-11-11T12:00+08:00", "game": "OKC @ POR（NBC/Peacock）"}
+    ]
+  },
+  "taiwan_overseas_roster": [
+    {"name": "鄭宗哲", "org": "DET（10/30 自 BOS 交易）", "level": "MLB/AAA", "status": "無選項，11/17 名單節點", "src": "https://udn.com/news/story/6999/9846449"},
+    {"name": "李灝宇", "org": "DET", "level": "MLB", "status": "2026 114 場 .264/10 HR/OPS .746（待用 MLB.com 核對）", "src": "https://udn.com/news/story/6999/9764904"},
+    {"name": "鄧愷威", "org": "HOU", "level": "MLB", "status": "30 場 73.2 IP 73 K", "src": "https://www.chinatimes.com/realtimenews/20261102001887-260403"},
+    {"name": "林昱珉", "org": "ARI 體系", "level": "MiLB", "status": "查不到近況"},
+    {"name": "莊陳仲敖", "org": "ATH", "level": "AAA", "status": "DFA 後下放", "src": "https://sports.ltn.com.tw/news/breakingnews/5528801"},
+    {"name": "沙子宸", "org": "ATH 體系", "level": "MiLB", "status": "查不到近況"},
+    {"name": "林維恩", "org": "ATH 體系", "level": "MiLB", "status": "查不到近況"},
+    {"name": "廖宥霖", "org": "MIL 體系", "level": "MiLB", "status": "參加冬盟", "src": "https://cna.com.tw/news/aspt/202611030326.aspx"},
+    {"name": "徐若熙", "org": "軟銀", "level": "NPB", "status": "8 場 ERA 4.81；日本大賽沒出賽", "src": "https://www.mirrormedia.mg/story/20261022edi021"},
+    {"name": "古林睿煬", "org": "日本火腿", "level": "NPB", "status": "一軍 ERA 7.50；鳳凰聯盟", "src": "https://sports.ltn.com.tw/news/breakingnews/5610622"},
+    {"name": "孫易磊", "org": "日本火腿", "level": "NPB", "status": "一軍 22 場 ERA 2.64", "src": "https://sports.ltn.com.tw/news/breakingnews/5601901"},
+    {"name": "林家正", "org": "日本火腿", "level": "NPB 二軍", "status": "二軍 .313；合約查不到", "src": "https://sports.ltn.com.tw/news/breakingnews/5596754"},
+    {"name": "林安可", "org": "西武", "level": "NPB", "status": "一軍 76 場 .220/8 HR", "src": "https://npb.jp/bis/players/33935152.html"},
+    {"name": "宋家豪", "org": "自由球員（樂天不續約）", "level": "NPB", "status": "希望留在 NPB", "src": "https://www.chinatimes.com/realtimenews/20261103001656-260403"},
+    {"name": "陽柏翔", "org": "樂天", "level": "NPB", "status": "亞冠賽集訓"},
+    {"name": "徐翔聖", "org": "養樂多", "level": "NPB", "status": "亞冠賽集訓"},
+    {"name": "陳睦衡", "org": "歐力士", "level": "NPB", "status": "亞冠賽集訓"},
+    {"name": "張峻瑋", "org": "軟銀", "level": "NPB", "status": "支配下登錄；季末成績查不到"},
+    {"name": "黃錦豪", "org": "NPB（球隊未證實）", "level": "NPB", "status": "冬盟 NPB 明星隊"},
+    {"name": "王彥程", "org": "韓華", "level": "KBO", "status": "11 勝 ERA 3.97；續約", "src": "https://sports.ltn.com.tw/news/breakingnews/5604684"}
+  ],
+  "next_72h_tpe": [
+    {"tpe": "2026-11-06T06:00+08:00", "event": "LoL Worlds QF DK vs BLG（日期單一來源）"},
+    {"tpe": "2026-11-06T09:15+08:00", "event": "NFL TNF JAX @ BAL"},
+    {"tpe": "2026-11-06T23:30+08:00", "event": "F1 巴西 FP1"},
+    {"tpe": "2026-11-07T03:00+08:00", "event": "F1 巴西 FP2"},
+    {"tpe": "2026-11-07T06:00+08:00", "event": "LoL Worlds QF T1 vs KC"},
+    {"tpe": "2026-11-07T08:00+08:00", "event": "NBA 盃小組賽 9 場"},
+    {"tpe": "2026-11-07T09:00+08:00", "event": "OKC @ MEM"},
+    {"tpe": "2026-11-07T17:05+08:00", "event": "台灣隊 vs 味全"},
+    {"tpe": "2026-11-07T22:30+08:00", "event": "F1 巴西 FP3"},
+    {"tpe": "2026-11-08T02:00+08:00", "event": "F1 巴西排位"},
+    {"tpe": "2026-11-08T06:00+08:00", "event": "DEN vs IND（墨西哥城）"},
+    {"tpe": "2026-11-08T09:00+08:00", "event": "WAS @ OKC"},
+    {"tpe": "2026-11-08T13:05+08:00", "event": "台灣隊 vs 中信"},
+    {"tpe": "2026-11-09T01:00+08:00", "event": "F1 巴西正賽（窗口外）"}
+  ],
+  "known_gaps": ["網路政策只開放 WebSearch；nba.com/espn.com/basketball-reference/statsapi.mlb.com 被擋"]
+}

@@ -1,0 +1,14 @@
+{
+  "task_id": "sports",
+  "run_id": "sports-20261105-1500",
+  "scheduled_for": "2026-11-05T15:00:00+08:00",
+  "started_at": "2026-11-05T15:14:00+08:00",
+  "completed_at": "2026-11-05T15:30:00+08:00",
+  "trigger_source": "schedule_unverified",
+  "result_path": "reports/sports/20261105-1500.md",
+  "delivery_verified": null,
+  "content_complete": false,
+  "content_complete_note": "雷霆八單元齊全，但 11/04 雷霆團隊數據與進階指標部分缺；原因：網路政策只允許 WebSearch",
+  "source_cutoff": "2026-11-05T15:20:00+08:00",
+  "state_version": 1
+}
