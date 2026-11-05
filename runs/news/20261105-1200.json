@@ -1,0 +1,14 @@
+{
+  "task_id": "news",
+  "run_id": "news-20261105-1200-session_01K6fAcdV24sgQWRQ4G6Q4v7",
+  "scheduled_for": "2026-11-05T12:00:00+08:00",
+  "started_at": "2026-11-05T12:10:41+08:00",
+  "completed_at": "2026-11-05T12:15:10+08:00",
+  "trigger_source": "schedule_unverified",
+  "result_path": "reports/news/20261105-1200.md",
+  "delivery_verified": null,
+  "content_complete": true,
+  "source_cutoff": "2026-11-05T12:15:00+08:00",
+  "state_version": "state/news/20261105-1200.json",
+  "notes": "直接來源無法開啟，僅以搜尋交叉驗證；12:00 精確點位、台指期、台積電期貨、午盤匯率、S&P／道瓊期貨未取得"
+}

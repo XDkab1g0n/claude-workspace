@@ -1,0 +1,28 @@
+{
+  "task": "news",
+  "edition": "midday",
+  "scheduled_for": "2026-11-05T12:00:00+08:00",
+  "source_cutoff": "2026-11-05T12:15:00+08:00",
+  "diff_baseline": ["reports/news/20261105-0800.md (branch claude/sleepy-galileo-aiupre)", "reports/news/20261104-1900.md (branch claude/vibrant-cannon-cm006q)"],
+  "events": [
+    {"id": "taiex_selloff_nov", "status": "CHANGED", "summary": "11/5 盤中第三天下殺：開 42,666.13，低 41,866.1（−1,082.81），10:47 報 42,512（−436，−1.02%）成交 5,098 億；台積電約 2,260 平盤撐盤", "key_numbers": {"open": 42666.13, "intraday_low": 41866.1, "at_1047": 42512, "turnover_1047_bn": 5098, "late_morning_unverified": 42306.21, "tsmc_low": 2245}, "next_check": "13:30 收盤、15:00 外資是否第 6 賣"},
+    {"id": "tw_memory_thermal_rout", "status": "NEW", "summary": "南亞科近跌停、華邦電 −7%+、群聯 −6%+，健策、雙鴻一度跌停；聯發科 3,565（−150）、台達電 1,145", "next_check": "收盤類股排行"},
+    {"id": "usdtwd_33", "status": "CHANGED", "summary": "新台幣盤中最弱 32.965（貶 1.44 角），逾一年半新低，逼近 33", "key_numbers": {"intraday_low": 32.965, "prev_close": 32.821}, "next_check": "16:00 收盤、央行調節"},
+    {"id": "asia_chip_rout_kospi_sidecar", "status": "NEW", "summary": "KOSPI 10:16 KST sidecar（K200 期貨 −5.2%），三星 −5.5~6.7%、海力士 −8~8.9%；日經約 −0.4%；恒生 +2.8~3.3%", "key_numbers": {"kospi_late_morning": [5484, 5496], "nikkei": 61913, "hsi": [24598, 24707]}, "next_check": "亞股收盤"},
+    {"id": "skhynix_export_license_delay", "status": "NEW", "summary": "Reuters（轉述）：美方延後 SK 海力士中國廠設備出口許可，影響其 450 億美元紐約 NAND 廠", "next_check": "美商務部或海力士回應"},
+    {"id": "elderly_welfare_act_countersign", "status": "NEW", "summary": "老福法第 22 條修正，政院 11/6 前決定副署／覆議；石崇良稱恐排擠健保、增保費壓力；民進黨團力挺", "next_check": "11/6 政院決定"},
+    {"id": "tw_cpi_oct", "status": "NEW", "summary": "主計總處 11/5 公布 10 月 CPI，預估約 2.5%（9 月 2.73%）", "next_check": "實際公布值"},
+    {"id": "us_midterms_2026", "status": "UNCHANGED", "summary": "民主黨控制兩院；MS（Forbes 一說差 65 票）、AK 未判定", "next_check": "AP 判定"},
+    {"id": "iran_war_hormuz", "status": "UNCHANGED", "summary": "Brent 約 94；無協議；伊朗高層稱仍差距甚遠（制裁、封鎖、凍結資金為前提）", "next_check": "美伊正式回應"},
+    {"id": "memory_benefit_inference", "status": "INVALIDATED", "summary": "晨報『記憶體缺貨撐報價利多記憶體股』推論，今日記憶體族群領跌，不成立", "next_check": "—"},
+    {"id": "night_session_hold", "status": "INVALIDATED", "summary": "晨報節點『守住夜盤 43,404』已否定，現貨開低並深跌", "next_check": "—"}
+  ],
+  "market_snapshot_intraday": {
+    "taiex_1047": 42512, "taiex_change_1047": -436, "turnover_1047_twd_bn": 5098,
+    "txf_intraday": null, "txf_basis": null, "tsmc_futures": null,
+    "tsmc_spot_approx": 2260, "usdtwd_intraday_low": 32.965, "usdtwd_midday": null,
+    "nq_futures_pct": -0.7, "es_futures": null, "brent_approx": 94
+  },
+  "next_verification_nodes": ["13:30 臺股收盤", "15:00 三大法人與外資台指期淨空單（前值 −93,647）", "16:00 新台幣收盤 vs 33", "主計總處 10 月 CPI", "20:00 BoE", "21:30 美初領失業金", "11/6 老福法副署期限", "11/6 美非農", "AP 判定 MS/AK"],
+  "limitations": "TWSE/TAIFEX curl 403、鉅亨與中央社 WebFetch DNS 失敗；數字僅能以搜尋結果交叉驗證；12:00 點位、台指期、台積電期貨、午盤匯率、ES 期貨未取得"
+}
