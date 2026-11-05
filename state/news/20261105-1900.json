@@ -1,0 +1,22 @@
+{
+  "task": "news",
+  "edition": "evening",
+  "scheduled_for": "2026-11-05T19:00:00+08:00",
+  "source_cutoff": "2026-11-05T19:20:00+08:00",
+  "diff_baseline": "automations/active/04_工作新聞早午晚報/latest_result.md (ChatGPT 2026-11-02 晨報, truncated)",
+  "events": [
+    {"id": "tw-equity-selloff", "type": "CHANGED", "summary": "臺股連6跌，11/5收41,574.72（-1,374.19，-3.20%），成交9,260.24億；外資連6賣累計-6,144.7億", "key_numbers": {"taiex_close": 41574.72, "change": -1374.19, "turnover_twd_100m": 9260.24, "foreign_net_twd_100m": -1024.6, "trust_net_twd_100m": 225.3, "dealer_net_twd_100m": -435.27, "tsmc_close": 2240}, "next_check": "11/6 外資是否結束連賣"},
+    {"id": "tw-night-rebound-1104", "type": "INVALIDATED", "summary": "11/4夜盤反彈逾千點至44,245，11/5現貨未延續、收盤再跌1,374點", "next_check": null},
+    {"id": "txf-foreign-short", "type": "CHANGED", "summary": "外資台指期淨空約-96,530口（單一來源），11/4為-93,647；11月台指期收41,915，正價差340.28", "key_numbers": {"foreign_net_oi": -96530, "foreign_net_oi_prev": -93647, "txf_close": 41915, "basis": 340.28}, "next_check": "11/6 15:00 期交所三大法人，是否破10萬口"},
+    {"id": "twd", "type": "CHANGED", "summary": "新台幣收32.876，貶5.5分，連4貶，盤中最弱32.985", "key_numbers": {"usdtwd_close": 32.876, "intraday_low": 32.985}, "next_check": "33元關卡"},
+    {"id": "us-midterms", "type": "NEW", "summary": "媒體預估民主黨奪參眾兩院（參院至少54席）與德州州長，AI資料中心股遭重估", "next_check": "德州暫停資料中心措施、國會AI相關法案"},
+    {"id": "asia-ai-selloff", "type": "NEW", "summary": "KOSPI -5.28%收5,383.80，SK海力士-9.46%；日經約-1.7%；恒生約+3.5%", "next_check": "11/5美股費半、CoreWeave"},
+    {"id": "qualcomm-guidance", "type": "NEW", "summary": "高通FY27Q1財測EPS中位2.25低於預期2.32，手機晶片營收-26%，記憶體短缺", "next_check": null},
+    {"id": "oil-iran", "type": "CHANGED", "summary": "Brent 93.65、WTI 86.98，四連跌；美伊停戰草案流傳但伊朗稱相距甚遠", "key_numbers": {"brent": 93.65, "wti": 86.98, "brent_prev_baseline_1102": 111.92}, "next_check": "卡達斡旋進展、荷姆茲觸雷"},
+    {"id": "tw-supplementary-budget", "type": "NEW", "summary": "追加預算台電中油撥補1,725億遭保留送院會，需11/20前三讀", "next_check": "11/20前院會"},
+    {"id": "tw-elderly-welfare-countersign", "type": "NEW", "summary": "老人福利法修正案副署爭議，國民黨施壓政院", "next_check": "11/6 政院是否副署"}
+  ],
+  "next_nodes": ["2026-11-05 20:30 美國初領失業金", "2026-11-05 美股盤後 Airbnb/Lumentum", "2026-11-06 15:00 期交所三大法人", "2026-11-06 21:30 美國10月非農", "2026-11-28 九合一"],
+  "data_gaps": ["證交所正式漲跌家數", "11/5台指期夜盤", "台積電ADR 11/4", "美債2年", "恒生上漲原因"],
+  "access_failures": ["twse.com.tw", "taifex.com.tw", "cna.com.tw", "money.udn.com", "tw.stock.yahoo.com", "finance.ettoday.net"]
+}
