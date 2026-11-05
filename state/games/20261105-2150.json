@@ -1,0 +1,26 @@
+{
+  "task_id": "games",
+  "scheduled_for": "2026-11-05T21:50:00+08:00",
+  "window": {"from": "2026-11-04T21:50:00+08:00", "to": "2026-11-05T21:50:00+08:00", "lookback_to": "2026-11-03T21:50:00+08:00"},
+  "diff_baseline": "automations/active/05_遊戲與消費電子雷達/latest_result.md (2026-11-01); no 11/02-11/04 state in repo",
+  "rotation_topic": "週四：顯示器、音響、耳機、IEM、DAC、耳擴、相機",
+  "events": [
+    {"id": "gta6-preload", "status": "CHANGED", "summary": "GTA VI 預載提前至 11/10（PS5 台灣 00:00、Xbox 約 08:00），容量最多 212 GB，11/19 發售不變", "key_numbers": {"preload": "2026-11-10", "size_gb_max": 212, "release": "2026-11-19"}, "next_check": "2026-11-10 兩平台實際容量"},
+    {"id": "android-2026-11-bulletin", "status": "NEW", "summary": "Android 11 月公告修補 Framework 零點擊 RCE CVE-2026-58868，完整修補等級 2026-11-05；Fold 8 尚未收到", "key_numbers": {"cve": ["CVE-2026-58868", "CVE-2026-58876", "CVE-2026-58936"], "patch_level": "2026-11-05"}, "next_check": "Samsung Fold 8 / 小米 17 11 月修補推送"},
+    {"id": "zelda-oot-switch2", "status": "NEW", "summary": "時之笛 Switch 2 重製 11/05 發售，台灣 NT$2,080；DF：60fps、FSR1+SMAA 無 DLSS", "key_numbers": {"price_twd": 2080, "metascore": "96 或 99 待確認"}, "next_check": null},
+    {"id": "gow-laufey-delay", "status": "NEW", "summary": "God of War Laufey 由 2027/02/16 延至 2027/05/20", "key_numbers": {"new_date": "2027-05-20"}, "next_check": null},
+    {"id": "nvidia-62114-win10", "status": "CHANGED", "summary": "621.14 WHQL（DLSS 5 限 RTX 50、RTX 50 影片黑屏修正）；是否仍支援 Win10 有衝突；R620 部分 ASUS 筆電間歇變暗為已知問題", "key_numbers": {"driver": "621.14"}, "next_check": "官方 release notes 的 Win10 支援列示"},
+    {"id": "asus-aicloud-cve-2026-84730", "status": "NEW", "summary": "ASUSWRT AiCloud 堆疊溢位可取得 root（CVSS4 8.7），無已知利用；同批 PC 驅動 CVE-2026-112116 未能確認", "key_numbers": {"cvss4": 8.7}, "next_check": "ASUS 公告受影響型號與修正版號"},
+    {"id": "aoc-agp277uzd", "status": "NEW", "summary": "AOC 26.5 吋 RGB 條紋 Tandem WOLED 4K240/1080p480 中國上架，無價格", "key_numbers": {"refresh": "240/480Hz", "hdr_peak": "450 或 1000 nits 待確認"}, "next_check": "價格與 RTINGS/Monitors Unboxed 實測"}
+  ],
+  "unchanged_not_listed": ["dark-souls-2-3-servers", "haiara-recall", "win11-uac1-audio-issue", "pikmin4-demo", "fm27-preview"],
+  "watch_pool": ["RGB 條紋 WOLED 價格與實測", "ASUS 720Hz/540Hz OLED 實測", "Schiit Magni 6 ASR 量測", "RTX Tensor Core unlock 重複驗證", "Arkane Lyon 約 12/13 期限", "Dark Souls II/III 伺服器恢復", "PS6 時程"],
+  "next_nodes": [
+    {"date": "2026-11-06", "item": "OLED iPad mini 台灣開賣、MacBook Pro OLED/M6 開賣；MW4 S1 與舊世代 Warzone 停止"},
+    {"date": "2026-11-10", "item": "GTA VI 預載；FM27 上市；Patch Tuesday"},
+    {"date": "2026-11-12", "item": "Pikmin 4 Switch 2 Edition、Metaphor Switch 2 上市"},
+    {"date": "2026-11-15", "item": "Game Pass 異動"},
+    {"date": "2026-11-19", "item": "GTA VI 發售；Motorola Signature 27 預購"}
+  ],
+  "verification_failure": "WebFetch blocked (DNS not in allowlist) for all official domains; facts cross-checked via WebSearch summaries only"
+}
