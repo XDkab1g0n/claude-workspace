@@ -1,0 +1,14 @@
+{
+  "task_id": "news",
+  "run_id": "news-20261105-0800-session_01K6fAcgjGtzBQNQfgUWBZkn",
+  "scheduled_for": "2026-11-05T08:00:00+08:00",
+  "started_at": "2026-11-05T08:08:53+08:00",
+  "completed_at": "2026-11-05T08:13:38+08:00",
+  "trigger_source": "schedule_unverified",
+  "result_path": "reports/news/20261105-0800.md",
+  "delivery_verified": null,
+  "content_complete": true,
+  "source_cutoff": "2026-11-05T08:30:00+08:00",
+  "state_version": "state/news/20261105-0800.json",
+  "notes": "直接來源（TWSE/TAIFEX/Treasury/媒體）無法開啟，僅以搜尋交叉驗證；台積電期貨、選後 FedWatch、天然氣未取得"
+}

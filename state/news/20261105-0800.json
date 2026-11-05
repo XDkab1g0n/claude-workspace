@@ -1,0 +1,30 @@
+{
+  "task": "news",
+  "edition": "morning",
+  "scheduled_for": "2026-11-05T08:00:00+08:00",
+  "source_cutoff": "2026-11-05T08:30:00+08:00",
+  "diff_baseline": "automations/active/04_工作新聞早午晚報/latest_result.md (ChatGPT 2026-11-02 晨報)；無 Claude 前報",
+  "events": [
+    {"id": "us_midterms_2026", "status": "NEW", "summary": "民主黨拿下參眾兩院；參院 NBC 計 D54–R44，密西西比（Colom 領先 28–43 票）與阿拉斯加未判定；眾院 CBS 估 D 251–268", "next_check": "AP 判定 MS/AK；眾院最終席次"},
+    {"id": "ai_datacenter_state_risk", "status": "NEW", "summary": "選後費半 −3.13% 至 10,268.65（6 個月低），Nvidia −2~3%，雲端巨頭上漲；德州州長 Hinojosa（D）主張收緊資料中心", "next_check": "德州、俄亥俄新政府的資料中心政策"},
+    {"id": "iran_war_hormuz", "status": "CHANGED", "summary": "Brent 結算 94.62（−8.7%）、WTI 88.12（−8.3%）；伊朗提 48 小時重開海峽方案，尚無正式協議", "key_numbers": {"brent_settle": 94.62, "wti_settle": 88.12, "brent_prev_report_asia_1102": 111.92}, "next_check": "美方正式回應；海峽通行數據"},
+    {"id": "taiex_selloff_nov", "status": "NEW", "summary": "11/3 −1,612.60（史上第 7 大）、11/4 −358.63 收 42,948.91；外資 11/4 賣超約 1,499 億（史上第 5），連 5 賣逾 5,120 億", "key_numbers": {"taiex_1104": 42948.91, "foreign_net_sell_1104_bn": 1499, "fii_txf_net_short_1104": -93647, "fii_txf_net_short_1103": -91812, "fii_txf_net_short_1102": -89379}, "next_check": "11/5 外資是否止賣、淨空單變化"},
+    {"id": "qcom_arm_earnings", "status": "NEW", "summary": "Qualcomm 盤後約 −6%（記憶體缺貨壓手機，手機晶片 −26% YoY）；Arm EPS 0.52 beat、盤後約 −2%", "next_check": "聯發科、記憶體股 11/5 反應"},
+    {"id": "fed_dec_hike", "status": "UNCHANGED", "summary": "10/28 維持 3.75–4.00%（10–2）；選前 12 月升息機率約 71–83%；選後機率未取得", "next_check": "11/5 初領失業金、11/6 非農"},
+    {"id": "tw_politics_budget", "status": "UNCHANGED", "summary": "九合一 11/28；立院 11/23–27 停會；追加預算 11/20 前三讀共識；普發現金 1 萬 vs 2 萬爭議", "next_check": "11/20 追加預算三讀"},
+    {"id": "pla_100_vessels_claim", "status": "INVALIDATED", "summary": "搜尋到的『逾百艘艦艇』屬 2026 年 5 月／7 月舊事件，不列為本期新聞", "next_check": "國防部每日 06:00 公告"}
+  ],
+  "market_baseline": {
+    "taiex_close_1104": 42948.91, "taiex_change": -358.63, "turnover_twd_trn": 1.11,
+    "txf_nov_day_1104": 43204, "txf_basis_day": 255.09, "txf_nov_night_close_1105": 43404, "txf_night_high": 44274,
+    "tsmc_tw_1104": 2260, "tsmc_adr_1104": 395.75, "tsmc_adr_chg_pct": -2.24, "adr_premium_pct": 15,
+    "tsmc_futures": null,
+    "usdtwd_1104": 32.821,
+    "dow_1104": 53356.12, "spx_1104": 7688.62, "nasdaq_1104": 25736.51, "sox_1104": 10268.65,
+    "ust2y_range": [4.58, 4.60], "ust10y_range": [4.89, 4.95], "ust30y_range": [5.27, 5.30], "dxy_range": [101.2, 101.5],
+    "brent_settle_1104": 94.62, "wti_settle_1104": 88.12, "gold_range": [4047, 4070],
+    "nikkei_1104": 62188.63, "kospi_1104": 5683.80
+  },
+  "next_verification_nodes": ["11/5 09:00 臺股開盤 vs 夜盤 43,404", "11/5 外資現貨與台指期淨空單", "11/5 20:00 BoE", "11/5 21:30 美初領失業金", "AP 判定 MS/AK 參院", "美伊對 48 小時方案的正式回應", "11/6 21:30 美非農", "11/20 追加預算三讀", "11/28 九合一"],
+  "limitations": "WebFetch／curl 被網路政策擋（官方站與主要媒體皆 403 或 DNS 失敗），數據以多組搜尋結果交叉驗證"
+}
