@@ -1,0 +1,14 @@
+{
+  "task_id": "games",
+  "run_id": "games-20261106-2150",
+  "scheduled_for": "2026-11-06T21:50:00+08:00",
+  "started_at": "2026-11-06T21:52:00+08:00",
+  "completed_at": "2026-11-06T21:59:45+08:00",
+  "trigger_source": "schedule_unverified",
+  "result_path": "reports/games/20261106-2150.md",
+  "delivery_verified": null,
+  "content_complete": false,
+  "content_note": "原始頁面因網路政策無法開啟，核心事實未逐頁核對",
+  "source_cutoff": "2026-11-06T21:50:00+08:00",
+  "state_version": "state/games/20261106-2150.json"
+}

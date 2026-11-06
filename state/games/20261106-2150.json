@@ -1,0 +1,200 @@
+{
+  "task_id": "games",
+  "scheduled_for": "2026-11-06T21:50:00+08:00",
+  "rotation_theme": "週五：獨立遊戲、中小型作品、新玩法",
+  "window": {
+    "start": "2026-11-05T21:50:00+08:00",
+    "end": "2026-11-06T21:50:00+08:00",
+    "lookback_to": "2026-11-03"
+  },
+  "diff_baseline": "automations/active/05_遊戲與消費電子雷達/latest_result.md (2026-11-01, ChatGPT)",
+  "events": [
+    {
+      "id": "android-2026-11-bulletin-sms-of-death",
+      "status": "NEW",
+      "domain": "electronics",
+      "summary": "Android 11月安全公告約216漏洞/23重大；CVE-2026-58882 零互動 WAP Push 簡訊 DoS；修補等級 2026-11-01/11-05；Fold 8 尚未見 11 月 SMR",
+      "key_numbers": {
+        "vulns": 216,
+        "critical": 23
+      },
+      "confidence": "multi-source search summaries",
+      "next_check": "Samsung Fold 8 Nov SMR 推送"
+    },
+    {
+      "id": "gta6-preload",
+      "status": "NEW",
+      "domain": "games",
+      "summary": "GTA 6 11/19 發售不變；預載 Xbox 台灣 11/10 08:00、PS5 台灣 11/10 16:00；最多 212GB",
+      "key_numbers": {
+        "size_gb": 212
+      },
+      "next_check": "2026-11-10 預載實際容量；11/09(US) Take-Two 財報"
+    },
+    {
+      "id": "nintendo-sony-fy-h1-2026",
+      "status": "NEW",
+      "domain": "games",
+      "summary": "Switch 2 7–9月 267萬台 YoY −41%，全年目標 1,650萬不變，記憶體/關稅約1,000億日圓；Sony G&NS 營業利益 2,201億日圓 +83%，全年上修 7,000億，PS5 季出貨 260萬",
+      "next_check": "任天堂官方簡報核對累計銷量"
+    },
+    {
+      "id": "gow-laufey-delay",
+      "status": "NEW",
+      "domain": "games",
+      "summary": "God of War Laufey 由 2027-02-16 延至 2027-05-20；典藏版日期未定",
+      "next_check": "典藏版新日期"
+    },
+    {
+      "id": "gpu-ddr5-price-nov-2026",
+      "status": "CHANGED",
+      "domain": "electronics",
+      "summary": "RTX 50 通路 11 月再漲（傳聞：5090/5080 約+US$500，5070 Ti 約+150）；Radeon/GDDR6 再漲；DDR5 中位 US$18.09/GB 30天+13.4%；NVIDIA MSRP 未變",
+      "confidence": "channel reports/trackers",
+      "next_check": "TrendForce Q4 合約價、台灣通路價"
+    },
+    {
+      "id": "bose-s1-pro-battery-recall",
+      "status": "NEW",
+      "domain": "electronics",
+      "summary": "CPSC 美加約67萬個 S1 Pro/Pro+ 電池包召回，7起熔化/起火無人受傷；免費換新",
+      "confidence": "subagent search summaries only; 主流程補搜未重現，待確認",
+      "next_check": "CPSC 原頁、台灣是否同步"
+    },
+    {
+      "id": "macbook-pro-touch-oled-tw",
+      "status": "NEW",
+      "domain": "electronics",
+      "summary": "觸控 OLED MacBook Pro 11/06 台灣開賣，14吋 M5 Pro NT$97,900 起",
+      "next_check": "獨立續航/PWM 實測"
+    },
+    {
+      "id": "xbox-pc-app-redesign",
+      "status": "NEW",
+      "domain": "games",
+      "summary": "Xbox PC App Insider 改版，啟動最多快60%，商店與遊戲庫整合；正式推出日未定"
+    },
+    {
+      "id": "nier-automata-steam-tc-update",
+      "status": "NEW",
+      "domain": "games",
+      "summary": "Steam 更新新增繁中/韓/簡中，安裝需求誤顯示 366GB（實際40–50GB），SE 修正中",
+      "confidence": "待確認：主流程補搜未重現"
+    },
+    {
+      "id": "tp-link-c7-c6-re305-vulns",
+      "status": "NEW",
+      "domain": "electronics",
+      "summary": "HKCERT 11/05：Archer C7/C6、RE305 多漏洞，需更新韌體；不含 BE550/AX73；FCC 初步認定功率/認證問題"
+    },
+    {
+      "id": "ath-twx9mk3",
+      "status": "NEW",
+      "domain": "electronics",
+      "summary": "Audio-Technica ATH-TWX9MK3 日本 11/20 發售 ¥41,800，LHDC-V5+LDAC、BT 6.0"
+    }
+  ],
+  "already_processed_unchanged": [
+    "nvidia-win10-driver-eol",
+    "win11-kb5127936",
+    "ffxiv-evercold-delay(預購11/04開放，不列)",
+    "rtx-tensor-unlock"
+  ],
+  "excluded": [
+    "pokemon-winds-waves-delay-leak",
+    "ps-plus-nov-2026",
+    "dbd-streamer-dlc",
+    "dragons-dogma2-collab"
+  ],
+  "indie_watch": [
+    {
+      "title": "Death at Fleming Manor",
+      "release": "2026-11-03",
+      "note": "快照極度好評約197則/83%"
+    },
+    {
+      "title": "Wielders of the Essence",
+      "release": "2026-11-05"
+    },
+    {
+      "title": "Underkeep",
+      "release": "2026-11-05"
+    },
+    {
+      "title": "Cozy Game Restoration",
+      "release": "2026-11-04",
+      "price_usd": 14.99
+    },
+    {
+      "title": "PAYDAY: Aces High",
+      "release": "2026-11-05",
+      "price_usd": 24.99
+    },
+    {
+      "title": "Warhammer Survivors",
+      "release": "2026-11-10",
+      "price_usd": 7.99
+    }
+  ],
+  "watch_pool": [
+    {
+      "item": "Android XR glasses (Warby Parker)",
+      "trigger": "11/12 預購，需售價/國家/實測"
+    },
+    {
+      "item": "Touch OLED MacBook Pro",
+      "trigger": "獨立續航/PWM/觸控延遲"
+    },
+    {
+      "item": "Arkane Lyon sale / Marvel's Blade",
+      "trigger": "買家確定；期限延約一個月"
+    },
+    {
+      "item": "GPU/DDR5 prices",
+      "trigger": "TrendForce Q4、台灣通路回落"
+    },
+    {
+      "item": "RTX Tensor unlock",
+      "trigger": "多張 4070 重複驗證+實際 AI 工作負載"
+    },
+    {
+      "item": "Macronix ROM exit",
+      "trigger": "Switch 1 卡匣供應官方說明"
+    }
+  ],
+  "next_verification_nodes": [
+    {
+      "date": "2026-11-10T08:00+08:00",
+      "event": "GTA 6 Xbox 預載"
+    },
+    {
+      "date": "2026-11-10T16:00+08:00",
+      "event": "GTA 6 PS5 預載"
+    },
+    {
+      "date": "2026-11-10",
+      "event": "Take-Two Q2 FY27 財報（美國 11/09）"
+    },
+    {
+      "date": "2026-11-11T02:00+08:00",
+      "event": "Windows Patch Tuesday：USB Audio Class 1.0"
+    },
+    {
+      "date": "2026-11-11",
+      "event": "Pixel Tag 開賣"
+    },
+    {
+      "date": "2026-11-12",
+      "event": "Android XR 眼鏡預購；Pikmin 4 S2"
+    },
+    {
+      "date": "2026-11-19",
+      "event": "GTA 6 發售；Moto Signature 27 預購"
+    },
+    {
+      "date": "2026-11-20",
+      "event": "ATH-TWX9MK3 日本發售"
+    }
+  ],
+  "verification_limits": "WebFetch/curl 對外部網站全數 CONNECT 403；核心事實僅搜尋摘要交叉比對"
+}
