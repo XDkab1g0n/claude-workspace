@@ -1,0 +1,29 @@
+{
+  "task": "news",
+  "edition": "morning",
+  "scheduled_for": "2026-11-06T08:00:00+08:00",
+  "source_cutoff": "2026-11-06T08:15:00+08:00",
+  "prior_reference": "automations/active/04_工作新聞早午晚報/latest_result.md (ChatGPT 2026-11-02 morning)",
+  "events": [
+    {"id": "us_midterms_2026", "status": "NEW", "summary": "民主黨據 CBS/CNN 推估拿下參眾兩院；AP 最終宣布與部分參院席次待確認", "key_numbers": {"house_dem_est": "251-268", "senate_dem_min": 51}, "next_check": "AP 正式宣布與阿拉斯加、密西西比席次"},
+    {"id": "ai_chip_selloff", "status": "NEW", "summary": "選後擔憂資料中心監管，費半單日 -12.25%，無新法規通過", "key_numbers": {"sox": 9011.14, "sox_pct": -12.25, "nvda_pct": -9.26, "tsm_adr": 353.10, "tsm_adr_pct": -10.78}, "next_check": "11/6 美股是否止跌；雲端業者 capex 表態"},
+    {"id": "tw_equity_selloff", "status": "CHANGED", "summary": "臺股連六跌，外資單日賣超 1,024.6 億", "key_numbers": {"taiex_1105": 41574.72, "taiex_chg": -1374.19, "inst_total": -1234.56, "foreign": -1024.6, "trust": 225.31, "dealer": -435.27, "fut_night_close": 38936, "fut_night_chg": -2946, "foreign_net_oi": -95651}, "next_check": "11/6 開盤 4 萬點與年線；國安基金"},
+    {"id": "twd_fx", "status": "NEW", "summary": "新台幣貶向 33，央行口頭與實際干預，外匯存底單月減 43 億美元", "key_numbers": {"usdtwd_1105": 32.876, "oct_foreign_outflow_usd_bn": 28}, "next_check": "33 元關卡"},
+    {"id": "tw_cpi_oct", "status": "NEW", "summary": "10 月 CPI 年增 2.33%，連 6 月破 2%", "key_numbers": {"cpi_yoy": 2.33, "core_cpi_yoy": "2.23 (unverified)"}, "next_check": "11 月 CPI（12 月初）"},
+    {"id": "tw_supplementary_budget", "status": "NEW", "summary": "6,076 億追加預算初審，中油台電撥補與增資保留協商", "key_numbers": {"total_bn_twd": 6076, "subsidy_bn": 1725, "cpc_capital_bn": 2338}, "next_check": "11/20 三讀期限"},
+    {"id": "us_iran_hormuz", "status": "CHANGED", "summary": "川普在打或談之間未決，伊朗提出新核方案；油價降到 2 個月低點附近後反彈", "key_numbers": {"brent_1105_approx": 97, "wti_1105_approx": 90, "brent_1102_ref": 111.92}, "next_check": "卡達約 36 小時內回覆"},
+    {"id": "russia_ukraine", "status": "CHANGED", "summary": "雙方互襲；布魯塞爾重建與安全保證會談結束", "next_check": "11/10-11 烏美俄會談"},
+    {"id": "hk_china_rebound", "status": "NEW", "summary": "恒生 11/5 +3.67% 收 24,796.98", "next_check": "11/6 港股補跌"},
+    {"id": "us_payrolls_oct", "status": "NEW", "summary": "10 月非農今晚 21:30 公布，共識 5.9～6.5 萬人、失業率 4.2%", "next_check": "2026-11-06T21:30+08:00"}
+  ],
+  "markets": {
+    "spx": 7353.73, "ndx_comp": 24315.00, "dow": 51523.06, "sox": 9011.14,
+    "ust2y": 4.473, "ust10y": 4.833, "ust30y": 5.256, "dxy": "unverified (~101.3)",
+    "usdtwd": 32.876, "tsm_adr": 353.10, "tsm_spot": 2240, "adr_premium_pct": 3.6,
+    "hsi": 24796.98, "kospi": 5383.80, "nikkei": 61078
+  },
+  "invalidated": [],
+  "unverified": ["成交值口徑", "台積電期貨夜盤收盤", "DXY 與 VIX 精確收盤", "原油官方結算", "期交所原頁外資部位"],
+  "next_nodes": ["11/6 09:00 臺股開盤", "11/6 21:30 美國非農", "卡達轉達美伊回覆", "11/10 前後 10 月營收", "11/10-11 烏美俄會談", "11/18-19 APEC", "11/20 追加預算三讀"],
+  "state_version": 1
+}
