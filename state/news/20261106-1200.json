@@ -1,0 +1,24 @@
+{
+  "task": "news",
+  "edition": "midday",
+  "scheduled_for": "2026-11-06T12:00:00+08:00",
+  "source_cutoff": "2026-11-06T12:20:00+08:00",
+  "diff_baseline": ["reports/news/20261106-0800.md (branch claude/sleepy-galileo-a92udo)", "state/news/20261105-1900.json (branch claude/vibrant-cannon-1cy4u7)"],
+  "events": [
+    {"id": "taiex_record_intraday_crash", "status": "NEW", "summary": "11/6 開 38,915.76（−2,658.96），低 37,837.05（−3,737.67，−8.99%，史上最大盤中跌點），11:00 收斂至 40,229.04（−3.24%），成交 8,010.61 億", "key_numbers": {"open": 38915.76, "intraday_low": 37837.05, "low_change": -3737.67, "at_1100": 40229.04, "at_1100_change_pct": -3.24, "turnover_1100_twd_100m": 8010.61, "otc_1029": 304.09, "otc_low": 296.01, "prev_close": 41574.72}, "next_check": "13:30 收盤是否守 4 萬、15:00 外資是否連 7 賣"},
+    {"id": "tw_megacap_limit_down", "status": "NEW", "summary": "台積電跌停 2,020 開出後回到約 2,175（11:00 前後）；聯發科跌停後敲開約 3,340；台達電鎖跌停 1,020；鴻海開 213", "key_numbers": {"tsmc_open": 2020, "tsmc_0940": 2075, "tsmc_late_morning": 2175, "tsmc_prev": 2240, "tsmc_adr_implied": 2321.70, "mediatek": 3340, "delta": 1020, "honhai_open": 213}, "next_check": "收盤價與外資個股賣超"},
+    {"id": "tw_market_stabilization", "status": "NEW", "summary": "金管會彭金隆預告下午公布穩市措施（市場猜限空、借券上限、融券保證金）；卓榮泰指示機動穩定；國安基金未啟動，阮清華稱不排除臨時會", "next_check": "11/6 下午金管會公告、國安基金臨時會"},
+    {"id": "usdtwd_33", "status": "CHANGED", "summary": "新台幣開 32.92，盤中最弱 33.04（貶 1.64 角），跌破 33，一年半新低；下一關 33.274", "key_numbers": {"open": 32.92, "intraday_low": 33.04, "prev_close": 32.876, "next_level": 33.274}, "next_check": "16:00 收盤、央行調節"},
+    {"id": "txf_limit_down", "status": "NEW", "summary": "11 月台指期日盤觸及跌停 37,694，電子期跌停開出；台積電期貨夜盤收 2,026（−9.84%）", "key_numbers": {"txf_limit_down": 37694, "txf_open_approx": 37972, "tsmc_fut_night": 2026, "txf_night_close": 38936}, "next_check": "15:00 期交所外資淨空是否破 10 萬口"},
+    {"id": "asia_chip_rout", "status": "CHANGED", "summary": "KOSPI 開盤 3 分鐘熔斷（−8.8%，破 5,000），三星約 −10%、海力士約 −12%；日經一度破 57,000 進入熊市；恒指低開 −1.58%、恒科 −3.11%", "key_numbers": {"kospi_prev": 5383.80, "kospi_low_pct": -8.8, "nikkei_prev": 61077.90, "nikkei_snapshot": 58845.71, "hsi_open": 24404.62, "hstech_open": 4025.22}, "next_check": "亞股收盤"},
+    {"id": "elderly_welfare_act_countersign", "status": "CHANGED", "summary": "今天是副署期限；自由、聯合報導政院將不副署，中午前無正式公告", "next_check": "政院正式發布、總統府處理"},
+    {"id": "us_ai_chip_selloff", "status": "UNCHANGED", "summary": "11/5 費半 −12.25%（Nasdaq 官方頁摘錄 −8.54% 待釐清）、Nasdaq −5.52%、台積電 ADR −10.78%", "next_check": "今晚美股、非農"},
+    {"id": "us_midterms_2026", "status": "UNCHANGED", "summary": "民主黨控制兩院，席次待 AP 判定", "next_check": "AP 判定"},
+    {"id": "iran_war_hormuz", "status": "UNCHANGED", "summary": "伊朗稱卡達方案若美方先行可兩天內重開荷姆茲；美方未回應", "next_check": "卡達回覆、川普決定"}
+  ],
+  "invalidated": [
+    {"id": "tsmc_adr_premium_anchor", "summary": "晨報推估台積電補跌幅度由 ADR 溢價（約 3.6%）決定；實際跌停開出、低於 ADR 折算價約 13%，屬恐慌性超跌"}
+  ],
+  "next_verification_nodes": ["13:30 臺股收盤", "下午 金管會措施", "15:00 三大法人與期貨部位", "16:00 新台幣收盤", "21:30 美國 10 月非農", "11/10 前後 10 月營收"],
+  "data_gaps": ["12:00 精確點位", "漲跌家數", "台指期與台積電期貨日盤最新價", "同步期現價差", "新台幣午盤", "恒指／日經午盤", "上證", "日圓", "亞洲盤中美股期貨"]
+}

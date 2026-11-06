@@ -1,0 +1,14 @@
+{
+  "task_id": "news",
+  "run_id": "news-20261106-1200-session_01K6fAcdmaUwsx6LZMsish1z",
+  "scheduled_for": "2026-11-06T12:00:00+08:00",
+  "started_at": "2026-11-06T12:10:35+08:00",
+  "completed_at": "2026-11-06T12:15:23+08:00",
+  "trigger_source": "schedule_unverified",
+  "result_path": "reports/news/20261106-1200.md",
+  "delivery_verified": null,
+  "content_complete": true,
+  "source_cutoff": "2026-11-06T12:20:00+08:00",
+  "state_version": "state/news/20261106-1200.json",
+  "notes": "直接來源無法開啟（WebFetch ENOTFOUND），僅以搜尋摘錄交叉驗證；12:00 精確點位、期貨日盤最新價、午盤匯率、亞洲盤中美股期貨未取得"
+}
