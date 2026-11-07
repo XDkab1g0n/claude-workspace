@@ -1,0 +1,14 @@
+{
+ "task_id": "sports",
+ "run_id": "sports-20261107-1500",
+ "scheduled_for": "2026-11-07T15:00:00+08:00",
+ "started_at": "2026-11-07T15:14:12+08:00",
+ "completed_at": "2026-11-07T15:26:03+08:00",
+ "trigger_source": "schedule_unverified",
+ "result_path": "reports/sports/20261107-1500.md",
+ "delivery_verified": null,
+ "content_complete": false,
+ "content_gaps": "網路政策擋直接開頁，僅以搜尋摘要查證；雷霆 11/6 完整 box 與進階數據缺",
+ "source_cutoff": "2026-11-07T15:20:00+08:00",
+ "state_version": "state/sports/20261107-1500.json"
+}

@@ -1,0 +1,300 @@
+{
+ "task": "sports",
+ "report_date": "2026-11-07",
+ "scheduled_for": "2026-11-07T15:00:00+08:00",
+ "source_cutoff": "2026-11-07T15:20:00+08:00",
+ "baseline": true,
+ "prior_reference": "automations/active/03_體育雷達 v3/latest_result.md (ChatGPT 2026-11-01, truncated)",
+ "events": [
+  {
+   "type": "NEW",
+   "id": "nba_okc_20261106_mem",
+   "status": "final",
+   "summary": "雷霆 128-97 客勝灰熊（NBA 盃 West B），7-2 三連勝；Ajay Mitchell 生涯新高 35 分（14/20）、SGA 28（三節）、McCain 21 分 4 抄截；灰熊 3P 10/45。",
+   "next_check": "補 NBA.com 官方 box score 與進階數據"
+  },
+  {
+   "type": "CHANGED",
+   "id": "nba_okc_record",
+   "summary": "前報 4-2 二連敗 → 11/2 @CLE W117-112（SGA 43）、11/4 vs CLE W124-116（SGA 42）、11/6 @MEM W128-97，7-2。"
+  },
+  {
+   "type": "CHANGED",
+   "id": "nba_okc_injuries",
+   "summary": "Caruso 11/4 歸隊；Jaylin Williams 下背痙攣缺 11/4、11/6，11/7 成疑；Holmgren（右膝髕腱 8-10 週）、Jalen Williams（左踝脫臼＋腓骨骨折術後）、Wallace（左肩盂唇術後）、Sorber、Topic 缺。"
+  },
+  {
+   "type": "NEW",
+   "id": "nba_okc_transaction",
+   "summary": "11/4 簽 Dalen Terry 至季末（單一來源）。"
+  },
+  {
+   "type": "NEW",
+   "id": "nba_doncic_53",
+   "summary": "Dončić 53 分，湖人 124-118 拓荒者，8-2 四連勝；生涯第 11 場 50+。"
+  },
+  {
+   "type": "NEW",
+   "id": "nba_wemby",
+   "summary": "Wembanyama 11/4 52 分 24 籃板 8 阻攻；11/6 30/14，馬刺 7 連勝。"
+  },
+  {
+   "type": "CHANGED",
+   "id": "f1_drivers_title",
+   "summary": "Antonelli 11/1 墨西哥站第 3 名封王（380 分），20 歲史上最年輕；Verstappen 奪冠。車隊 Mercedes 630 vs Ferrari 504。"
+  },
+  {
+   "type": "NEW",
+   "id": "f1_brazil_2026",
+   "status": "in_progress",
+   "summary": "聖保羅站無衝刺；FP1 Norris、FP2 Antonelli 1:10.763 最快；Russell 引擎退 5 位；Câmara 取代 Ocon。",
+   "next_check": "排位 11/8 02:00、正賽 11/9 01:00 台北"
+  },
+  {
+   "type": "NEW",
+   "id": "mlb_offseason",
+   "summary": "釀酒人 4-1 光芒首冠（WS MVP W. Contreras）；QO 8 人 2,315 萬；BBWAA 決選名單；新人王 11/10 08:00 台北。",
+   "next_check": "QO 期限 11/18 05:00；各獎 11/10-11/13"
+  },
+  {
+   "type": "NEW",
+   "id": "cpbl_2026",
+   "summary": "味全 4-2 中信奪冠（MVP 梅賽鍶），年度 MVP 蔣銲；中華隊亞冠 11/12 18:00 首戰日本；冬盟 11/14 開幕。"
+  },
+  {
+   "type": "NEW",
+   "id": "tw_badminton_korea_open",
+   "status": "in_progress",
+   "summary": "王子維進韓國公開賽 4 強（對吳英倫，結果待查）；林湘緹 4 強負山口茜。"
+  },
+  {
+   "type": "NEW",
+   "id": "tw_tt_frankfurt",
+   "status": "in_progress",
+   "summary": "林昀儒 WTT 法蘭克福 8 強對溫瑞博，結果待查。"
+  },
+  {
+   "type": "NEW",
+   "id": "tennis_paris_wta_finals",
+   "summary": "Alcaraz 救 2 賽末點勝 Fritz 進巴黎 4 強；WTA 年終賽 11/9 04:00 開幕，謝淑薇/Ostapenko 雙打第 5 種子。"
+  },
+  {
+   "type": "NEW",
+   "id": "lol_worlds_2026",
+   "summary": "4 強 Gen.G–iG（11/8 06:00）、BLG–T1；決賽 11/15 03:00。"
+  }
+ ],
+ "thunder": {
+  "record": "7-2",
+  "streak": "W3",
+  "games_analyzed": [
+   {
+    "date_us": "2026-11-06",
+    "opp": "@MEM",
+    "score": "128-97",
+    "analysis": "八單元（部分數據缺）"
+   },
+   {
+    "date_us": "2026-11-04",
+    "opp": "vs CLE",
+    "score": "124-116",
+    "analysis": "補掃摘要，八單元待補"
+   },
+   {
+    "date_us": "2026-11-02",
+    "opp": "@CLE",
+    "score": "117-112",
+    "analysis": "補掃摘要，八單元待補；半場比分矛盾待核"
+   },
+   {
+    "date_us": "2026-10-31",
+    "opp": "@HOU",
+    "score": "98-119",
+    "analysis": "ChatGPT 前報已有八單元"
+   }
+  ],
+  "pending_advanced_data": [
+   "11/6 雙方完整 team totals（REB/AST/TOV/STL/BLK/FTA）與全員 box",
+   "11/6 官方 ORtg/DRtg/Pace/TOV%/OREB%/FTr/USG%、lineup/on-off",
+   "11/2、11/4 完整 box 與進階",
+   "SGA 本季場數與平均；Mara、Stirtz、Dix、Barnhizer 本季數據",
+   "Dort 已在老鷹（AP 11/6 ATL-WAS 25 分），交易細節待確認"
+  ],
+  "injuries": {
+   "Holmgren": "out, 右膝髕腱, 8-10 週",
+   "Jalen Williams": "out, 左踝/腓骨術後",
+   "Cason Wallace": "out, 左肩盂唇術後",
+   "Jaylin Williams": "questionable 11/7, 下背痙攣",
+   "Thomas Sorber": "out, 膝術後",
+   "Nikola Topic": "out, 背術後",
+   "Alex Caruso": "active since 11/4"
+  }
+ },
+ "taiwan_overseas_roster": [
+  {
+   "name": "李灝宇",
+   "team": "DET",
+   "level": "MLB",
+   "status": "休賽季；台將單季安打紀錄；季末 110 場 87 安 10 轟待官方核對"
+  },
+  {
+   "name": "鄭宗哲",
+   "team": "DET",
+   "level": "40-man",
+   "status": "10 月底紅襪交易至老虎換現金；options 用完"
+  },
+  {
+   "name": "鄧愷威",
+   "team": "HOU",
+   "level": "MLB",
+   "status": "8/21 回大聯盟；11/2 在台；季末數據待查"
+  },
+  {
+   "name": "莊陳仲敖",
+   "team": "ATH",
+   "level": "AAA",
+   "status": "8/1 DFA 後留隊"
+  },
+  {
+   "name": "林昱珉",
+   "team": "ARI",
+   "level": "AAA",
+   "status": "季末狀態待查"
+  },
+  {
+   "name": "林維恩",
+   "team": "ATH",
+   "level": "MiLB",
+   "status": "待查"
+  },
+  {
+   "name": "沙子宸",
+   "team": "ATH",
+   "level": "MiLB",
+   "status": "待查"
+  },
+  {
+   "name": "林振瑋",
+   "team": "STL",
+   "level": "AA",
+   "status": "待查"
+  },
+  {
+   "name": "柯敬賢",
+   "team": "LAD",
+   "level": "A",
+   "status": "7 月 15 轟；待查"
+  },
+  {
+   "name": "徐若熙",
+   "team": "福岡軟銀",
+   "level": "NPB",
+   "status": "7/15 腰椎手術，9/13 二軍復出；一軍/日本大賽是否登板待查"
+  },
+  {
+   "name": "古林睿煬",
+   "team": "日本火腿",
+   "level": "NPB",
+   "status": "待查"
+  },
+  {
+   "name": "孫易磊",
+   "team": "日本火腿",
+   "level": "NPB",
+   "status": "待查"
+  },
+  {
+   "name": "林家正",
+   "team": "日本火腿",
+   "level": "NPB",
+   "status": "以二軍為主"
+  },
+  {
+   "name": "林安可",
+   "team": "西武",
+   "level": "NPB",
+   "status": "首季 76 場 .220 8 轟，因傷 10/20 返台"
+  },
+  {
+   "name": "宋家豪",
+   "team": "東北樂天",
+   "level": "NPB",
+   "status": "未達 FA 資格"
+  },
+  {
+   "name": "王彥程",
+   "team": "韓華",
+   "level": "KBO",
+   "status": "8/4 第 10 勝；續約待查"
+  },
+  {
+   "name": "陽柏翔",
+   "team": "東北樂天?",
+   "level": "NPB",
+   "status": "待查"
+  },
+  {
+   "name": "黃錦豪",
+   "team": "讀賣?",
+   "level": "NPB",
+   "status": "待查"
+  }
+ ],
+ "next_72h": [
+  {
+   "tpe": "2026-11-07T17:05",
+   "event": "中華隊 vs 味全 熱身賽（新莊）"
+  },
+  {
+   "tpe": "2026-11-07T22:30",
+   "event": "F1 巴西 FP3"
+  },
+  {
+   "tpe": "2026-11-08T02:00",
+   "event": "F1 巴西排位賽"
+  },
+  {
+   "tpe": "2026-11-08T06:00",
+   "event": "LoL Worlds 4 強 Gen.G vs iG"
+  },
+  {
+   "tpe": "2026-11-08T09:00",
+   "event": "NBA 雷霆 vs 巫師（OKC 主場）"
+  },
+  {
+   "tpe": "2026-11-08T13:05",
+   "event": "中華隊 vs 中信兄弟 熱身賽"
+  },
+  {
+   "tpe": "2026-11-08T22:00",
+   "event": "巴黎大師賽決賽"
+  },
+  {
+   "tpe": "2026-11-09T01:00",
+   "event": "F1 巴西正賽"
+  },
+  {
+   "tpe": "2026-11-09T04:00",
+   "event": "WTA 年終賽開幕"
+  },
+  {
+   "tpe": "2026-11-10T08:00",
+   "event": "MLB BBWAA 新人王"
+  },
+  {
+   "tpe": "2026-11-11T12:00",
+   "event": "NBA 雷霆 @ 拓荒者"
+  },
+  {
+   "tpe": "2026-11-12T18:00",
+   "event": "亞冠賽 中華隊 vs 日本"
+  }
+ ],
+ "next_verification": [
+  "雷霆 vs 巫師賽果與 Jaylin Williams 狀態",
+  "F1 巴西排位/正賽、車隊冠軍",
+  "王子維、林昀儒賽果",
+  "BBWAA 新人王",
+  "網路政策若放行，補官方 box score"
+ ]
+}
