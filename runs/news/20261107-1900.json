@@ -1,0 +1,13 @@
+{
+  "task_id": "news",
+  "run_id": "news-20261107-1900",
+  "scheduled_for": "2026-11-07T19:00:00+08:00",
+  "started_at": "2026-11-07T19:10:00+08:00",
+  "completed_at": "2026-11-07T19:15:27+08:00",
+  "trigger_source": "schedule_unverified",
+  "result_path": "reports/news/20261107-1900.md",
+  "delivery_verified": null,
+  "content_complete": false,
+  "source_cutoff": "2026-11-07T19:30:00+08:00 (web search excerpts only; direct fetch blocked)",
+  "state_version": 1
+}

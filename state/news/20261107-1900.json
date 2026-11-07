@@ -1,0 +1,35 @@
+{
+  "task": "news",
+  "report_type": "evening",
+  "taiwan_date": "2026-11-07",
+  "data_valid_as_of": "2026-11-07T19:30:00+08:00",
+  "last_tw_trading_day": "2026-11-06",
+  "market_closed_reason": "Saturday",
+  "prior_reference": "automations/active/04_工作新聞早午晚報/latest_result.md (2026-11-02 morning, ChatGPT)",
+  "events": [
+    {"id":"tw-crash-1106","status":"NEW","summary":"加權 11/6 收 39,701.64，跌 1,873.08 (-4.51%)，盤中 -3,737.67 創史上最大；成交 1兆2461.04億；週跌 5,510.19 (-12.19%)；距高點 49,968 跌 20.55%","key_numbers":{"taiex":39701.64,"chg":-1873.08,"turnover_bn_twd":12461.04,"adv":106,"dec":976}},
+    {"id":"nsf-10th","status":"NEW","summary":"國安基金第131次臨時會授權第10次護盤，11/9起執行；上限5,000億，實際借款約2,000億；阮清華要求修法擴至1兆","next":"11/9 盤中首日動作；立法院1兆修法排程"},
+    {"id":"fsc-short-curbs","status":"NEW","summary":"11/9 起借券賣出上限 30%→3%、融券保證金 90%→130%、放寬多元擔保品；不設期限"},
+    {"id":"inst-flows-1106","status":"NEW","summary":"三大法人賣超 1,140.06 億：外資 -911.88（連7賣）、投信 +266.58（連19買）、自營 -494.76；外資本週 -5,244 億"},
+    {"id":"fii-tx-short","status":"CHANGED","summary":"外資台指期淨空 99,930 口（+4,279），前報基準 92,241","key_numbers":{"net_short":99930}},
+    {"id":"tx-futures","status":"NEW","summary":"11月台指期日盤 39,786 (-2,096)，正價差 +84.36；夜盤 40,298 (+646)；TSMC ADR 375.44 (+6.33%)，折臺股 2,460.48，溢價約 15.2%"},
+    {"id":"usdtwd","status":"NEW","summary":"新台幣 11/6 收 32.768，升 1.08 角，盤中最弱 33.04，週貶 0.89%"},
+    {"id":"us-midterms-ai","status":"CHANGED","summary":"民主黨掌控兩院；Sanders 推資料中心暫停案；11/5 費半 -12.25%、那指 -5.52%；11/6 費半 +4.21%"},
+    {"id":"us-jobs-fed","status":"NEW","summary":"10月非農 +16.5萬、失業率 4.1%；12/8-9 FOMC 升息機率約 73-78%；10Y 約 4.86-4.88%","next":"CPI 11/10 21:30 TPE"},
+    {"id":"us-iran-hormuz","status":"CHANGED","summary":"11/5 油輪遭攻擊、美方防禦性打擊；卡達斡旋持續；Brent 98.32 / WTI 90.83，週跌超過 16% / 13%"},
+    {"id":"hormuz-reopening-near-term","status":"INVALIDATED","summary":"11/2 晨報所列近期恢復通航的可能，短期內被 11/5 交火推翻"},
+    {"id":"asia-1106","status":"NEW","summary":"日經 57,434.77 (-5.96%)、KOSPI 5,059.69 (~-6%，熔斷)、恒生 24,481.86 (-1.27%)、滬深300 4,054.28 (-1.44%)"},
+    {"id":"pla-activity","status":"UNCHANGED","summary":"11/7 06:00 通報：共機 11、共艦 10、公務船 3；越中線架次各報不一"}
+  ],
+  "unknowns": ["櫃買指數收盤","美元指數 11/6","上證收盤","老福法 行政院決定","高通/Arm 11月財報原文"],
+  "next_checkpoints": [
+    "2026-11-09T07:00+08:00 美股期貨開盤",
+    "2026-11-09T09:00+08:00 臺股開盤（國安基金＋限空令首日）",
+    "2026-11-10 台積電10月營收（待確認）",
+    "2026-11-10T21:30+08:00 美國 CPI",
+    "2026-11-13T21:30+08:00 美國 PPI",
+    "2026-11-20 追加預算三讀", "2026-11-28 九合一", "2026-12-08/09 FOMC"
+  ],
+  "source_limitations": "WebFetch/curl 被網路政策擋下；數字來自搜尋引擎對媒體頁的摘錄並交叉核對",
+  "state_version": 1
+}
