@@ -1,0 +1,31 @@
+{
+  "task": "news",
+  "edition": "morning",
+  "report_date": "2026-11-07",
+  "data_as_of": "2026-11-07T08:15:00+08:00",
+  "last_valid_trading_day": {"taiwan": "2026-11-06", "us": "2026-11-06"},
+  "prior_reference": "automations/active/04_工作新聞早午晚報/latest_result.md (ChatGPT 2026-11-02 晨報, truncated)",
+  "events": [
+    {"id": "tw_market_crash_nsf", "status": "NEW", "summary": "臺股11/6收39,701.64(-1,873.08,-4.51%)，盤中-3,737.67創紀錄；國安基金第10度啟動(上限5,000億)；金管會五措施11/9起(借券賣出上限30%→3%、融券保證金90%→130%)", "key_numbers": {"taiex_close": 39701.64, "week_change_pts": -5510, "turnover_twd_bn": 12461.04, "tsmc_close": 2135, "foreign_net_short_tx": 99930}, "next_check": "2026-11-09 09:00 開盤與國安基金進場證實"},
+    {"id": "us_ai_selloff", "status": "NEW", "summary": "11/5 費半-12.25%、Nasdaq-5.52%入修正；11/6 費半+4.21%、TSM ADR+6.33%至375.56", "key_numbers": {"sox_1105_pct": -12.25, "sox_1106": 9390.25, "tsm_adr_1106": 375.56, "nasdaq_1106": 24579.43, "spx_1106": 7376.86, "dow_1106": 51285.73}, "next_check": "2026-11-13 清晨 Cisco/AMAT 財報"},
+    {"id": "us_payrolls_oct", "status": "NEW", "summary": "10月非農+16.5萬(預期約6.5萬)、失業率4.1%；10Y約4.86%，12月升息機率76-88%", "key_numbers": {"nfp": 165000, "unemployment": 4.1, "ust10y": 4.86, "ust2y": 4.52, "ust30y": 5.26, "dxy": 102.3}, "next_check": "2026-11-10 21:30 美國10月CPI"},
+    {"id": "us_midterms", "status": "NEW", "summary": "民主黨拿下兩院(眾約253、參54+2席未定)；Miller 11/9接任白宮幕僚長", "next_check": "密西西比郵寄票約11/9-10、阿拉斯加約11/18"},
+    {"id": "iran_hormuz_oil", "status": "CHANGED", "summary": "Brent 11/6收98.32，週跌逾16%(11/2亞洲早盤111.92)；伊朗經卡達提新方案，荷姆茲仍未通航", "key_numbers": {"brent_1106": 98.32, "wti_1105": 90.52}, "next_check": "週末卡達管道/油輪事件；11/29 OPEC+"},
+    {"id": "foreign_tx_short", "status": "CHANGED", "summary": "外資台指期淨空由92,241口(10/30)增至99,930口(11/6)", "next_check": "2026-11-09 盤後"},
+    {"id": "micron_taoyuan_fab_pause", "status": "NEW", "summary": "美光因勞資爭議暫停桃園Fab 11E工程(30-45億美元)，11/6第5次協商未果", "next_check": "下次調解會議(未定)"},
+    {"id": "kao_chin_su_mei_indictment", "status": "NEW", "summary": "高檢署以國安法、貪污罪起訴高金素梅求刑14年；當事人否認", "next_check": "法院分案/首次開庭"},
+    {"id": "fiscal_clash", "status": "NEW", "summary": "政院對65歲免繳健保費修法不副署(第9次)；老農津貼三讀調至15,000元；追加預算6,076億11/20前三讀目標", "next_check": "2026-11-20 追加預算三讀"},
+    {"id": "png_office_closure", "status": "NEW", "summary": "外交部主動關閉駐巴紐代表處、停購巴紐現貨LNG"},
+    {"id": "tw_cpi_oct", "status": "NEW", "summary": "10月CPI 2.33%、PPI 19.66%、進口物價(台幣計)+33.32%", "next_check": "12月上旬 11月CPI"},
+    {"id": "hon_hai_oct_rev", "status": "NEW", "summary": "鴻海10月營收1兆3,053億元創新高(年增45.73%)", "next_check": "2026-11-12 法說"},
+    {"id": "usdtwd", "status": "NEW", "summary": "USD/TWD 11/6收32.768，盤中觸33.040後由貶轉升", "key_numbers": {"usdtwd_1106": 32.768}},
+    {"id": "tx_night", "status": "NEW", "summary": "台指期夜盤11/7 05:00收40,298(+646)，日盤39,786", "key_numbers": {"tx_night": 40298, "tx_day": 39786}},
+    {"id": "russia_ukraine", "status": "CHANGED", "summary": "俄軍再攻擊9州電網；美俄烏11/10-11阿布達比會談", "next_check": "2026-11-10"},
+    {"id": "drc_ebola", "status": "NEW", "summary": "剛果民主共和國本迪布焦型伊波拉確診10,668、死亡5,198，已列PHEIC", "next_check": "2026-11-12 WHO簡報"},
+    {"id": "anthropic_ipo", "status": "NEW", "summary": "據報Anthropic IPO估值討論區間降至1.1-1.3兆美元，目標11/16週掛牌(未經公司證實)"}
+  ],
+  "invalidated": [],
+  "next_verification_nodes": ["2026-11-09 09:00 臺股開盤/限空令", "2026-11-09 16:00 財政部10月出口", "2026-11-10 21:30 美國CPI", "2026-11-13 Cisco/AMAT財報"],
+  "unavailable": ["台積電期貨", "外資台指期OI", "WTI 11/6 收盤價", "天然氣"],
+  "verification_limit": "直接來源全部被網路政策擋下；數據以 WebSearch 多源一致為準"
+}
