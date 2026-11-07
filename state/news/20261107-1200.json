@@ -1,0 +1,25 @@
+{
+  "task": "news",
+  "edition": "midday",
+  "scheduled_for": "2026-11-07T12:00:00+08:00",
+  "market_status": "closed_saturday",
+  "last_valid_sessions": {"twse_spot": "2026-11-06", "taifex_night": "2026-11-07T05:00+08:00", "us_cash": "2026-11-06", "asia": "2026-11-06"},
+  "baseline_prior": "automations/active/04_工作新聞早午晚報/latest_result.md (ChatGPT 2026-11-02 晨報, truncated)",
+  "events": [
+    {"id": "tw_stabilization_fund_2026_11", "status": "NEW", "summary": "國安基金11/6授權最多5,000億元護盤（第10次），實際進場未公布；金管會限空令11/9起：借券賣出上限30%→3%、融券保證金90%→130%。", "next_check": "11/9開盤、盤後法人與期貨部位、國安基金進場揭露"},
+    {"id": "taiex_selloff_2026_11", "status": "CHANGED", "summary": "加權11/6收39,701.64（-1,873.08，-4.51%），盤中低37,837.05；成交1兆2,461.04億；週-5,510.19（-12.19%）。外資-911.88億連7賣，投信+266.58億連19買。融資-564.18億。", "key_numbers": {"taiex_close": 39701.64, "turnover_twd_100m": 12461.04, "foreign_net_twd_100m": -911.88, "tsmc_close": 2135, "tx_night_close": 40298, "tx_night_change": 646, "tsm_adr_usd": 375.44, "tsm_adr_implied_twd": 2460.48, "usdtwd": 32.768, "foreign_tx_net_short_approx": -100000}, "next_check": "11/9 是否站穩4萬、維持率是否破150%"},
+    {"id": "us_midterms_ai_policy_risk", "status": "NEW", "summary": "11/3期中選舉民主黨拿下兩院；資料中心暫停令主張引發AI股重挫：11/5那指-5.5%、標普約-4.4%；11/6費半+4.21%、那指+1.09%（24,579.42）、標普7,376.86。", "next_check": "Nvidia財報11/17或11/18；州長就職後行政命令"},
+    {"id": "us_jobs_oct_2026", "status": "NEW", "summary": "10月非農+16.5萬（預期6.5萬），失業率4.1%；10Y約4.868%、2Y約4.532%；12月升息機率約八成。", "next_check": "10月CPI、Fed 12月會議"},
+    {"id": "us_iran_qeshm", "status": "CHANGED", "summary": "美軍11/2與11/7兩度有限度打擊格什姆島防空系統；卡達過渡協議斡旋中；Brent週跌約16%，11/6盤中約97–98美元（結算未取得）。", "next_check": "過渡協議、荷姆茲油輪事件"},
+    {"id": "paraguay_pena_removed", "status": "NEW", "summary": "Ueno Bank倒閉後，巴拉圭參院11/6以44票免職潘尼亞，阿里亞納就任至2028-08-15；外交部稱邦誼不受影響。", "next_check": "阿里亞納政府對臺表態、外長人選"},
+    {"id": "png_office_closure", "status": "NEW", "summary": "臺灣11/6主動關閉駐巴紐代表處、終止援助、停購巴紐現貨LNG（原規劃上半年約50萬公噸）。", "next_check": "巴紐回應、替代氣源成本"},
+    {"id": "kao_chin_su_mei_indictment", "status": "NEW", "summary": "高檢署11/6依國安法與貪污條例起訴高金素梅等4人，涉中共資金約1.7億，求刑14年；本人否認。", "next_check": "法院分案與準備程序"},
+    {"id": "f16v_block70_batch2", "status": "CHANGED", "summary": "第2批3架F-16V Block70經夏威夷近期抵臺，原定10月底延後。", "next_check": "國防部抵臺公告"},
+    {"id": "trilateral_summit_apec", "status": "UNCHANGED", "summary": "美中俄三邊峰會仍是克宮提議，APEC深圳11/18–19。", "next_check": "11/18–19"}
+  ],
+  "invalidated": [],
+  "unavailable_data": ["台積電期貨", "期交所外資台指期正式OI", "SOX點位", "UST 30Y", "DXY點位", "Brent/WTI 11/6結算", "國防部11/7共機架次"],
+  "source_access_note": "WebFetch/curl 被網路政策封鎖（twse、taifex、cna、yahoo finance 等）；數據取自搜尋引擎報導摘錄，多源交叉。",
+  "next_validation_node": "2026-11-09T09:00+08:00 臺股開盤與限空令首日",
+  "state_version": 1
+}

@@ -1,0 +1,14 @@
+{
+  "task_id": "news",
+  "run_id": "trig_01BHzcrZrUFXZdPwTPBr4gJ7-20261107-1200",
+  "scheduled_for": "2026-11-07T12:00:00+08:00",
+  "started_at": "2026-11-07T12:12:12+08:00",
+  "completed_at": "2026-11-07T12:16:51+08:00",
+  "trigger_source": "schedule_unverified",
+  "result_path": "reports/news/20261107-1200.md",
+  "delivery_verified": null,
+  "content_complete": false,
+  "content_complete_note": "休市日無盤中數據；台積電期貨、期交所OI、油價結算等未取得；直接來源網站被網路政策封鎖",
+  "source_cutoff": "2026-11-07T12:30:00+08:00",
+  "state_version": 1
+}
